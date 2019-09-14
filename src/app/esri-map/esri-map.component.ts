@@ -76,7 +76,7 @@ export class EsriMapComponent implements OnInit {
     try {
 
       // Load the modules for the ArcGIS API for JavaScript
-      const [EsriMap, EsriMapView, GraphicsLayer, Sketch, WebMap, Locate, Graphic, Track, Search] = await loadModules([
+      const [EsriMap, EsriMapView, GraphicsLayer, Sketch, WebMap, Locate, Graphic, Track, Search, Legend] = await loadModules([
         'esri/Map',
         'esri/views/MapView',
         'esri/layers/GraphicsLayer',
@@ -85,13 +85,14 @@ export class EsriMapComponent implements OnInit {
         'esri/widgets/Locate',
         'esri/Graphic',
         'esri/widgets/Track',
-        'esri/widgets/Search'
+        'esri/widgets/Search',
+        'esri/widgets/Legend'
       ]);
 
       const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
 
       // Configure the Map
-      const map = new WebMap({
+      const map: esri.WebMap = new WebMap({
         // layers: [graphicsLayer],
         basemap: 'streets-navigation-vector',
         portalItem: {
@@ -133,6 +134,16 @@ export class EsriMapComponent implements OnInit {
       });
 
       mapView.ui.add(track, 'top-left');
+
+      let legend = new Legend({
+        view: mapView,
+        layerInfos: [{
+          layer: map.findLayerById("68cfa46b1d904d79b0d77bf6fa74507f"),
+          title: "Legend"
+        }]
+      });
+      
+      mapView.ui.add(legend, "bottom-right");   
 
       const search = new Search({
         view: mapView

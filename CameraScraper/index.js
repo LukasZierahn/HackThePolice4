@@ -21,7 +21,7 @@ async function main() {
             try {
                 const cameraLocationPage = (await axios.get("http://archive.tfljamcams.net/" + link, {timeout: 15000})).data;
                 const location = cameraLocationPage.match(/query=(.*)';/)[1].split(",");
-                output.push(`${cameraName.replace(/_/gi, " ")},${location[0]},${location[1]}`);
+                output.push(`${cameraName.replace(/_/gi, " ")},${26},${"http://archive.tfljamcams.net/" + link},${location[0]},${location[1]}`);
 
                 process.stdout.clearLine();
                 process.stdout.cursorTo(0);
@@ -44,5 +44,5 @@ async function main() {
     });
 }
 
-output.push("name,lat,lon\n");
+output.push("Name,Cycle Time (days),Link,lat,lon\n");
 main()
