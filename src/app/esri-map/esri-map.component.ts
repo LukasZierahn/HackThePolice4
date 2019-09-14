@@ -13,7 +13,7 @@
 
 import { Component, OnInit, ViewChild, ElementRef, Input, Output, EventEmitter } from '@angular/core';
 import { loadModules } from 'esri-loader';
-import esri = __esri;
+import esri = __esri; // Esri TypeScript Types
 
 @Component({
   selector: 'app-esri-map',
@@ -76,15 +76,20 @@ export class EsriMapComponent implements OnInit {
     try {
 
       // Load the modules for the ArcGIS API for JavaScript
-      const [EsriMap, EsriMapView, WebMap] = await loadModules([
+      const [EsriMap, EsriMapView, GraphicsLayer, Sketch, WebMap] = await loadModules([
         'esri/Map',
         'esri/views/MapView',
+        'esri/layers/GraphicsLayer',
+        'esri/widgets/Sketch',
         'esri/WebMap'
       ]);
 
+      const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
+
       // Configure the Map
       const mapProperties: esri.MapProperties = {
-        basemap: this._basemap
+        basemap: this._basemap,
+        // layers: [graphicsLayer]
       };
 
       // const map: esri.Map = new EsriMap(mapProperties);
@@ -93,7 +98,6 @@ export class EsriMapComponent implements OnInit {
           id: "ab221e479b264d1aa5cbda9e109d2af6"
         }
       });
-      
 
       // Initialize the MapView
       const mapViewProperties: esri.MapViewProperties = {
@@ -102,6 +106,15 @@ export class EsriMapComponent implements OnInit {
         zoom: this._zoom,
         map: map
       };
+
+      const sketch = new Sketch({
+        view: mapViewProperties,
+        layer: graphicsLayer
+      });
+
+      // const mapView = new EsriMapView(mapViewProperties);
+
+      // mapView.ui.add(sketch, 'top-right');
 
       return new EsriMapView(mapViewProperties);
 
