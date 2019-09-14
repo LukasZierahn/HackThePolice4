@@ -11,7 +11,8 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~8.2.5",
+    "@angular/animations": "^8.2.6",
+    "@angular/cdk": "^7.3.7",
     "@angular/common": "~8.2.5",
     "@angular/compiler": "~8.2.5",
     "@angular/core": "~8.2.5",
@@ -22,6 +23,7 @@
     "@types/arcgis-js-api": "^4.12.0",
     "arcgis-js-api": "^4.12.1",
     "esri-loader": "^2.10.0",
+    "ng-pick-datetime": "^7.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

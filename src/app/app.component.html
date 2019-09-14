@@ -1,7 +1,11 @@
+<h1>Some Text above my map</h1>
+
+<input [owlDateTime]="dt1" [owlDateTimeTrigger]="dt1" placeholder="Date Time">
+<owl-date-time #dt1></owl-date-time>
+
 <app-esri-map
   [center]="mapCenter"
   [basemap]="basemapType"
   [zoom]="mapZoomLevel"
-  (mapLoadedEvent)="mapLoadedEvent($event)"
-  style='width:100%; height:100%;'>
+  (mapLoadedEvent)="mapLoadedEvent($event)">
 </app-esri-map>
