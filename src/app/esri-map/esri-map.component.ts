@@ -76,26 +76,26 @@ export class EsriMapComponent implements OnInit {
     try {
 
       // Load the modules for the ArcGIS API for JavaScript
-      const [EsriMap, EsriMapView, GraphicsLayer, Sketch, WebMap] = await loadModules([
+      const [EsriMap, EsriMapView, GraphicsLayer, Sketch, WebMap, Locate, Graphic, Track, Search] = await loadModules([
         'esri/Map',
         'esri/views/MapView',
         'esri/layers/GraphicsLayer',
         'esri/widgets/Sketch',
-        'esri/WebMap'
+        'esri/WebMap',
+        'esri/widgets/Locate',
+        'esri/Graphic',
+        'esri/widgets/Track',
+        'esri/widgets/Search'
       ]);
 
       const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
 
       // Configure the Map
-      const mapProperties: esri.MapProperties = {
-        basemap: this._basemap,
-        // layers: [graphicsLayer]
-      };
-
-      // const map: esri.Map = new EsriMap(mapProperties);
       const map = new WebMap({
+        // layers: [graphicsLayer],
+        basemap: 'streets-navigation-vector',
         portalItem: {
-          id: "ab221e479b264d1aa5cbda9e109d2af6"
+          id: 'ab221e479b264d1aa5cbda9e109d2af6'
         }
       });
 
@@ -107,16 +107,66 @@ export class EsriMapComponent implements OnInit {
         map: map
       };
 
+      const mapView = new EsriMapView(mapViewProperties);
+
       // const sketch = new Sketch({
       //   view: mapViewProperties,
       //   layer: graphicsLayer
       // });
 
-      // const mapView = new EsriMapView(mapViewProperties);
-
       // mapView.ui.add(sketch, 'top-right');
 
-      return new EsriMapView(mapViewProperties);
+      const track = new Track({
+        view: mapView,
+        graphic: new Graphic({
+          symbol: {
+            type: 'simple-marker',
+            size: '12px',
+            color: 'green',
+            outline: {
+              color: '#efefef',
+              width: '1.5px'
+            }
+          }
+        }),
+        useHeadingEnabled: false  // Don't change orientation of the map
+      });
+
+      mapView.ui.add(track, 'top-left');
+
+      const search = new Search({
+        view: mapView
+      });
+
+      mapView.ui.add(search, 'top-right');
+
+      mapView.on('click', (evt)  => {
+        search.clear();
+        mapView.popup.clear();
+        if (search.activeSource) {
+          const geocoder = search.activeSource.locator; // World geocode service
+          const params = {
+            location: evt.mapPoint
+          };
+          geocoder.locationToAddress(params)
+            .then((response) => { // Show the address found
+              const address = response.address;
+              showPopup(address, evt.mapPoint);
+            }, (err) => { // Show no address found
+              showPopup('No address found.', evt.mapPoint);
+            });
+        }
+      });
+
+      function showPopup(address, pt) {
+        mapView.popup.open({
+          title:  + Math.round(pt.longitude * 100000) / 100000 + ',' + Math.round(pt.latitude * 100000) / 100000,
+          content: address,
+          location: pt
+        });
+      }
+
+      return mapView;
 
     } catch (error) {
       console.log('EsriLoader: ', error);
