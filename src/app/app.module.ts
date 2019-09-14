@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { EsriMapComponent } from './esri-map/esri-map.component';
 
 import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
     BrowserModule,
     BrowserAnimationsModule,
     OwlDateTimeModule, 
-    OwlNativeDateTimeModule
+    OwlNativeDateTimeModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

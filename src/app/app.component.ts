@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HostListener } from "@angular/core";
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,13 @@ export class AppComponent {
   mapCenter = [-122.4194, 37.7749];
   basemapType = 'satellite';
   mapZoomLevel = 12;
+
+  public currentDate = new Date();
+  public selectedMoment = null;
+
+  @HostListener("click") onClick(){
+    console.log(this.selectedMoment);
+  }
 
   // See app.component.html
   mapLoadedEvent(status: boolean) {
