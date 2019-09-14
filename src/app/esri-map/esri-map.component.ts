@@ -108,7 +108,7 @@ export class EsriMapComponent implements OnInit {
       };
 
       const mapView = new EsriMapView(mapViewProperties);
-
+      
       // const sketch = new Sketch({
       //   view: mapViewProperties,
       //   layer: graphicsLayer
@@ -140,7 +140,7 @@ export class EsriMapComponent implements OnInit {
 
       mapView.ui.add(search, 'top-right');
 
-      mapView.on('click', (evt)  => {
+      mapView.on('double-click', (evt)  => {
         search.clear();
         mapView.popup.clear();
         if (search.activeSource) {
