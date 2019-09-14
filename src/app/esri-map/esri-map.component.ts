@@ -25,7 +25,7 @@ export class EsriMapComponent implements OnInit {
   @Output() mapLoadedEvent = new EventEmitter<boolean>();
 
   // The <div> where we will place the map
-  @ViewChild('mapViewNode', {static: true}) private mapViewEl: ElementRef;
+  @ViewChild('mapViewNode', { static: true }) private mapViewEl: ElementRef;
 
   /**
    * _zoom sets map zoom
@@ -76,17 +76,15 @@ export class EsriMapComponent implements OnInit {
     try {
 
       // Load the modules for the ArcGIS API for JavaScript
-      const [EsriMap, EsriMapView, GraphicsLayer, Sketch, WebMap, Locate, Graphic, Track, Search, Legend] = await loadModules([
-        'esri/Map',
+      const [EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, FeatureLayer] = await loadModules([
         'esri/views/MapView',
         'esri/layers/GraphicsLayer',
-        'esri/widgets/Sketch',
         'esri/WebMap',
-        'esri/widgets/Locate',
         'esri/Graphic',
         'esri/widgets/Track',
         'esri/widgets/Search',
-        'esri/widgets/Legend'
+        'esri/widgets/Legend',
+        'esri/layers/FeatureLayer',
       ]);
 
       const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
@@ -100,22 +98,17 @@ export class EsriMapComponent implements OnInit {
         }
       });
 
+      map.add(graphicsLayer);
+
       // Initialize the MapView
       const mapViewProperties: esri.MapViewProperties = {
         container: this.mapViewEl.nativeElement,
         center: this._center,
         zoom: this._zoom,
-        map: map
+        map
       };
 
       const mapView: esri.MapView = new EsriMapView(mapViewProperties);
-
-      // const sketch = new Sketch({
-      //   view: mapViewProperties,
-      //   layer: graphicsLayer
-      // });
-
-      // mapView.ui.add(sketch, 'top-right');
 
       const track = new Track({
         view: mapView,
@@ -151,7 +144,7 @@ export class EsriMapComponent implements OnInit {
 
       mapView.ui.add(search, 'top-right');
 
-      mapView.on('double-click', (evt)  => {
+      mapView.on('double-click', (evt) => {
         search.clear();
         mapView.popup.clear();
         if (search.activeSource) {
@@ -171,11 +164,83 @@ export class EsriMapComponent implements OnInit {
 
       function showPopup(address, pt) {
         mapView.popup.open({
-          title:  + Math.round(pt.longitude * 100000) / 100000 + ',' + Math.round(pt.latitude * 100000) / 100000,
+          title: + Math.round(pt.longitude * 100000) / 100000 + ',' + Math.round(pt.latitude * 100000) / 100000,
           content: address,
           location: pt
         });
       }
+
+      const featureLayer = new FeatureLayer({
+        url: 'https://services.arcgis.com/Qo2anKIAMzIEkIJB/arcgis/rest/services/TflCycleHireLocations/FeatureServer'
+      });
+
+      function addGraphics(result) {
+        graphicsLayer.removeAll();
+        result.features.forEach((feature) => {
+          const g = new Graphic({
+            geometry: feature.geometry,
+            attributes: feature.attributes,
+            symbol: {
+              type: 'simple-marker',
+              color: [0, 0, 0],
+              outline: {
+                width: 2,
+                color: [0, 255, 255],
+              },
+              size: '20px'
+            },
+            popupTemplate: {
+              title: '{TRL_NAME}',
+              content: 'This a {PARK_NAME} trail located in {CITY_JUR}.'
+            }
+          });
+          graphicsLayer.add(g);
+        });
+      }
+
+      function queryFeatureLayer(point, distance, spatialRelationship) {
+        console.log('triggered');
+        // Set up the query
+        const query = {
+          geometry: point,
+          distance,
+          spatialRelationship,
+          outFields: ['*'],
+          returnGeometry: true
+          // where: sqlExpression
+        };
+
+        // Wait for the layerview to be ready and then query features
+        // mapView.whenLayerView(featureLayer).then((featureLayerView: esri.StreamLayerView) => {
+        console.log('triggered');
+        if (featureLayer.updating) {
+          const handle = featureLayer.watch('updating', (isUpdating) => {
+            if (!isUpdating) {
+              // Execute the query
+              featureLayer.queryFeatures(query).then((result) => {
+                addGraphics(result);
+                console.log(addGraphics);
+              });
+              handle.remove();
+            }
+          });
+        } else {
+          // Execute the query
+          featureLayer.queryFeatures(query).then((result) => {
+            addGraphics(result);
+          });
+        }
+        // });
+      }
+
+      // mapView.when(() => {
+      //   queryFeatureLayer(mapView.center, 1500, 'intersects');
+      // });
+
+      mapView.on('click', (event) => {
+        console.log('click');
+        queryFeatureLayer(event.mapPoint, 1500, 'intersects');
+      });
 
       return mapView;
 
