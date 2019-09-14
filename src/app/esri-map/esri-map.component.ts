@@ -181,25 +181,28 @@ export class EsriMapComponent implements OnInit {
             geometry: feature.geometry,
             attributes: feature.attributes,
             symbol: {
-              type: 'simple-marker',
+              type: 'text',
               color: [0, 0, 0],
-              outline: {
-                width: 2,
-                color: [0, 255, 255],
-              },
+              // outline: {
+              //   width: 10,
+              //   color: [0, 255, 255],
+              // },
               size: '20px'
-            },
-            popupTemplate: {
-              title: '{TRL_NAME}',
-              content: 'This a {PARK_NAME} trail located in {CITY_JUR}.'
             }
+            // popupTemplate: {
+            //   title: '{TRL_NAME}',
+            //   content: 'This a {PARK_NAME} trail located in {CITY_JUR}.'
+            // }
           });
+          console.log(g);
           graphicsLayer.add(g);
+          this.featureLayer.applyEdits({
+            addFeatures: [g]
+      });
         });
       }
 
       function queryFeatureLayer(point, distance, spatialRelationship) {
-        console.log('triggered');
         // Set up the query
         const query = {
           geometry: point,
@@ -211,8 +214,6 @@ export class EsriMapComponent implements OnInit {
         };
 
         // Wait for the layerview to be ready and then query features
-        // mapView.whenLayerView(featureLayer).then((featureLayerView: esri.StreamLayerView) => {
-        console.log('triggered');
         if (featureLayer.updating) {
           const handle = featureLayer.watch('updating', (isUpdating) => {
             if (!isUpdating) {
@@ -230,16 +231,11 @@ export class EsriMapComponent implements OnInit {
             addGraphics(result);
           });
         }
-        // });
       }
-
-      // mapView.when(() => {
-      //   queryFeatureLayer(mapView.center, 1500, 'intersects');
-      // });
 
       mapView.on('click', (event) => {
         console.log('click');
-        queryFeatureLayer(event.mapPoint, 1500, 'intersects');
+        queryFeatureLayer(event.mapPoint, 500, 'intersects');
       });
 
       return mapView;
