@@ -107,8 +107,13 @@ export class EsriMapComponent implements OnInit {
         map: map
       };
 
+<<<<<<< HEAD
       const mapView = new EsriMapView(mapViewProperties);
       
+=======
+      const mapView: esri.MapView = new EsriMapView(mapViewProperties);
+
+>>>>>>> 48b3cafbe4d16a13d62838d497a3b43385669cef
       // const sketch = new Sketch({
       //   view: mapViewProperties,
       //   layer: graphicsLayer
