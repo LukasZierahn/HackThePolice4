@@ -1,910 +1,908 @@
-name,lat,lon
+Name,Cycle Time in days,Link,lat,lon
 
-A10 North of Tyssen Road,51.5596,-0.07424
-A10 North of Evering Rd,51.5583,-0.06936
-A12 Cathall Rd 3775A,51.5619,0.00185
-A13 Burdett Rd,51.5119,-0.02849
-A102 Blackwall Lane,51.4939,0.00646
-A10 Kingsland Rd Stamford St,51.5444,-0.07616
-A102 Woolwich Rd (S),51.4798,0.02157
-A10 Grt Cambridge Rd Devonshire H Ln,51.6067,-0.08556
-A102 Tunnel House N,51.4969,0.00193
-A10 South of Laburnum St,51.5349,-0.07688
-A10 High Rd Forster Rd,51.5919,-0.07001
-A102 Pear Island,51.4961,0.00227
-A12 Eastern Avenue A125 North St,51.5865,0.17314
-A10 Stamford Hill Lampard Grove,51.5669,-0.07286
-A12 Preston Drive,51.5774,0.03599
-A21 Bromley Rd Penerley Rd,51.4409,-0.02073
-A205 Woolwich Common Rd Ngale pl,51.4823,0.06202
-A10 North of Brooke Road,51.5606,-0.07056
-Millennium Wy Edmund Halley Wy,51.4978,0.00289
-A3 East Of West Hill,51.4571,-0.19741
-Pear Island OHV,51.4959,0.00319
-PARK MEAD,51.451,0.10833
-Notting Hill Gate Palace Grdns Ter,51.5094,-0.19438
-North End Rd Talgarth Rd,51.4907,-0.20696
-Park Lane Barclay Rd,51.3716,-0.09636
-A13 A102 EIDR,51.5114,-0.00758
-A3 Clapham Road B221 Bedford Road,51.4655,-0.12967
-Old Kent Rd Preston Cls,51.4925,-0.08365
-New Kings Rd Wanworth Brg Rd,51.4765,-0.19286
-Old Brompton Rd Finboro Rd,51.4886,-0.19275
-East India Dock Rd Upper Nth St,51.5109,-0.02134
-Park Lane   Upper Grosvenor St,51.5101,-0.1572
-Nine Elms Ln Wandsworth Rd,51.4848,-0.12858
-Pier Road Woolwich Ferry,51.4989,0.06368
-A23 Streatham H Rd Greyhound Ln,51.422,-0.12926
-Purley Way Croydon Road,51.368,-0.11885
-Parkhurst Rd by Holloway Rd,51.5575,-0.12007
-Queens Road Woods Road,51.474,-0.06234
-Prince Albert Rd Parkway,51.5363,-0.14681
-A3 Kingston Rd Roehampton Ln,51.4445,-0.23427
-Scrubs Lane North Pole Rd,51.5189,-0.22793
-Edgware Rd Harrow Rd,51.5198,-0.16961
-Purley Way Waddon Road,51.3708,-0.11724
-Regent St Conduit St,51.5132,-0.14091
-A40  Near Mansfield Rd,51.5262,-0.27502
-Seven Sisters Rd Woodberry Grove,51.5724,-0.09078
-Shaftesbury Ave   Macclesfield St,51.5121,-0.13158
-Stamford St Broadwall,51.5069,-0.10845
-Tottenham High Road   Seven Sisters Rd,51.5831,-0.07226
-Tooting High St Garratt Terrace,51.4276,-0.16862
-Trinity Road - Dorlcote Road,51.4503,-0.17405
-Tweedy Rd N of Widmore Rd,51.4066,0.01867
-Twr Brdge Rd Grange Rd,51.4968,-0.08187
-University St Gower St,51.5239,-0.1341
-Trinity Rd Bellevue Rd,51.4441,-0.16815
-Tweedy Rd E of Sherman Rd,51.4079,0.01713
-Tunnel House (Fixed),51.4967,0.00205
-Upper Richmond Rd Colinette Rd,51.4634,-0.22988
-Upper Richmond Rd Putney Hill,51.4606,-0.21706
-Upper St Highbury Corner,51.5456,-0.1033
-Upper St Theberton St,51.538,-0.10247
-Upper St by Essex Rd,51.5355,-0.10381
-Upper Richmond Rd Ravenna Rd,51.4615,-0.22031
-Upper Tooting Rd Ansell Rd,51.4327,-0.16385
-Upper Richmond Rd Oxford Rd,51.4599,-0.21293
-Upper Rmond Rd Clifford Ave,51.4642,-0.27609
-Uxbridge Rd Askew Rd,51.5067,-0.24443
-A12 East Cross Route,51.5482,-0.02874
-Victoria St Bressenden Place,51.4966,-0.14156
-Wennington Viaduct E,51.5005,0.22112
-A12 Bromley-by-Bow,51.5256,-0.01169
-A13 A406 Beckton Rb,51.5258,0.07349
-Waterworks E B On-Slip,51.5956,0.01903
-Westminster Bridge Rd Waterloo Rd,51.4986,-0.10545
-Whitechapel High St Mansell St,51.5144,-0.07411
-A504 Est End Rd A406 Nth Circ Rd,51.5939,-0.18521
-A23 Brixton Rd Vassell Rd,51.4765,-0.11232
-A21 South of Ladywell Rd,51.4562,-0.01459
-A4088 Forty Av Bridge Rd,51.5655,-0.2773
-Woodford Ave   Clayhall Ave,51.5901,0.04919
-Woolwich Rd Warspite Rd,51.4925,0.0454
-Gt Eastern St Curtain Rd,51.5244,-0.08028
-Farringdon Rd opp Ray St,51.5232,-0.10792
-Farringdon Rd Cowcross St,51.52,-0.10586
-A5 Edgware Rd Nutford Pl,51.5165,-0.16495
-A406 Brentfield Rd,51.5519,-0.26117
-A4 west of Sipson Road,51.4814,-0.451
-A406 Hale End Rd E,51.5999,-0.00026
-The Causeway   Faggs Rd,51.4631,-0.41537
-Seven Sisters Rd Amhurst Pk,51.5736,-0.08793
-Stanstead Rd Blythe Hill Lane,51.4422,-0.03345
-Silvertown Way,51.5153,0.00814
-THE PARKWAY   UXBRIDGE ROAD,51.5168,-0.40116
-St Georges Rd Hayles St,51.4958,-0.10358
-Stockwell Rd Stockwell Ln,51.4697,-0.12007
-The Broadway Windsor Rd,51.514,-0.30067
-Tadema Rd Sth Kings Rd,51.4811,-0.18307
-Thornton Rd Broughton Rd,51.3916,-0.11798
-The Highway Vaughan Way,51.509,-0.06754
-Target Roundabout Church St,51.5425,-0.37841
-Strand Lancaster Place,51.5114,-0.11924
-A205 Academy Rd Shooters Hill,51.4712,0.05519
-Woodford Avenue - Beehive Lane,51.5814,0.05825
-Wood Lane South Africa Road,51.5129,-0.22523
-Whitechapel Rd White Church Ln,51.5163,-0.06894
-Wickham Rd Monks Orchard Rd,51.3773,-0.02857
-A12 Eastern Ave Gants Hill R-About,51.5763,0.06674
-Swiss Cottage Finchley Rd,51.544,-0.17502
-Shaftesbury Ave High Holborn,51.5157,-0.12612
-Oxford St Davies St,51.5144,-0.1494
-A2 New Cross Rd Avonley Rd,51.4778,-0.05185
-A205 Upper RMond Rd Sheen Lane,51.4647,-0.26725
-A21 Bromley Rd Newquay Rd,51.4371,-0.0185
-A1 Archway Rd Bakers Ln,51.5818,-0.15645
-A10 North of Holywell Ln,51.5239,-0.07727
-A12 Dyers Hl W 3793A,51.5632,0.00348
-Finchley Rd Langland Grdns,51.5514,-0.1848
-Seven Sisters Rd by Sussex Way,51.56,-0.11566
-A200 Jamaica Road,51.4991,-0.0561
-A1 Barnet Wy Barnet Ln,51.6433,-0.25442
-Tooley St Boss St,51.502,-0.07681
-Staples Corner - Rbt Southside,51.5718,-0.22795
-Tooley St Bermondsey St,51.5046,-0.08342
-Tamworth Rd North End Rd,51.3779,-0.10251
-Tottenham Broad Lane The Hale,51.5883,-0.06344
-A10 North of Northwold Rd,51.5636,-0.07325
-Stamford Hill Egerton Rd,51.5743,-0.07221
-A10 Stoke Newington Rd Barretts Grove,51.5522,-0.07486
-A1 Watford Way The Broadway,51.6169,-0.24511
-A24 Morden Rd Merantun Way,51.4135,-0.19269
-A10 North of Shenfield St,51.5312,-0.07699
-A10 Kingsland High St Winchester,51.5484,-0.07533
-Southwark St Southwark Bdge Rd,51.5048,-0.09535
-Tooting High St Selkirk Rd,51.4291,-0.16703
-Goswell Rd Opp Owen St,51.5313,-0.10463
-Stonecot Hill Hill Top,51.3846,-0.21282
-Trafalgar Rd Greenwich Pk St,51.4837,-0.00014
-Bow Rd Alfred St,51.5271,-0.0255
-Vauxhall B Rd N Rampayne St,51.4903,-0.13315
-The Broadway St.Georges Av,51.5115,-0.37768
-Twickenham Rd St Johns Grove,51.465,-0.30139
-Tooting Bec Rd   A24,51.4355,-0.15937
-Talgarth Rd Butterwick,51.4914,-0.22206
-A12 M11 Redbrdg 100A,51.576,0.04432
-Seven Sisters Rd St Ann,51.5798,-0.07978
-A21 Bromley Rd Beckenham Hl Rd,51.427,-0.01055
-A23 Purley Way Edgehill Rd,51.3456,-0.11434
-A10 North of Walford Rd,51.5559,-0.07467
-A3 Clapham Rd Elias Place,51.4808,-0.11356
-A118 Romford Rd A406 Ncr,51.5564,0.06491
-Seven Sisters Rd Wilberforce Rd,51.5656,-0.10288
-Thurlow Park Road Croxted Road,51.4412,-0.09268
-A20 Lewisham Way Parkfield Rd,51.4745,-0.03458
-A2 Eltham East W B,51.4557,0.0572
-A1 South of Muswell Hill,51.5773,-0.14662
-A205 north of Broad Walk,51.4695,0.05439
-Old Kent Rd Peckham Pk R,51.483,-0.06423
-A406 Iveagh Ave,51.5378,-0.28341
-South Lambeth Rd Miles St,51.4826,-0.12416
-Tower Bridge App. East Smithfield,51.509,-0.07368
-A406 Telford Rd Bowes Rd,51.6151,-0.12769
-A1 Holders Hill,51.5948,-0.21662
-Wellington Rd St Johns Wd Rd,51.53,-0.16889
-Purley Way Newman Rd,51.3835,-0.12116
-Watford Way   Aerodrome Rd,51.5925,-0.23451
-Kingston-Tolworth Roundabout,51.3794,-0.28063
-Seven Sis Rd Moreton Rd,51.578,-0.08271
-A23 London Road Norbury Crescent,51.4107,-0.12273
-London Rd Thomas Doyle St,51.498,-0.10376
-Jamaica Rd W of West Ln,51.4986,-0.0611
-Seven Sisters Rd Alexandria Grove,51.568,-0.09933
-Ram St Barchard St,51.4583,-0.19202
-A12 Wansbeck Road,51.5418,-0.02692
-Peckham Rd E of Vestry Rd,51.4737,-0.08359
-Rushy Green Rosenthal Rd,51.4488,-0.01722
-Nine Elms Ln Ponton Rd,51.4832,-0.13308
-Upper Tooting Rd Topsham Rd,51.4346,-0.1615
-George St Wellesley Rd,51.3741,-0.09646
-Upper Tooting Rd Kellino St,51.4305,-0.16531
-St Georges Sq Lupus St,51.4887,-0.13477
-Shoreditch High St Batemans Row,51.5252,-0.07732
-Prince Regents Lane Jn,51.5175,0.03219
-Seven Sisters Rd Manor House,51.5706,-0.09615
-Bowes Rd Brownlow Rd,51.6127,-0.12115
-Marylebone Rd Osnaburgh St,51.5241,-0.14352
-Park Lane Opposite Stanhope Gate,51.5066,-0.15277
-Sterling Way Slip A1010 Fore St,51.6148,-0.06419
-Oxford St Vere St,51.5147,-0.14721
-Seven Sisters Rd Op Yonge Pk,51.5623,-0.11041
-Ruckholt Rd Sherrin Rd,51.5547,-0.01696
-A406 Gunnersbury Ave Gunnersbury Ln,51.5006,-0.2843
-Westfield Ave International Way Car Park A,51.5435,-0.01109
-Watford Way Mill Hill Circus,51.6154,-0.24215
-Stamford Hill Dunsmure Road,51.5702,-0.07297
-Waterloo Bridge south,51.5053,-0.11402
-Upper St St Albans Place,51.5364,-0.10364
-Stratford Broadway Gt Eastern Rd,51.5393,-0.00055
-Seven Sisters Rd Barrow Way,51.5614,-0.11295
-Stafford Rd Epsom Rd,51.3672,-0.11608
-South Lambeth Rd Tradescant Rd,51.4789,-0.12365
-St Giles Circus,51.5164,-0.13022
-Twickenham Rd Heathcote Rd,51.4583,-0.31699
-Shoreditch High St Commercial St,51.5228,-0.07762
-South Lambeth Rd Parry St,51.4843,-0.12288
-A5 Kilburn High Rd Willesden Ln,51.5417,-0.19768
-A13 Commercial Road Salmon Lane,51.5124,-0.032
-A3205 BATTERSEA PK RD - SAVONA ST,51.4793,-0.14235
-A12 Kswood Rd 3893A,51.571,0.01022
-Shepherd Bush Rd Brook Green,51.4975,-0.22253
-Sevn Sistrs Rd Blackstock Rd,51.5646,-0.10464
-The Highway Glamis Road,51.5097,-0.05046
-A102 Shooters Hill,51.4746,0.02484
-Shooters Hill Rd Charlton Pk Ln,51.4743,0.03774
-The Vale   Eastman Rd,51.5064,-0.26051
-Tower Bridge Rd Rothsay St,51.4961,-0.08297
-Pentonville Road   Penton Rise,51.5314,-0.11401
-A2 Arbuthnot Lane,51.4482,0.13535
-Talgarth Rd Gliddon Rd,51.4907,-0.21425
-Nine Elms Ln Cringle St,51.4812,-0.13804
-Northumberland Ave Victoria Emb,51.5064,-0.12224
-Sterling Way Slip Victoria St,51.6145,-0.06816
-A23 Brixton Rd Stockwell Rd,51.4653,-0.11407
-Great Eastern Rd Angel Lane Bridge,51.5443,0.00026
-Stockwell Rd By Clapham Rd,51.472,-0.12219
-Seven Sisters Rd by Fonthill Rd,51.5631,-0.10827
-Putney High St Lwr Richmond Rd,51.4659,-0.21409
-Sthampton Row Vernon Plc,51.5191,-0.12116
-Sheen Lane Larches Av,51.4644,-0.26661
-A3 Kingston Bp Burlington Rd,51.3996,-0.24355
-Shepherd Bush Gr Wood Lane,51.5051,-0.22477
-Tottenham Court Rd Grafton Way,51.5238,-0.13724
-Stoke Newington Rd Evering Rd,51.5571,-0.07466
-Stockwell Rd Chantrey Rd,51.4658,-0.11663
-Western Ave Alperton Lane,51.5322,-0.31016
-A406 Fulbourne Road,51.6004,-0.00925
-A12 Dyers Hl E 3830A,51.5661,0.00594
-Tooley St Jamaica Rd,51.5005,-0.07445
-Balham High Rd Balham Pk Rd,51.4422,-0.15409
-A4 Great West Rd Sutton Crt Rd,51.4875,-0.26709
-A2 Falconwood,51.4556,0.08867
-Rainham Marshes,51.5102,0.19714
-Rosebery Av Mount Pleasant,51.5246,-0.111
-A2 Danson,51.4491,0.11974
-A23 Streatham H Rd Stanthorp Rd,51.427,-0.13128
-A40 Greenford Flyover,51.5359,-0.34627
-A23 Purley Cross,51.3381,-0.11724
-A406 NCR Henlys Corner,51.59,-0.20008
-Baker St S of Park Rd,51.5236,-0.15811
-A2 New Cross Rd St James,51.475,-0.03958
-A23 Purley Way Queensway,51.3603,-0.11737
-A406 Staples Corner Approach,51.5701,-0.2373
-A2 New Cross Rd Lewisham Way,51.4757,-0.03625
-A20 Lee High Rd Lampmead Rd,51.4571,0.00907
-A20 Sidcup Bypass Sevenoaks Way,51.4135,0.11223
-A13 Cotton St,51.5113,-0.01077
-Great West Rd   Thornbury Rd,51.482,-0.34634
-A205 E of Sydenham Hill,51.4408,-0.06361
-A41 Finchley Rd Queen Grove,51.5369,-0.17615
-A2 Kidbrooke Junction,51.4642,0.0307
-Connaught Bridge Connaught Rd,51.5049,0.03964
-A406 Abbey Road Underpass,51.5395,-0.27802
-A2 Riefld Rochstr,51.458,0.08007
-Prince Regents Lane W,51.5169,0.02795
-A205 Upper Rmond Rd Carlton Rd,51.4643,-0.2734
-A40 Western Ave West End Rd,51.5487,-0.399
-A23 Streatham H Rd Kingscourt Rd,51.4344,-0.12845
-A406 Holiday Inn,51.573,-0.22271
-A406 Golders Grn Rd,51.5808,-0.21202
-A205 Tulse Hill  Thurlow Park Rd,51.441,-0.10633
-A12 Eastern Av Barley Lane,51.5823,0.11658
-A12 Carradale House,51.5148,-0.00869
-Warwick Rd Earls Crt Station,51.4904,-0.19621
-A23 Brixton Rd Ingleton St,51.4714,-0.11265
-A10 Broad Lane Talbot Rd,51.5843,-0.06899
-A23 Streatham H Barrhill Rd,51.4403,-0.12581
-Shooters Hill Rd Charlton Way,51.4719,0.00024
-C Browns M11 Split,51.5961,0.03004
-Commercial Rd Dean Cross St,51.5143,-0.05451
-Crown Lane Grasmere Avenue,51.4018,-0.19698
-Beverley Way Coombe Lane Flyover,51.416,-0.25097
-A12 Madeira Rd 3815A,51.5648,0.0052
-A23 Brixton Rd Hillyard St,51.4741,-0.11272
-A12 Church Ln 3839A,51.5667,0.00641
-A40  Argyle Rd,51.5339,-0.32963
-Balham High Rd Chestnut Grove,51.4436,-0.1526
-Commercial St N of Pomell Way,51.5162,-0.0727
-A12 Lea Bridge 3582A,51.5516,-0.01853
-A24 Morden Rd Dorset Road,51.4075,-0.19236
-A12 GGT W Appr 4002A,51.5739,0.02384
-Grt Cambridge Rd A406 NCR Rabout,51.617,-0.0866
-Roehampton Vale Stag Lane,51.4388,-0.24865
-Holland Park Roundabout,51.5041,-0.21833
-A4202 Park Lane North Row,51.5127,-0.15787
-Battersea Brdg Rd Ethelburga St,51.4768,-0.1684
-Shepherds Bush Rd Westwick Gdns,51.5015,-0.22202
-Gates Br Waterworks E,51.5964,0.0227
-Theobalds Rd Boswell St,51.5196,-0.12019
-A40 Western Ave Gibbon Rd,51.5149,-0.25655
-A12 GMT W Appr 3921J,51.5728,0.0132
-Beckton West,51.5224,0.06462
-A4 Hogarth Roundabout,51.4872,-0.25186
-A3 Hook Rise A243 Hook Rd,51.3752,-0.30359
-Stamford Hill Amhurst Pk,51.5732,-0.07268
-A3 Roehampton Vale A308 Robin Hood,51.4359,-0.25594
-A3 Clapham Road Mayflower Road,51.4678,-0.12809
-A406 Staples Corner,51.5713,-0.23189
-A23 Brixton Rd Wynne Rd,51.4692,-0.1125
-Tooley St Abbots Lane,51.5039,-0.08136
-A3 Clapham Cmon Southside Long Rd,51.4609,-0.13953
-Millbank Vauxhall Bridge,51.4887,-0.12974
-Hobart Place Grosvenor Place,51.4982,-0.14695
-A3 Clapham Rd Handforth Street,51.4798,-0.11451
-Uxbridge Rd Park View Rd,51.511,-0.36935
-Brighton Rd Farthing Way,51.3234,-0.13475
-Upper Woburn Place - Woburn Walk,51.5264,-0.12967
-Upper St Nth Duncan St,51.534,-0.10518
-A3 Clapham High St Aristotle Rd,51.4644,-0.13143
-Upper Clapton Rd Rossington St,51.564,-0.05929
-Watling St Gravel Hill,51.4551,0.153
-Watford Way Great North Way,51.6019,-0.23509
-Baker St  Marylebone Rd,51.522,-0.1576
-Wood Lane A40 Westway,51.5149,-0.2263
-Wandworth Bridge York Rd,51.4629,-0.18604
-Waterworks R B,51.5955,0.01088
-A22 Godstone Rd Dale Rd,51.335,-0.11268
-Victoria Embkmt Temple Place,51.5107,-0.11512
-Victoria St   Buckingham Palace Rd,51.4967,-0.14379
-Upper St by Canonbury Lane,51.5435,-0.10316
-A406 Montagu Road,51.6132,-0.05247
-A406 Cooks Ferry R B,51.6133,-0.03691
-A21 London Rd Tweedy Rd,51.4089,0.01086
-Camberwell New Rd Foxley Rd,51.4799,-0.10755
-A406 A124 Barking,51.538,0.06771
-Walworth Rd Heygate St,51.4918,-0.09814
-Queenstwn Rd Chelsea Bridge,51.4798,-0.14879
-Holloway Rd S of Hornsey Rd,51.5524,-0.1119
-Holloway Rd Highbury Corner,51.5465,-0.1039
-A406 CROOKED BILLET,51.6007,-0.01663
-Gunnersbury Ave Gunnersbury Drive,51.5033,-0.28891
-Victoria St Wilton Rd,51.4963,-0.14243
-Waterworks W B Off-Slip,51.595,0.01478
-Romford Rd   Vicarage Lane,51.5427,0.00926
-A3 Clapham Rd Lingham St,51.4712,-0.12362
-Court Rd Sidcup Rd,51.4391,0.05007
-Warwick Rd W Cromwell Rd,51.4927,-0.20044
-City Rd by Central St,51.5295,-0.09677
-Trafalgar Square,51.5074,-0.12765
-Seven Sisters Rd Holloway Rd,51.5579,-0.11958
-Kennington Lane,51.4861,-0.12191
-Grand Depot Rd John Wilson St,51.4875,0.06352
-Harleyford Rd Vauxhall Grove,51.4854,-0.12036
-Catford Hill Dogget Rd,51.4446,-0.02393
-A4 Colnbrook Stanwell Moor Rd,51.4839,-0.49248
-Armoury Wy Wandsworth Plain,51.4586,-0.19554
-Bressenden Place   Stag Place,51.4976,-0.14207
-John Wilson St New Ferry Approach,51.4935,0.06171
-High Street Rick Roberts Way,51.535,-0.0056
-Burdett Rd Hamlets Way,51.523,-0.03434
-HOLLYBUSH HILL GMAN RBOUT,51.573,0.01641
-City Road   Epworth St,51.5236,-0.0873
-H.Stead Rd Drummond St,51.5267,-0.13851
-Camberwell New Rd Brixton Rd,51.4812,-0.11065
-Camden Rd Camden St Lyme St,51.5406,-0.13953
-Chalkers Corner,51.469,-0.27703
-Grosvenor Pl Hyde Pk Cnr,51.5018,-0.15163
-HIGH ROAD LEYTONSTONE BUSH ROAD,51.571,0.01577
-Hyde Park Corner Park Lane,51.5033,-0.15099
-EIDT West Ramp Gantry,51.5098,-0.00254
-Borough High St Grt Dover St,51.5011,-0.09317
-Blackheath Rd Greenwich High Rd,51.4742,-0.02073
-Harrow Rd Kilburn Lane,51.5279,-0.2158
-Leatherhead Rd Fairoak Lane,51.3419,-0.31786
-Kennington Rd Kennington Grn,51.4855,-0.11139
-A406   Harrow Rd   Brentfield,51.5448,-0.27287
-Lea Bridge Rd Markhouse Rd,51.5702,-0.02527
-Fulham Palace Rd Lillie Rd,51.4837,-0.21956
-A10 South of St Peters Way,51.5405,-0.07668
-Romford Rd   Tennyson Rd,51.5421,0.00524
-Commercial St Brushfield,51.5192,-0.07464
-A501 East of Melton St,51.5265,-0.13356
-A2 Glenesk Rochester,51.4571,0.06597
-Shooters Hill Rd P o wales Rd,51.4735,0.01544
-A12 Wick Road,51.5448,-0.03214
-Wennington Viaduct W,51.5033,0.21103
-Woolwich Rd Hatcliffe st,51.4862,0.00843
-Woolwich Rd A102 Flyover,51.4863,0.01695
-A205 London Rd Dartmouth Rd,51.439,-0.0538
-Commercial Rd Jubilee St,51.514,-0.05251
-Wilton Road   Bridge Place,51.4944,-0.14217
-Whitechapel Rd   Plumbers Row,51.5173,-0.06668
-Whitton Rd Chertsey Rd,51.454,-0.3371
-Whitechapel Rd Court St,51.5187,-0.0611
-White Lion St   Upper St,51.5328,-0.107
-Westminster Bridge York Rd,51.5009,-0.11762
-Westminster Bridge   South,51.5012,-0.11583
-West Hill Portinscale Rd,51.4549,-0.20828
-Westhorn Av E of Burnt Ash Hill,51.4463,0.01508
-Western Ave Swaklys RB,51.5591,-0.46984
-York Road Falcon Road,51.47,-0.17175
-Woolwich Manor Way,51.5205,0.05882
-A10 North of Lee Street,51.5386,-0.07685
-A1 Archway Rd Holmesdale Rd,51.5762,-0.14369
-A406 Pinkham Way Colney Hatch Ln,51.6062,-0.15106
-Chiswick High Rd Goldhawk Rd,51.4935,-0.24577
-A2 Westhorne Avenue,51.4569,0.04229
-A232 Grove Rd Sutton Park Rd,51.36,-0.19394
-The Highway Wapping Lane,51.5097,-0.05876
-A205 Waldram Pk Rd Westbourne Dr,51.4401,-0.05056
-A102 Bwall Tunnel Sth Appr,51.4857,0.01914
-Kennington Lane Kennington Rd,51.4884,-0.11116
-Barking Rd Green St,51.5303,0.03772
-High Rd Wood Grn-Ewart Grove,51.5997,-0.11118
-Battersea Pk Rd Queenstown Rd,51.4762,-0.14847
-A2 New Cross Rd Billington Rd,51.4757,-0.04707
-A23 Streatham Hill Sternhold Ave,51.4378,-0.12696
-Camberwell New Rd Vassall Rd,51.4784,-0.10381
-A12 Eastern Ave Heath Drive,51.5955,0.19637
-A40(M) Eastern End,51.5205,-0.17901
-Borough High St Southwark St,51.5048,-0.09008
-A205 Upper Rmond Rd East Sheen Ave,51.465,-0.26212
-Hammersmith Bway Shepherds Bush Rd,51.493,-0.22387
-A2 New Cross Rd Besson St,51.4753,-0.04715
-A107 Upper Clapton Rd Southwold Rd,51.5619,-0.05748
-Bruce Grove Woodside Gardens,51.5952,-0.071
-Clockhouse Lane Staines Rd,51.4486,-0.44746
-Archway Rd Gladsmuir Rd,51.5686,-0.13639
-A205 Christchurch Rd A23 Brixton H,51.4452,-0.12418
-Old Brompton Rd   Earls Court Rd,51.4896,-0.19005
-Kennington Pk Rd Penton Pl,51.4902,-0.10411
-East Cross Route Tredeger Rd,51.5336,-0.02256
-Battersea Park Rd Forfar Rd,51.4747,-0.15454
-A23 Streatham H Rd Mitcham Ln,51.4293,-0.13101
-A40 Old Oak Road,51.5137,-0.24893
-A12 Eastern Av Brook Rd,51.5755,0.09367
-Wandsworth Common North,51.458,-0.18139
-A10 Carterhatch Lane,51.6592,-0.05914
-High Rd Ealing Road,51.5519,-0.299
-Prince Regents Lane E,51.518,0.03557
-Lambeth Plc Rd Royal St,51.4985,-0.11747
-Old Kent Rd Hendre Rd,51.4913,-0.08168
-Uxbridge Road Greenford Road,51.5096,-0.35525
-Uxbridge Road Browells Lane,51.4453,-0.39974
-Romford Rd   Carlton Rd,51.5497,0.04485
-Croydon Flyover Fell Rd,51.3708,-0.0973
-East Hill Geraldinie Rd,51.4575,-0.18575
-Blackfriars Rd Pocock St,51.5018,-0.10451
-Euston Rd Grays Inn Rd,51.5308,-0.12265
-West Parkside John Harrison Wy,51.4949,0.01184
-Commercial Rd Westport St,51.5132,-0.04356
-Parliament Square,51.5011,-0.12628
-Vauxhall Brd Rd Drummond Gt,51.4897,-0.13145
-Commercial Rd Gowers Walk,51.5149,-0.06808
-Baker St Marylebone Rd,51.5222,-0.15768
-High Rd Ruckholt Rd,51.5584,-0.00707
-Bath Rd Berkeley Avenue,51.4793,-0.40988
-Finchley High Rd A406,51.6013,-0.17396
-Blackfriars Rd St George,51.499,-0.10493
-Commercial Rd Belgrave St,51.513,-0.04164
-Caledonian R Copnhagen S,51.5369,-0.11649
-High St Colliers Wd Cavendish Rd,51.4188,-0.17743
-Kennington Lane Newington Butts,51.4914,-0.10283
-Chepstow Rd Addiscombe Rd,51.375,-0.08142
-Brixton Hill   Elm Park,51.4517,-0.12151
-Hospital Bridge Rd,51.4422,-0.3654
-Harrow Rd Westbourne Terrace,51.5198,-0.18509
-Hackney Rd Camb Heath Rd,51.5326,-0.05702
-A3 Clapham Rd Caldwell St,51.4777,-0.11667
-City Road w of Bath St,51.5282,-0.09177
-Catford One Way Rushey Green,51.4449,-0.02012
-Angel Islington,51.5319,-0.10642
-Battersea Rise Bolingbrooke Gr,51.4598,-0.17159
-Kensington Hi St Warwick Rd,51.4967,-0.20537
-Bromley Rd Oakridge Ln,51.425,-0.00454
-Pooles Lane West,51.5312,0.13762
-CHARLIE BROWNS ROUNDABOUT,51.5931,0.03633
-Albert Emb Tinworth St,51.4902,-0.12259
-Delamare Rd Broadway,51.5133,-0.3911
-Ferry Lane,51.5119,0.18383
-Hendon Way   Ridge Hill,51.5702,-0.20871
-Kennington Pk Rd Braganza St,51.4868,-0.10738
-Hanger Lane Uxbridge Rd,51.5117,-0.29219
-Burdett Rd Ackroyd Drive,51.5181,-0.03008
-Finchley Road Hendon Way,51.5593,-0.19686
-Holloway Rd Sth Hargrave Rd,51.5646,-0.13214
-A501 W of Mabledon Place,51.5283,-0.12807
-Colchester Rd Gubbins Ln,51.598,0.23161
-Bath Rd   Oxford Ave,51.4807,-0.42447
-Brixton Rd Island Place,51.4783,-0.11223
-Buck Palace Rd Eccleston Bridge,51.4941,-0.14655
-Balham High Rd Ramsden Rd,51.4448,-0.15179
-Blackfriars Rd Dolben St,51.5049,-0.10466
-Haymarket Pall Mall,51.5078,-0.13134
-Camberwell N Rd Camberwell Pas,51.4749,-0.09507
-A406 Billet Upass E,51.6007,-0.01594
-H.Stead Rd Cardington St,51.5294,-0.13854
-Earls Crt Rd Earls Crt Station,51.4921,-0.19266
-A40 Westway Paddington Grn,51.5202,-0.17351
-Camden High St Kentish Town Rd,51.5391,-0.14265
-Blackfriars Rd Stamford St,51.5072,-0.10443
-A3220 Northern Roundabout,51.5154,-0.21693
-Kennington Oval,51.483,-0.11601
-A10 South of Farleigh Rd,51.5548,-0.07466
-Limehouse Tnl Westferry Rd Entr,51.5077,-0.02766
-Brighton Road,51.3324,-0.12398
-A2 Riefield Road,51.4586,0.07559
-A12 Lstone E 3860A,51.5685,0.00745
-East India Dock Rd Leamouth Rd,51.5128,-0.00081
-A12 Colville R 3732A,51.559,-0.00218
-Herne Hill Norwood Rd,51.4522,-0.10134
-Montfichet Rd Westfield Ave Car Park B,51.5411,-0.00528
-London Rd Craignish Av,51.4085,-0.12186
-Grt Central Way Drury Way,51.5547,-0.25591
-Camberwell Rd Albany Rd,51.4824,-0.0946
-Piccadilly Down St,51.5044,-0.1472
-Mile End Rd Cephas Ave,51.5212,-0.04894
-Old Street e of Vince St,51.5262,-0.08563
-Goldhawk Rd HSmith Grove,51.5021,-0.22886
-A23 Streatham H Rd Heathdene Rd,51.4163,-0.12528
-Limehouse Tnl East Portal E B,51.5085,-0.0223
-Piccadilly Whitehorse St,51.5054,-0.14559
-A2 Westmount Road,51.4564,0.06041
-A4 Cromwell Rd Queens Gate,51.4954,-0.17937
-Great Chertsey Rd Hartington Rd,51.4746,-0.26731
-Kings X Rd   Swinton St,51.5294,-0.11572
-A205 Upper Rmond Rd Vine Rd,51.4651,-0.24949
-Graham Rd Dalston Lane,51.5462,-0.06941
-Gtreat Cambridge Rd   Church St,51.6301,-0.0782
-A2 Eltham East E B,51.4562,0.05905
-Barking Rd Chargable Lane,51.5217,0.02102
-A21 North of Davenport Rd,51.4498,-0.01692
-A4 Bath Rd The Avenue,51.48,-0.4118
-A205 Kew Rd Kew Green,51.4853,-0.28752
-A205 W of Brockley Rise,51.4423,-0.04327
-A205 Dulwich Common College Rd,51.4417,-0.08474
-A12 GGT E Appr 4063A,51.5765,0.03117
-Finchley Rd Frognal Ct,51.5484,-0.18096
-Battersea Brdg Rd Westbridge Rd,51.478,-0.1697
-Wworth High St Wworth Plain,51.4573,-0.19502
-A23 Old Lodge Lane,51.3318,-0.12475
-Battersea Pk Rd Battersea Brg,51.4723,-0.16512
-A2 New Cross Rd Nettleton Rd,51.4744,-0.04328
-Charing Cross Rd Cranbourne St,51.5113,-0.1283
-A12 GMT E Appr 3969L,51.5719,0.0199
-A205 Poynders Rd Kings Ave,51.4479,-0.13252
-A1 A504 Finchley Lane,51.591,-0.21176
-A10 North of Waterson St,51.5289,-0.07774
-A501 West of Judd Street,51.5291,-0.12666
-Green Lanes- St Ann,51.5828,-0.09972
-A41 Finchley Rd 115 Swiss Cottage,51.5428,-0.17519
-East India Dock Rd Chrisp St,51.5112,-0.01399
-A21 Bromley Rd Callander Rd,51.435,-0.0178
-A40 Horn Ln Gypsy Crn,51.522,-0.26373
-A406 Golf Range,51.6036,-0.02199
-DURSLEY ROAD,51.4681,0.02913
-A205 Mortlake Rd Bessant Drive,51.4787,-0.28138
-Evelyn Street   Bestwood St,51.49,-0.04228
-Fulham Rd Redcliffe Gardens,51.4842,-0.18431
-Edgware Rd S of Upper Berkeley St,51.5148,-0.16237
-Piccadilly Circus,51.5096,-0.13484
-Queens Rd Pomeroy St Lausanne Rd,51.4732,-0.05147
-Horseferry Rd Marsham St,51.4949,-0.12891
-Commercial Rd Cannon St Rd,51.5147,-0.06163
-Camberwell Ch St Camberwell Grn,51.4742,-0.09223
-Exhibition Rd Cromwell Rd,51.4957,-0.17359
-Elephant & Castle Walworth Road,51.4934,-0.1005
-A2 Eltham West E B,51.4553,0.04847
-Camden Rd N Of Camden Pk Rd,51.548,-0.1301
-Eltham Rd Leyland Rd,51.4559,0.01302
-Kenworthy Rd Brookfield Rd Wick Rd,51.5452,-0.03557
-A13 Branch Road,51.5128,-0.0388
-Balham Hill Hazelbourne Road,51.452,-0.14787
-A3 West Hill Up Richmond Rd,51.4567,-0.2024
-Commercial Rd New Rd,51.5148,-0.06229
-A2 Black Prince,51.4482,0.15266
-Park Lane South of Mount Street,51.5089,-0.15462
-Edgeware Rd Madia Ave,51.5243,-0.17652
-A3 Clapham Rd Crewdson Rd,51.4793,-0.11531
-Bruce Grove,51.594,-0.06943
-Harleyford St Ken Pk Rd,51.4823,-0.11264
-Burdett Rd Pixley St,51.5143,-0.02834
-A12 Eastern Av Whalebone Ln,51.5812,0.14109
-A40   Near Connell Crescent,51.5287,-0.28747
-A20 Sidcup Bypass Perry St,51.4183,0.09822
-A40 Marbone Rd Old Marbone Rd,51.5207,-0.16483
-Cromwell Rd Collingham Rd,51.4946,-0.18878
-A217   Rose Hill R.bout,51.3847,-0.18932
-Battersea Pk Rd Albert Bridge,51.4728,-0.16235
-Grt Cambridge Rd Bullsmore Ln,51.6799,-0.05135
-Finchley Rd Goldhurst Terrace,51.5463,-0.1792
-Holloway Rd Nth Tollington Rd,51.5562,-0.11695
-London Rd Arragon Rd,51.4496,-0.33026
-Jamaica Rd W of Lower Rd,51.4991,-0.05633
-Kland Rd Balls Pond Rd,51.5458,-0.07567
-Lewisham Way Florence Road,51.4722,-0.03114
-A23 Commerce Way,51.3743,-0.11875
-A10 Stoke Newington Rd Millers Terrace,51.5512,-0.07501
-A10   Downham Road,51.5391,-0.07662
-A12 Eastern Ave Mawney Road,51.5814,0.16445
-A102 Tunnel House S,51.4965,0.00205
-A406 Hale End Rd W,51.6005,-0.00395
-York Road opp Mepham St,51.5043,-0.11464
-Gt Eastern St Holywell Ln,51.5241,-0.07984
-A2 Eltham West W B,51.455,0.04955
-Kensington High St Church St,51.502,-0.19082
-A127 Squirrels Heath Drive,51.5869,0.22454
-ROMFORD ROAD,51.5623,0.05681
-Battersea Bridge Cheyne Wk,51.4821,-0.17321
-A23 Streatham H Rd Streatham Cmn,51.4198,-0.128
-Camberwell Ch St Grove Ln,51.4739,-0.09045
-Movers Lane West,51.5292,0.08953
-Finchley Road   West End Lane,51.5528,-0.18881
-Oxford Circus,51.5154,-0.14204
-Vauxhall Brd Rd Stanford St,51.4916,-0.1359
-Uxbridge Rd Chapel Rd,51.5109,-0.31884
-Oxford St Orchard St,51.514,-0.15409
-Piccadilly St James St,51.5078,-0.14052
-High St Colliers Wd Marlborough Rd,51.4205,-0.17578
-Fulham Palace Rd(Coroners Crt),51.4901,-0.22326
-Camberwell New Rd Lotian Rd,51.4772,-0.10062
-Goresbrook West,51.5278,0.14206
-Aspen Way Cotton Street,51.5072,-0.01003
-Fulham BWay Wst of Harwood Rd,51.4802,-0.19601
-Finchley Rd Sth of Rosemont Rd,51.5493,-0.18171
-Deptford Broadway Deptford Ch St,51.4747,-0.02422
-Balham High Rd Drakefield Rd,51.4372,-0.15762
-A20 Lee High Rd Belmont Hill,51.4624,-0.0089
-Woolwich Rd Charlton Church Lane,51.4878,0.0311
-Brixton Rd Stockwell Pk,51.466,-0.11345
-ASPEN WAY - UPPER BANK STREET,51.5071,-0.0162
-A4200 Woburn Pl Russell Sq,51.5229,-0.12584
-Vauxhall Cross,51.4864,-0.12372
-Burdett Rd Dod St,51.5135,-0.02767
-Clapton Common Lewstone Place,51.5729,-0.07074
-Brixton Hill Morrish Rd,51.4462,-0.12421
-A5 Edgware Rd Cuthbert St,51.5231,-0.17438
-Harrow Rd Lord Hills Bridge,51.5196,-0.18874
-Brighton Rd A23 Coulsdon Bypass,51.3169,-0.13864
-High St Grosvenor Rd W Wickham,51.3769,-0.02043
-Leamouth Road,51.5127,-0.00048
-Fulham Palace Rd Lysia St,51.4818,-0.21805
-Archway Rd   Causton Rd,51.5736,-0.14128
-Baring Rd Le May Avenue,51.4322,0.02139
-Camden Rd Hillmarton Rd,51.5533,-0.12327
-A3 Clapham Rd A203 Sth Lambeth Rd,51.4719,-0.12318
-A24 South of Trevelyan Rd,51.424,-0.17185
-A23 Epsom Road,51.3668,-0.11831
-Old Kent Rd Albany Rd,51.4881,-0.07669
-Kennington Ln Chester Way,51.4899,-0.10798
-A2 New Cross Rd Florence Rd,51.4754,-0.02898
-Clapham Common Northside,51.4612,-0.16006
-Kensington Rd Exhibition Rd,51.5017,-0.17483
-Park Lane Park St,51.3736,-0.09692
-EIDT East Portal Pole,51.5134,0.00141
-Marylebone Rd Great Portland Street,51.5239,-0.1445
-Battersea Rise Northcote Rd,51.4607,-0.16652
-Barking Rd   W of Bartle Ave,51.5325,0.05063
-Acre Lane Coldharbour Lane,51.4614,-0.11563
-East India Dock Rd Amoy Pl,51.5117,-0.02756
-Chiswick Roundabout (Northside),51.4918,-0.28207
-Beckton East,51.5271,0.07776
-Hendon Way Queens Road,51.5826,-0.22677
-Addiscombe Rd Cherry Orchard Rd,51.3753,-0.09123
-Clapham Common Southside,51.4541,-0.14608
-London Rd Wharfedale Gardens,51.4014,-0.11851
-Limehouse Tunnel The Highway,51.5107,-0.04053
-Kew Rd Mortlake Rd,51.4828,-0.28694
-Kings X Rd   Wharton St,51.5276,-0.11548
-Caledonian R Caledonia S,51.5318,-0.12093
-Albert Bridge Rd,51.4813,-0.1663
-Crayford Rd Crayford Way,51.4516,0.17875
-London Rd   Staines Av,51.3768,-0.22177
-Mile End Rd Cleveland Way,51.5205,-0.05217
-Charing Cross Rd   Cambridge Circus,51.5131,-0.12914
-Holloway Rd Sth Fieldway Cres,51.5492,-0.10762
-A23 south of Thornton Ave,51.387,-0.12104
-A20 Lee High Rd Belmont Park,51.4598,-0.00401
-A20 Lee High Rd Marischal Rd,51.4613,-0.0059
-Lodge Avenue,51.533,0.10988
-Marcilly Rd Elsynge Rd,51.4588,-0.17952
-Hanger Lane Queens Parade,51.5169,-0.2912
-Balls Pond Rd Henshall St,51.5465,-0.08591
-Bow Rd Flyover,51.5296,-0.0142
-Poplar Walk Wellesley Rd,51.3785,-0.10001
-Marsh Way West,51.5199,0.16853
-Old Street Gt Eastern St,51.5265,-0.08414
-Lower Thames St London Bridge,51.5095,-0.08688
-Balham Hill Yukon Rd,51.4491,-0.1479
-A102 Woolwich Rd (N),51.4886,0.01447
-Balham High Rd Upper Tting Pk,51.4389,-0.15648
-Finchley Road Canfield Place,51.5455,-0.17752
-Movers Lane East,51.5314,0.09954
-Blackheath Rd Wickes Store,51.473,-0.01659
-Lea Valley Cabinet Way,51.6103,-0.03041
-Balham High Rd Caistor Rd,51.4468,-0.14943
-Rotherhithe Tunnel Barrier N,51.5123,-0.03911
-A13 East India Dock Cotton St,51.5115,-0.00971
-Gnor Gdns Buckingham Palace Rd,51.497,-0.14555
-Grt Cambridge Rd Bury St,51.6341,-0.06968
-A40 Western Ave Long Lane,51.5544,-0.44771
-Bayswater Rd Lancaster Terrace,51.5116,-0.17596
-Limehouse Tunnel Butcher Row,51.5106,-0.04182
-Kenington Pk Rd Kennington Oval,51.4824,-0.11208
-Lordship Ln Dulwich Cmn,51.4434,-0.06749
-Loampit Vale Thurston Rd,51.4645,-0.01522
-A4 Bath Rd Henlys Rabout,51.4751,-0.39441
-Lwr Clapton Powerscroft,51.5526,-0.05272
-Mile End Rd Globe Rd,51.5218,-0.04605
-A23 Stafford Road,51.3648,-0.11848
-A4 Cromwell Rd Gloucester Rd,51.4951,-0.18254
-Albert Emb Glasshouse Wk,51.4889,-0.12294
-A406 Bowes Rd Green Lanes,51.6124,-0.10987
-A12 Eastern Av Beehive Lane,51.5764,0.06064
-A406 Billet Upass W,51.601,-0.01695
-Camberwell Ch St Vicarage Grve,51.4734,-0.08757
-A3 Kingston Bypass College Gds,51.3957,-0.24955
-Manor Rd New Plaistow Rd,51.5352,0.00881
-A23 Streatham H Rd Mnt Ephrian Rd,51.4363,-0.12771
-A23 Purley Cross A23 Foxley Lane,51.3398,-0.11739
-Brompton Rd Beaufort Grns,51.4983,-0.16584
-Goodmans Yard  Mansell Street,51.5112,-0.07301
-Grosvenor Chapel St,51.5005,-0.14971
-Holloway Rd Nth Furlong Rd,51.5477,-0.106
-Kidbrooke Park Rd,51.4613,0.02625
-A1 Barnet Wy A41 Edgware Wy,51.6218,-0.25478
-A21 Rushey Grn Ringstead Rd,51.4469,-0.01896
-A406 A118 Mill House,51.5571,0.06588
-Bethnal Gr Rd Satchwell Rd,51.5259,-0.06906
-Euston Rd Tottenham Court Rd,51.5249,-0.13841
-Rocks Lane,51.4653,-0.24389
-Marylebone Rd York Gate,51.523,-0.15271
-A406 A10 U Pass East,51.6159,-0.08272
-Denmark Hill Champion Pk,51.4671,-0.09088
-Camden High St Symes Mews,51.5352,-0.13897
-A501 W of Park Sq East,51.524,-0.14568
-A406 A10 U Pass West,51.6165,-0.09136
-H.Stead Rd Mornington Cr,51.5343,-0.13926
-Homerton High St Digby Road,51.5482,-0.04448
-City Rd Shepherdess Walk,51.5285,-0.09239
-Christchurch Rd Colliers Wood,51.4173,-0.17788
-C Browns E B Off-Slip,51.5966,0.027
-A41 Finchley Rd Boundary Rd W,51.5397,-0.17592
-Romford Rd  Rabbits Rd,51.5528,0.05376
-Rotherhithe Tunnel Barrier S,51.4992,-0.05514
-Kennington Pk Rd Kennington Rd,51.485,-0.1092
-Clapham High St Venn St,51.4623,-0.13729
-Peckham Hg St wof Clayton Rd,51.4739,-0.0665
-Kingsland Rd Balls Pond Rd,51.5463,-0.07566
-Holloway Rd Tufnell Pk Rd,51.5584,-0.12005
-Lewisham High St Courthill Rd,51.4574,-0.01332
-A312 Parkway M4 J3,51.4929,-0.4103
-Mile End Rd Harford St,51.5229,-0.04004
-A40 Wales Farm Rd,51.5196,-0.26273
-Fore St East Ramp,51.6143,-0.06135
-A20 Sidcup Rd County Gate,51.432,0.07636
-Peckham High St Rye Lane,51.4733,-0.0701
-A23 Streatham H Rd Colmer Rd,51.4145,-0.12426
-Jamaica Rd E of Abbey St,51.4985,-0.06964
-Camden High St Mary Tce,51.5367,-0.14074
-East Hill East Of Fairfield St,51.4568,-0.18923
-A3 East Of Garratt Lane,51.4567,-0.19224
-Pettman Crescent Western Way,51.4926,0.08607
-City Road Old Street,51.5262,-0.08771
-A4 Great W Rd Macbeth St,51.4909,-0.23286
-A41 Sth of Fortune Grn Rd,51.5571,-0.19561
-Finchley Rd Sth of Hillgrove Rd,51.5414,-0.17552
-Eastbourne Te Bishops Bridge Rd,51.5179,-0.18026
-A406 North Circular Rd Telford Rd Bounds Green Rd,51.6112,-0.13544
-Marble Arch,51.5133,-0.16018
-Barking Rd Prince Regent Lane,51.5259,0.02915
-A20 Sidcup Rd Coyler Close,51.4351,0.06308
-A40   Target Roundabout,51.5425,-0.37712
-Lr Clapton Rd Thislewaite Rd,51.557,-0.05594
-Kennington Ln Vauxhall St,51.4868,-0.11677
-A406 Great North Way,51.5886,-0.20659
-Harrow Rd Grt Western Rd,51.5243,-0.20166
-EIDT East Ramp,51.5141,0.00238
-Eltham Rd Sidcup Rd,51.4532,0.02756
-Chelsea Embankment Royal Hosp Rd,51.4838,-0.16356
-Albert Emb Lambeth Brdge,51.4937,-0.1214
-A3 Tibett Crn Withycombe Rd,51.4486,-0.22172
-Lower Rd Rotherhithe Old Rd,51.4937,-0.04832
-A21 Bromley Rd Bellingham Rd,51.4335,-0.0178
-Baylis Rd Westminster Bridge Rd,51.4987,-0.11242
-Mare St Graham Rd,51.5466,-0.055
-Brixton Hill  Lambert Rd,51.4553,-0.1194
-Kentish Way N of Masons Hill,51.3989,0.02036
-Burdett Rd Mile End Rd,51.5246,-0.03482
-Commercial Rd Albert Gardens,51.5133,-0.04692
-Cromwell Rd Earls Court Rd,51.4946,-0.1957
-Craven Rd Eastborne Terrace,51.5152,-0.17638
-Fore St West Ramp,51.6146,-0.0733
-A10 Grt Cambridge Rd A110 S bury Rd,51.6496,-0.06039
-Castle Green,51.5317,0.12444
-East Road Vestry Street,51.5297,-0.08708
-A12 East Cross Route Benn St,51.5458,-0.03353
-A13 Alfreds Way Movers Ln,51.5303,0.09318
-A4 Great W Rd Syon Ln,51.4833,-0.32614
-High St Sherwood Way W Wickham,51.3762,-0.01769
-A4 Great West Rd A3063 Sutton Ln,51.4781,-0.37244
-Leyton Rd Montfichet Rd Penny Brookes St,51.5466,-0.00091
-Maida Vale St Johns Wood Rd,51.5258,-0.1783
-Finchley Rd Alvanley Grdns,51.5525,-0.18751
-A205   Catford Hill,51.4432,-0.02857
-Camden Rd St Pancras Way,51.5427,-0.13744
-Falloden Way Northway Hill Rise,51.5858,-0.18285
-Edgware Way   Broadfields Ave,51.6216,-0.27384
-A102 Brunswick Rd,51.5133,-0.00809
-Mile End Rd Cambridge Heath Rd,51.5199,-0.05565
-Nine Elms,51.4843,-0.12684
-Priory Rd Christchurch Rd,51.4167,-0.17875
-Hyde Park Corner,51.5021,-0.15238
-Grays Inn Rd   Acton St,51.5282,-0.11917
-Archway Gyr Holloway Rd Jnc Rd,51.5656,-0.1345
-Battersea Pk Rd Prince of Wales Dr,51.4779,-0.14518
-Romford Rd   Green St,51.547,0.0318
-Montfichet Rd Hitchcock Lane Car Park C,51.5446,-0.00354
-Mortimer St Gt Portland St,51.5176,-0.14152
-Pembroke Rd Cromwell Crescent,51.4948,-0.19948
-Farnborough Common Croydon Rd,51.3662,0.05311
-Denmark Hill Love Walk,51.4712,-0.09306
-Ealing Rd Bridgewater Rd,51.5396,-0.3004
-A312 Hampton Rd York Way,51.4374,-0.38065
-A406 WATERWORKS RDB,51.5952,0.01072
-Kingsway High Holborn,51.5177,-0.12056
-A40(M) Paddington Slip,51.5204,-0.19227
-A41 Hendon Way Cricklewood Lane,51.5613,-0.20345
-London Road Raymead Avenue,51.394,-0.11425
-Heath Rd King St Parade,51.4456,-0.33001
-A3 Kingston Bypass South Lane,51.3923,-0.26182
-ASPEN WAY - BLACKWALL WAY,51.5084,-0.00388
-Lower Clapton Rd Rowhill Rd,51.5541,-0.05403
-Neasden Ln North A406,51.5606,-0.25377
-Limehouse Tnl Aspen Way,51.5082,-0.02122
-A205 Verdant Lane,51.4452,0.00467
-A3 Clapham Rd Stockwell Rd Landsdowne Way,51.475,-0.11953
-Burdett Rd Eric St,51.5208,-0.03276
-A21 North of Lewisham Pk,51.4528,-0.01641
-Old Kent Rd Humphrey St,51.4883,-0.07645
-Goresbrook East,51.5243,0.15119
-Chelsea Embankment Albert Brdg,51.4837,-0.16732
-Leman St   Prescot St,51.512,-0.06927
-Airport Way Stanwellmore Rd,51.463,-0.49324
-A23 Brixton Hill Effra Rd,51.4606,-0.11628
-A232   Sutton Court Road,51.3608,-0.18941
-A205 Westhorne Av Sidcup Rd,51.4501,0.02974
-A23 Streatham H Rd Hopton Rd,51.4257,-0.13105
-A4 Chiswick Roundabout,51.4912,-0.2829
-Chelsea Bridge Chelsea Embankment,51.4858,-0.14971
-A406 Neasden Lane,51.5597,-0.2538
-M11 A406 N Bnd 109A,51.5845,0.0397
-A312   White Hart R.bout,51.537,-0.38929
-Brompton Rd,51.5008,-0.16227
-Kew Bridge Northside,51.4891,-0.28766
-Kew Rd Twickemham Rd,51.4647,-0.30039
-Kingsland Rd Hackney Rd,51.5274,-0.07797
-A12 Temple Mls 3672B,51.5549,-0.00785
-A205 Brownhill Rd Plassey Rd,51.4459,-0.01723
-A406 Angel Road East,51.6114,-0.04729
-Scrubs Lane Harrow Rd,51.532,-0.23728
-A406 NCR Grt Central Way,51.5527,-0.25521
-A501 E of Gloucester Pl,51.5217,-0.15924
-Limehouse Tnl HH Westferry Rd Exit,51.5079,-0.02752
-Old Kent Rd Glengall Rd,51.4861,-0.07211
-Hanger Lane,51.5317,-0.29256
-A406 A1 Falloden Way,51.5896,-0.19648
-A205 Christchurch Rd Norwood Rd,51.4401,-0.10643
-A2 Blackheath Hill Plumbridge St,51.4728,-0.01474
-A30 Hatton Cross,51.4666,-0.42189
-Hammersmith Bridge Rd,51.4913,-0.22749
-Holland Rd Addison Crescent,51.4998,-0.21009
-Edgware Road   Praed Street,51.5193,-0.16915
-New Kent Rd   Balfour St,51.4941,-0.09159
-Eastern Ave   Gallows Corner,51.5934,0.21576
-Major Rd Crownfield Rd,51.551,-0.00402
-Scotch Corner,51.5019,-0.16028
-Noel Road,51.5203,0.04645
-Curtain Rd   Old Street,51.527,-0.08051
-A40 Hanger Lane Tunnel,51.5302,-0.29492
-Park Rd   Gloucester Pl,51.5258,-0.16145
-Peckham Rd Kelly Ave Lyndhrst Wy,51.474,-0.07443
-A12 Langthorne 3713A,51.5579,-0.00433
-Edgware Rd Seymour St,51.5141,-0.16133
-Lwr Mortlake Rd Manor Circus,51.4677,-0.28769
-Portman Square Orchard St,51.5154,-0.15462
-High St Station way The Cheam,51.3577,-0.21576
-Battersea Rise Lavender Sweep,51.4609,-0.16331
-Molesworth St Riversdale shops,51.4618,-0.01334
-Blackwall Nth Portal,51.5103,-0.00684
-Elephant & Castle New Kent Rd,51.495,-0.1003
-Buckingham Palace Rd Eaton Lane,51.4972,-0.14465
-MONUMENT WAY PARK VIEW ROAD,51.5896,-0.0643
-Marsh Way,51.5205,0.16846
-Holloway Rd Nth Rupert Rd,51.5628,-0.12724
-Parkway Cranford High St,51.4838,-0.40773
-Euston Rd Conway St,51.5243,-0.14038
-A5 Edgware Rd Broadley St,51.5213,-0.17168
-Romford Rd   Sprowston Rd,51.5464,0.0238
-Lewisham High St Rennell St,51.4638,-0.01076
-Christchurch Rd Streatham Hill,51.4451,-0.1242
-Old Kent Rd St James Rd,51.4839,-0.06641
-Lee High Rd Old Rd,51.4586,0.00287
-NEWHAM WAY - FORTY ACRE LANE,51.5158,0.01067
-A3220 West Cross Route,51.5115,-0.21993
-A30 Great Sth W Rd The Parkway,51.4725,-0.40497
-A3 Clapham Rd Stockwell Park Rd,51.4745,-0.12036
-A12 Blackwall Tunnel Nthern App Gillender St,51.5212,-0.01031
-A312 south of Rosslyn Av,51.4562,-0.40935
-Lwr Lea Crossing Blackwall Way,51.5101,0.00205
+A406 Billet Upass E,26,http://archive.tfljamcams.net/archive/A406_Billet_Upass_E/,51.6007,-0.01594
+A10 Carterhatch Lane,26,http://archive.tfljamcams.net/archive/A10_Carterhatch_Lane/,51.6592,-0.05914
+A10 North of Lee Street,26,http://archive.tfljamcams.net/archive/A10_North_of_Lee_Street/,51.5386,-0.07685
+A102 Woolwich Rd (N),26,http://archive.tfljamcams.net/archive/A102_Woolwich_Rd_(N)/,51.4886,0.01447
+A10 Stamford Hill Lampard Grove,26,http://archive.tfljamcams.net/archive/A10_Stamford_Hill_Lampard_Grove/,51.5669,-0.07286
+A10 Grt Cambridge Rd Devonshire H Ln,26,http://archive.tfljamcams.net/archive/A10_Grt_Cambridge_Rd_Devonshire_H_Ln/,51.6067,-0.08556
+A12 Bromley-by-Bow,26,http://archive.tfljamcams.net/archive/A12_Bromley-by-Bow/,51.5256,-0.01169
+A102 Tunnel House N,26,http://archive.tfljamcams.net/archive/A102_Tunnel_House_N/,51.4969,0.00193
+A10 North of Northwold Rd,26,http://archive.tfljamcams.net/archive/A10_North_of_Northwold_Rd/,51.5636,-0.07325
+A10 Stoke Newington Rd Millers Terrace,26,http://archive.tfljamcams.net/archive/A10_Stoke_Newington_Rd_Millers_Terrace/,51.5512,-0.07501
+A23 Purley Cross A23 Foxley Lane,26,http://archive.tfljamcams.net/archive/A23_Purley_Cross_A23_Foxley_Lane/,51.3398,-0.11739
+A12 Dyers Hl W 3793A,26,http://archive.tfljamcams.net/archive/A12_Dyers_Hl_W_3793A/,51.5632,0.00348
+A10 Grt Cambridge Rd A110 S bury Rd,26,http://archive.tfljamcams.net/archive/A10_Grt_Cambridge_Rd_A110_S_bury_Rd/,51.6496,-0.06039
+A12 Eastern Avenue A125 North St,26,http://archive.tfljamcams.net/archive/A12_Eastern_Avenue_A125_North_St/,51.5865,0.17314
+A12 Eastern Av Whalebone Ln,26,http://archive.tfljamcams.net/archive/A12_Eastern_Av_Whalebone_Ln/,51.5812,0.14109
+A10 North of Brooke Road,26,http://archive.tfljamcams.net/archive/A10_North_of_Brooke_Road/,51.5606,-0.07056
+A12 Eastern Av Brook Rd,26,http://archive.tfljamcams.net/archive/A12_Eastern_Av_Brook_Rd/,51.5755,0.09367
+A2 New Cross Rd Besson St,26,http://archive.tfljamcams.net/archive/A2_New_Cross_Rd_Besson_St/,51.4753,-0.04715
+A12 Dyers Hl E 3830A,26,http://archive.tfljamcams.net/archive/A12_Dyers_Hl_E_3830A/,51.5661,0.00594
+A107 Upper Clapton Rd Southwold Rd,26,http://archive.tfljamcams.net/archive/A107_Upper_Clapton_Rd_Southwold_Rd/,51.5619,-0.05748
+A10 South of St Peters Way,26,http://archive.tfljamcams.net/archive/A10_South_of_St_Peters_Way/,51.5405,-0.07668
+A127 Squirrels Heath Drive,26,http://archive.tfljamcams.net/archive/A127_Squirrels_Heath_Drive/,51.5869,0.22454
+A12 Cathall Rd 3775A,26,http://archive.tfljamcams.net/archive/A12_Cathall_Rd_3775A/,51.5619,0.00185
+A3 Clapham Rd Lingham St,26,http://archive.tfljamcams.net/archive/A3_Clapham_Rd_Lingham_St/,51.4712,-0.12362
+A12 Blackwall Tunnel Nthern App Gillender St,26,http://archive.tfljamcams.net/archive/A12_Blackwall_Tunnel_Nthern_App_Gillender_St/,51.5212,-0.01031
+A12 Colville R 3732A,26,http://archive.tfljamcams.net/archive/A12_Colville_R_3732A/,51.559,-0.00218
+A10 North of Waterson St,26,http://archive.tfljamcams.net/archive/A10_North_of_Waterson_St/,51.5289,-0.07774
+A10 Stoke Newington Rd Barretts Grove,26,http://archive.tfljamcams.net/archive/A10_Stoke_Newington_Rd_Barretts_Grove/,51.5522,-0.07486
+A1 South of Muswell Hill,26,http://archive.tfljamcams.net/archive/A1_South_of_Muswell_Hill/,51.5773,-0.14662
+A200 Jamaica Road,26,http://archive.tfljamcams.net/archive/A200_Jamaica_Road/,51.4991,-0.0561
+A12 Eastern Ave Gants Hill R-About,26,http://archive.tfljamcams.net/archive/A12_Eastern_Ave_Gants_Hill_R-About/,51.5763,0.06674
+A12 Wick Road,26,http://archive.tfljamcams.net/archive/A12_Wick_Road/,51.5448,-0.03214
+A12 Wansbeck Road,26,http://archive.tfljamcams.net/archive/A12_Wansbeck_Road/,51.5418,-0.02692
+A13 Cotton St,26,http://archive.tfljamcams.net/archive/A13_Cotton_St/,51.5113,-0.01077
+A12 GMT E Appr 3969L,26,http://archive.tfljamcams.net/archive/A12_GMT_E_Appr_3969L/,51.5719,0.0199
+A40  Near Mansfield Rd,26,http://archive.tfljamcams.net/archive/A40__Near_Mansfield_Rd/,51.5262,-0.27502
+A12 Church Ln 3839A,26,http://archive.tfljamcams.net/archive/A12_Church_Ln_3839A/,51.5667,0.00641
+A12 Kswood Rd 3893A,26,http://archive.tfljamcams.net/archive/A12_Kswood_Rd_3893A/,51.571,0.01022
+A3 Clapham High St Aristotle Rd,26,http://archive.tfljamcams.net/archive/A3_Clapham_High_St_Aristotle_Rd/,51.4644,-0.13143
+A12 Carradale House,26,http://archive.tfljamcams.net/archive/A12_Carradale_House/,51.5148,-0.00869
+Angel Islington,26,http://archive.tfljamcams.net/archive/Angel_Islington/,51.5319,-0.10642
+A312 Parkway M4 J3,26,http://archive.tfljamcams.net/archive/A312_Parkway_M4_J3/,51.4929,-0.4103
+Airport Way Stanwellmore Rd,26,http://archive.tfljamcams.net/archive/Airport_Way_Stanwellmore_Rd/,51.463,-0.49324
+Baker St Marylebone Rd,26,http://archive.tfljamcams.net/archive/Baker_St_Marylebone_Rd/,51.5222,-0.15768
+A13 A102 EIDR,26,http://archive.tfljamcams.net/archive/A13_A102_EIDR/,51.5114,-0.00758
+A12 East Cross Route,26,http://archive.tfljamcams.net/archive/A12_East_Cross_Route/,51.5482,-0.02874
+Balham High Rd Upper Tting Pk,26,http://archive.tfljamcams.net/archive/Balham_High_Rd_Upper_Tting_Pk/,51.4389,-0.15648
+Battersea Pk Rd Battersea Brg,26,http://archive.tfljamcams.net/archive/Battersea_Pk_Rd_Battersea_Brg/,51.4723,-0.16512
+A406 Abbey Road Underpass,26,http://archive.tfljamcams.net/archive/A406_Abbey_Road_Underpass/,51.5395,-0.27802
+Balham Hill Yukon Rd,26,http://archive.tfljamcams.net/archive/Balham_Hill_Yukon_Rd/,51.4491,-0.1479
+Chepstow Rd Addiscombe Rd,26,http://archive.tfljamcams.net/archive/Chepstow_Rd_Addiscombe_Rd/,51.375,-0.08142
+Kennington Pk Rd Kennington Rd,26,http://archive.tfljamcams.net/archive/Kennington_Pk_Rd_Kennington_Rd/,51.485,-0.1092
+Jamaica Rd E of Abbey St,26,http://archive.tfljamcams.net/archive/Jamaica_Rd_E_of_Abbey_St/,51.4985,-0.06964
+Kennington Lane Kennington Rd,26,http://archive.tfljamcams.net/archive/Kennington_Lane_Kennington_Rd/,51.4884,-0.11116
+Kingsland Rd Balls Pond Rd,26,http://archive.tfljamcams.net/archive/Kingsland_Rd_Balls_Pond_Rd/,51.5463,-0.07566
+Lwr Lea Crossing Blackwall Way,26,http://archive.tfljamcams.net/archive/Lwr_Lea_Crossing_Blackwall_Way/,51.5101,0.00205
+Limehouse Tunnel The Highway,26,http://archive.tfljamcams.net/archive/Limehouse_Tunnel_The_Highway/,51.5107,-0.04053
+Nine Elms,26,http://archive.tfljamcams.net/archive/Nine_Elms/,51.4843,-0.12684
+New Kent Rd   Balfour St,26,http://archive.tfljamcams.net/archive/New_Kent_Rd___Balfour_St/,51.4941,-0.09159
+Nine Elms Ln Wandsworth Rd,26,http://archive.tfljamcams.net/archive/Nine_Elms_Ln_Wandsworth_Rd/,51.4848,-0.12858
+Queenstwn Rd Chelsea Bridge,26,http://archive.tfljamcams.net/archive/Queenstwn_Rd_Chelsea_Bridge/,51.4798,-0.14879
+Nine Elms Ln Cringle St,26,http://archive.tfljamcams.net/archive/Nine_Elms_Ln_Cringle_St/,51.4812,-0.13804
+Prince Regents Lane E,26,http://archive.tfljamcams.net/archive/Prince_Regents_Lane_E/,51.518,0.03557
+Parliament Square,26,http://archive.tfljamcams.net/archive/Parliament_Square/,51.5011,-0.12628
+Montfichet Rd Westfield Ave Car Park B,26,http://archive.tfljamcams.net/archive/Montfichet_Rd_Westfield_Ave_Car_Park_B/,51.5411,-0.00528
+Noel Road,26,http://archive.tfljamcams.net/archive/Noel_Road/,51.5203,0.04645
+Peckham Rd E of Vestry Rd,26,http://archive.tfljamcams.net/archive/Peckham_Rd_E_of_Vestry_Rd/,51.4737,-0.08359
+A10 Broad Lane Talbot Rd,26,http://archive.tfljamcams.net/archive/A10_Broad_Lane_Talbot_Rd/,51.5843,-0.06899
+Park Rd   Gloucester Pl,26,http://archive.tfljamcams.net/archive/Park_Rd___Gloucester_Pl/,51.5258,-0.16145
+Notting Hill Gate Palace Grdns Ter,26,http://archive.tfljamcams.net/archive/Notting_Hill_Gate_Palace_Grdns_Ter/,51.5094,-0.19438
+Pier Road Woolwich Ferry,26,http://archive.tfljamcams.net/archive/Pier_Road_Woolwich_Ferry/,51.4989,0.06368
+Park Lane   Upper Grosvenor St,26,http://archive.tfljamcams.net/archive/Park_Lane___Upper_Grosvenor_St/,51.5101,-0.1572
+Park Lane South of Mount Street,26,http://archive.tfljamcams.net/archive/Park_Lane_South_of_Mount_Street/,51.5089,-0.15462
+Queens Rd Pomeroy St Lausanne Rd,26,http://archive.tfljamcams.net/archive/Queens_Rd_Pomeroy_St_Lausanne_Rd/,51.4732,-0.05147
+Oxford St Vere St,26,http://archive.tfljamcams.net/archive/Oxford_St_Vere_St/,51.5147,-0.14721
+Purley Way Croydon Road,26,http://archive.tfljamcams.net/archive/Purley_Way_Croydon_Road/,51.368,-0.11885
+Oxford Circus,26,http://archive.tfljamcams.net/archive/Oxford_Circus/,51.5154,-0.14204
+Purley Way Newman Rd,26,http://archive.tfljamcams.net/archive/Purley_Way_Newman_Rd/,51.3835,-0.12116
+Queens Road Woods Road,26,http://archive.tfljamcams.net/archive/Queens_Road_Woods_Road/,51.474,-0.06234
+Pooles Lane West,26,http://archive.tfljamcams.net/archive/Pooles_Lane_West/,51.5312,0.13762
+Seven Sisters Rd St Ann,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_St_Ann/,51.5798,-0.07978
+Peckham Hg St wof Clayton Rd,26,http://archive.tfljamcams.net/archive/Peckham_Hg_St_wof_Clayton_Rd/,51.4739,-0.0665
+Park Lane Park St,26,http://archive.tfljamcams.net/archive/Park_Lane_Park_St/,51.3736,-0.09692
+Parkway Cranford High St,26,http://archive.tfljamcams.net/archive/Parkway_Cranford_High_St/,51.4838,-0.40773
+Peckham Rd Kelly Ave Lyndhrst Wy,26,http://archive.tfljamcams.net/archive/Peckham_Rd_Kelly_Ave_Lyndhrst_Wy/,51.474,-0.07443
+Pentonville Road   Penton Rise,26,http://archive.tfljamcams.net/archive/Pentonville_Road___Penton_Rise/,51.5314,-0.11401
+Seven Sisters Rd Alexandria Grove,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_Alexandria_Grove/,51.568,-0.09933
+Portman Square Orchard St,26,http://archive.tfljamcams.net/archive/Portman_Square_Orchard_St/,51.5154,-0.15462
+ROMFORD ROAD,26,http://archive.tfljamcams.net/archive/ROMFORD_ROAD/,51.5623,0.05681
+Shooters Hill Rd P o wales Rd,26,http://archive.tfljamcams.net/archive/Shooters_Hill_Rd_P_o_wales_Rd/,51.4735,0.01544
+Seven Sisters Rd Barrow Way,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_Barrow_Way/,51.5614,-0.11295
+Stoke Newington Rd Evering Rd,26,http://archive.tfljamcams.net/archive/Stoke_Newington_Rd_Evering_Rd/,51.5571,-0.07466
+Scrubs Lane Harrow Rd,26,http://archive.tfljamcams.net/archive/Scrubs_Lane_Harrow_Rd/,51.532,-0.23728
+Romford Rd   Vicarage Lane,26,http://archive.tfljamcams.net/archive/Romford_Rd___Vicarage_Lane/,51.5427,0.00926
+Rosebery Av Mount Pleasant,26,http://archive.tfljamcams.net/archive/Rosebery_Av_Mount_Pleasant/,51.5246,-0.111
+Shoreditch High St Commercial St,26,http://archive.tfljamcams.net/archive/Shoreditch_High_St_Commercial_St/,51.5228,-0.07762
+Seven Sis Rd Moreton Rd,26,http://archive.tfljamcams.net/archive/Seven_Sis_Rd_Moreton_Rd/,51.578,-0.08271
+Romford Rd   Tennyson Rd,26,http://archive.tfljamcams.net/archive/Romford_Rd___Tennyson_Rd/,51.5421,0.00524
+Kland Rd Balls Pond Rd,26,http://archive.tfljamcams.net/archive/Kland_Rd_Balls_Pond_Rd/,51.5458,-0.07567
+A12 Eastern Ave Mawney Road,26,http://archive.tfljamcams.net/archive/A12_Eastern_Ave_Mawney_Road/,51.5814,0.16445
+A504 Est End Rd A406 Nth Circ Rd,26,http://archive.tfljamcams.net/archive/A504_Est_End_Rd_A406_Nth_Circ_Rd/,51.5939,-0.18521
+A501 East of Melton St,26,http://archive.tfljamcams.net/archive/A501_East_of_Melton_St/,51.5265,-0.13356
+A3 Clapham Rd Caldwell St,26,http://archive.tfljamcams.net/archive/A3_Clapham_Rd_Caldwell_St/,51.4777,-0.11667
+Blackfriars Rd St George,26,http://archive.tfljamcams.net/archive/Blackfriars_Rd_St_George/,51.499,-0.10493
+Blackheath Rd Greenwich High Rd,26,http://archive.tfljamcams.net/archive/Blackheath_Rd_Greenwich_High_Rd/,51.4742,-0.02073
+Prince Albert Rd Parkway,26,http://archive.tfljamcams.net/archive/Prince_Albert_Rd_Parkway/,51.5363,-0.14681
+A23 Old Lodge Lane,26,http://archive.tfljamcams.net/archive/A23_Old_Lodge_Lane/,51.3318,-0.12475
+A2 Westmount Road,26,http://archive.tfljamcams.net/archive/A2_Westmount_Road/,51.4564,0.06041
+A205 Academy Rd Shooters Hill,26,http://archive.tfljamcams.net/archive/A205_Academy_Rd_Shooters_Hill/,51.4712,0.05519
+George St Wellesley Rd,26,http://archive.tfljamcams.net/archive/George_St_Wellesley_Rd/,51.3741,-0.09646
+Brompton Rd Beaufort Grns,26,http://archive.tfljamcams.net/archive/Brompton_Rd_Beaufort_Grns/,51.4983,-0.16584
+Harleyford St Ken Pk Rd,26,http://archive.tfljamcams.net/archive/Harleyford_St_Ken_Pk_Rd/,51.4823,-0.11264
+A12 M11 Redbrdg 100A,26,http://archive.tfljamcams.net/archive/A12_M11_Redbrdg_100A/,51.576,0.04432
+A24 Morden Rd Merantun Way,26,http://archive.tfljamcams.net/archive/A24_Morden_Rd_Merantun_Way/,51.4135,-0.19269
+Camden Rd Hillmarton Rd,26,http://archive.tfljamcams.net/archive/Camden_Rd_Hillmarton_Rd/,51.5533,-0.12327
+Bow Rd Flyover,26,http://archive.tfljamcams.net/archive/Bow_Rd_Flyover/,51.5296,-0.0142
+A12 Eastern Av Barley Lane,26,http://archive.tfljamcams.net/archive/A12_Eastern_Av_Barley_Lane/,51.5823,0.11658
+A10 High Rd Forster Rd,26,http://archive.tfljamcams.net/archive/A10_High_Rd_Forster_Rd/,51.5919,-0.07001
+Battersea Pk Rd Queenstown Rd,26,http://archive.tfljamcams.net/archive/Battersea_Pk_Rd_Queenstown_Rd/,51.4762,-0.14847
+A10 Kingsland Rd Stamford St,26,http://archive.tfljamcams.net/archive/A10_Kingsland_Rd_Stamford_St/,51.5444,-0.07616
+A102 Bwall Tunnel Sth Appr,26,http://archive.tfljamcams.net/archive/A102_Bwall_Tunnel_Sth_Appr/,51.4857,0.01914
+A23 Brixton Rd Wynne Rd,26,http://archive.tfljamcams.net/archive/A23_Brixton_Rd_Wynne_Rd/,51.4692,-0.1125
+Crown Lane Grasmere Avenue,26,http://archive.tfljamcams.net/archive/Crown_Lane_Grasmere_Avenue/,51.4018,-0.19698
+A24 Morden Rd Dorset Road,26,http://archive.tfljamcams.net/archive/A24_Morden_Rd_Dorset_Road/,51.4075,-0.19236
+A12 Madeira Rd 3815A,26,http://archive.tfljamcams.net/archive/A12_Madeira_Rd_3815A/,51.5648,0.0052
+A12 Langthorne 3713A,26,http://archive.tfljamcams.net/archive/A12_Langthorne_3713A/,51.5579,-0.00433
+A205 north of Broad Walk,26,http://archive.tfljamcams.net/archive/A205_north_of_Broad_Walk/,51.4695,0.05439
+Charing Cross Rd Cranbourne St,26,http://archive.tfljamcams.net/archive/Charing_Cross_Rd_Cranbourne_St/,51.5113,-0.1283
+A12 GGT W Appr 4002A,26,http://archive.tfljamcams.net/archive/A12_GGT_W_Appr_4002A/,51.5739,0.02384
+Kennington Lane Newington Butts,26,http://archive.tfljamcams.net/archive/Kennington_Lane_Newington_Butts/,51.4914,-0.10283
+A10 North of Shenfield St,26,http://archive.tfljamcams.net/archive/A10_North_of_Shenfield_St/,51.5312,-0.07699
+A10 South of Laburnum St,26,http://archive.tfljamcams.net/archive/A10_South_of_Laburnum_St/,51.5349,-0.07688
+A10   Downham Road,26,http://archive.tfljamcams.net/archive/A10___Downham_Road/,51.5391,-0.07662
+Beckton East,26,http://archive.tfljamcams.net/archive/Beckton_East/,51.5271,0.07776
+Burdett Rd Eric St,26,http://archive.tfljamcams.net/archive/Burdett_Rd_Eric_St/,51.5208,-0.03276
+A1 Barnet Wy A41 Edgware Wy,26,http://archive.tfljamcams.net/archive/A1_Barnet_Wy_A41_Edgware_Wy/,51.6218,-0.25478
+A23 Streatham H Rd Colmer Rd,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Colmer_Rd/,51.4145,-0.12426
+A12 Lea Bridge 3582A,26,http://archive.tfljamcams.net/archive/A12_Lea_Bridge_3582A/,51.5516,-0.01853
+A12 GMT W Appr 3921J,26,http://archive.tfljamcams.net/archive/A12_GMT_W_Appr_3921J/,51.5728,0.0132
+A21 North of Lewisham Pk,26,http://archive.tfljamcams.net/archive/A21_North_of_Lewisham_Pk/,51.4528,-0.01641
+A102 Shooters Hill,26,http://archive.tfljamcams.net/archive/A102_Shooters_Hill/,51.4746,0.02484
+A13 Burdett Rd,26,http://archive.tfljamcams.net/archive/A13_Burdett_Rd/,51.5119,-0.02849
+A23 Streatham H Rd Stanthorp Rd,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Stanthorp_Rd/,51.427,-0.13128
+A10 North of Holywell Ln,26,http://archive.tfljamcams.net/archive/A10_North_of_Holywell_Ln/,51.5239,-0.07727
+A118 Romford Rd A406 Ncr,26,http://archive.tfljamcams.net/archive/A118_Romford_Rd_A406_Ncr/,51.5564,0.06491
+A10 North of Evering Rd,26,http://archive.tfljamcams.net/archive/A10_North_of_Evering_Rd/,51.5583,-0.06936
+A10 Kingsland High St Winchester,26,http://archive.tfljamcams.net/archive/A10_Kingsland_High_St_Winchester/,51.5484,-0.07533
+A102 Blackwall Lane,26,http://archive.tfljamcams.net/archive/A102_Blackwall_Lane/,51.4939,0.00646
+A102 Woolwich Rd (S),26,http://archive.tfljamcams.net/archive/A102_Woolwich_Rd_(S)/,51.4798,0.02157
+A10 North of Walford Rd,26,http://archive.tfljamcams.net/archive/A10_North_of_Walford_Rd/,51.5559,-0.07467
+A102 Brunswick Rd,26,http://archive.tfljamcams.net/archive/A102_Brunswick_Rd/,51.5133,-0.00809
+A102 Pear Island,26,http://archive.tfljamcams.net/archive/A102_Pear_Island/,51.4961,0.00227
+Battersea Rise Lavender Sweep,26,http://archive.tfljamcams.net/archive/Battersea_Rise_Lavender_Sweep/,51.4609,-0.16331
+A102 Tunnel House S,26,http://archive.tfljamcams.net/archive/A102_Tunnel_House_S/,51.4965,0.00205
+Blackfriars Rd Pocock St,26,http://archive.tfljamcams.net/archive/Blackfriars_Rd_Pocock_St/,51.5018,-0.10451
+A21 Bromley Rd Callander Rd,26,http://archive.tfljamcams.net/archive/A21_Bromley_Rd_Callander_Rd/,51.435,-0.0178
+Kidbrooke Park Rd,26,http://archive.tfljamcams.net/archive/Kidbrooke_Park_Rd/,51.4613,0.02625
+A21 London Rd Tweedy Rd,26,http://archive.tfljamcams.net/archive/A21_London_Rd_Tweedy_Rd/,51.4089,0.01086
+Kensington Rd Exhibition Rd,26,http://archive.tfljamcams.net/archive/Kensington_Rd_Exhibition_Rd/,51.5017,-0.17483
+Borough High St Southwark St,26,http://archive.tfljamcams.net/archive/Borough_High_St_Southwark_St/,51.5048,-0.09008
+Bayswater Rd Lancaster Terrace,26,http://archive.tfljamcams.net/archive/Bayswater_Rd_Lancaster_Terrace/,51.5116,-0.17596
+Albert Emb Glasshouse Wk,26,http://archive.tfljamcams.net/archive/Albert_Emb_Glasshouse_Wk/,51.4889,-0.12294
+Kensington High St Church St,26,http://archive.tfljamcams.net/archive/Kensington_High_St_Church_St/,51.502,-0.19082
+Wworth High St Wworth Plain,26,http://archive.tfljamcams.net/archive/Wworth_High_St_Wworth_Plain/,51.4573,-0.19502
+Bath Rd   Oxford Ave,26,http://archive.tfljamcams.net/archive/Bath_Rd___Oxford_Ave/,51.4807,-0.42447
+A10 South of Farleigh Rd,26,http://archive.tfljamcams.net/archive/A10_South_of_Farleigh_Rd/,51.5548,-0.07466
+Watford Way Great North Way,26,http://archive.tfljamcams.net/archive/Watford_Way_Great_North_Way/,51.6019,-0.23509
+Warwick Rd W Cromwell Rd,26,http://archive.tfljamcams.net/archive/Warwick_Rd_W_Cromwell_Rd/,51.4927,-0.20044
+Watford Way Mill Hill Circus,26,http://archive.tfljamcams.net/archive/Watford_Way_Mill_Hill_Circus/,51.6154,-0.24215
+Brighton Rd Farthing Way,26,http://archive.tfljamcams.net/archive/Brighton_Rd_Farthing_Way/,51.3234,-0.13475
+Bow Rd Alfred St,26,http://archive.tfljamcams.net/archive/Bow_Rd_Alfred_St/,51.5271,-0.0255
+Western Ave Swaklys RB,26,http://archive.tfljamcams.net/archive/Western_Ave_Swaklys_RB/,51.5591,-0.46984
+Camden Rd St Pancras Way,26,http://archive.tfljamcams.net/archive/Camden_Rd_St_Pancras_Way/,51.5427,-0.13744
+Battersea Pk Rd Prince of Wales Dr,26,http://archive.tfljamcams.net/archive/Battersea_Pk_Rd_Prince_of_Wales_Dr/,51.4779,-0.14518
+Tweedy Rd N of Widmore Rd,26,http://archive.tfljamcams.net/archive/Tweedy_Rd_N_of_Widmore_Rd/,51.4066,0.01867
+Upper St Nth Duncan St,26,http://archive.tfljamcams.net/archive/Upper_St_Nth_Duncan_St/,51.534,-0.10518
+A4 Great W Rd Macbeth St,26,http://archive.tfljamcams.net/archive/A4_Great_W_Rd_Macbeth_St/,51.4909,-0.23286
+Thurlow Park Road Croxted Road,26,http://archive.tfljamcams.net/archive/Thurlow_Park_Road_Croxted_Road/,51.4412,-0.09268
+A406 Fulbourne Road,26,http://archive.tfljamcams.net/archive/A406_Fulbourne_Road/,51.6004,-0.00925
+A2 Westhorne Avenue,26,http://archive.tfljamcams.net/archive/A2_Westhorne_Avenue/,51.4569,0.04229
+Bressenden Place   Stag Place,26,http://archive.tfljamcams.net/archive/Bressenden_Place___Stag_Place/,51.4976,-0.14207
+Limehouse Tnl HH Westferry Rd Exit,26,http://archive.tfljamcams.net/archive/Limehouse_Tnl_HH_Westferry_Rd_Exit/,51.5079,-0.02752
+Lwr Mortlake Rd Manor Circus,26,http://archive.tfljamcams.net/archive/Lwr_Mortlake_Rd_Manor_Circus/,51.4677,-0.28769
+A3 Clapham Road Mayflower Road,26,http://archive.tfljamcams.net/archive/A3_Clapham_Road_Mayflower_Road/,51.4678,-0.12809
+A406 Cooks Ferry R B,26,http://archive.tfljamcams.net/archive/A406_Cooks_Ferry_R_B/,51.6133,-0.03691
+A2 Glenesk Rochester,26,http://archive.tfljamcams.net/archive/A2_Glenesk_Rochester/,51.4571,0.06597
+A3 Clapham Cmon Southside Long Rd,26,http://archive.tfljamcams.net/archive/A3_Clapham_Cmon_Southside_Long_Rd/,51.4609,-0.13953
+The Vale   Eastman Rd,26,http://archive.tfljamcams.net/archive/The_Vale___Eastman_Rd/,51.5064,-0.26051
+Kensington Hi St Warwick Rd,26,http://archive.tfljamcams.net/archive/Kensington_Hi_St_Warwick_Rd/,51.4967,-0.20537
+Brighton Road,26,http://archive.tfljamcams.net/archive/Brighton_Road/,51.3324,-0.12398
+Archway Rd Gladsmuir Rd,26,http://archive.tfljamcams.net/archive/Archway_Rd_Gladsmuir_Rd/,51.5686,-0.13639
+Exhibition Rd Cromwell Rd,26,http://archive.tfljamcams.net/archive/Exhibition_Rd_Cromwell_Rd/,51.4957,-0.17359
+Archway Rd   Causton Rd,26,http://archive.tfljamcams.net/archive/Archway_Rd___Causton_Rd/,51.5736,-0.14128
+Herne Hill Norwood Rd,26,http://archive.tfljamcams.net/archive/Herne_Hill_Norwood_Rd/,51.4522,-0.10134
+Pettman Crescent Western Way,26,http://archive.tfljamcams.net/archive/Pettman_Crescent_Western_Way/,51.4926,0.08607
+Kennington Ln Chester Way,26,http://archive.tfljamcams.net/archive/Kennington_Ln_Chester_Way/,51.4899,-0.10798
+A10 North of Tyssen Road,26,http://archive.tfljamcams.net/archive/A10_North_of_Tyssen_Road/,51.5596,-0.07424
+High Street Rick Roberts Way,26,http://archive.tfljamcams.net/archive/High_Street_Rick_Roberts_Way/,51.535,-0.0056
+Victoria St Wilton Rd,26,http://archive.tfljamcams.net/archive/Victoria_St_Wilton_Rd/,51.4963,-0.14243
+Kings X Rd   Wharton St,26,http://archive.tfljamcams.net/archive/Kings_X_Rd___Wharton_St/,51.5276,-0.11548
+Tunnel House (Fixed),26,http://archive.tfljamcams.net/archive/Tunnel_House_(Fixed)/,51.4967,0.00205
+Park Lane Barclay Rd,26,http://archive.tfljamcams.net/archive/Park_Lane_Barclay_Rd/,51.3716,-0.09636
+Balls Pond Rd Henshall St,26,http://archive.tfljamcams.net/archive/Balls_Pond_Rd_Henshall_St/,51.5465,-0.08591
+Buck Palace Rd Eccleston Bridge,26,http://archive.tfljamcams.net/archive/Buck_Palace_Rd_Eccleston_Bridge/,51.4941,-0.14655
+A501 E of Gloucester Pl,26,http://archive.tfljamcams.net/archive/A501_E_of_Gloucester_Pl/,51.5217,-0.15924
+A406 Billet Upass W,26,http://archive.tfljamcams.net/archive/A406_Billet_Upass_W/,51.601,-0.01695
+A4 Great West Rd A3063 Sutton Ln,26,http://archive.tfljamcams.net/archive/A4_Great_West_Rd_A3063_Sutton_Ln/,51.4781,-0.37244
+Upper Richmond Rd Ravenna Rd,26,http://archive.tfljamcams.net/archive/Upper_Richmond_Rd_Ravenna_Rd/,51.4615,-0.22031
+Kentish Way N of Masons Hill,26,http://archive.tfljamcams.net/archive/Kentish_Way_N_of_Masons_Hill/,51.3989,0.02036
+Woolwich Rd Charlton Church Lane,26,http://archive.tfljamcams.net/archive/Woolwich_Rd_Charlton_Church_Lane/,51.4878,0.0311
+A5 Edgware Rd Broadley St,26,http://archive.tfljamcams.net/archive/A5_Edgware_Rd_Broadley_St/,51.5213,-0.17168
+A3220 Northern Roundabout,26,http://archive.tfljamcams.net/archive/A3220_Northern_Roundabout/,51.5154,-0.21693
+A406 Angel Road East,26,http://archive.tfljamcams.net/archive/A406_Angel_Road_East/,51.6114,-0.04729
+A406 NCR Grt Central Way,26,http://archive.tfljamcams.net/archive/A406_NCR_Grt_Central_Way/,51.5527,-0.25521
+A406 WATERWORKS RDB,26,http://archive.tfljamcams.net/archive/A406_WATERWORKS_RDB/,51.5952,0.01072
+Holloway Rd Nth Furlong Rd,26,http://archive.tfljamcams.net/archive/Holloway_Rd_Nth_Furlong_Rd/,51.5477,-0.106
+Swiss Cottage Finchley Rd,26,http://archive.tfljamcams.net/archive/Swiss_Cottage_Finchley_Rd/,51.544,-0.17502
+Caledonian R Caledonia S,26,http://archive.tfljamcams.net/archive/Caledonian_R_Caledonia_S/,51.5318,-0.12093
+A3 Hook Rise A243 Hook Rd,26,http://archive.tfljamcams.net/archive/A3_Hook_Rise_A243_Hook_Rd/,51.3752,-0.30359
+Uxbridge Rd Chapel Rd,26,http://archive.tfljamcams.net/archive/Uxbridge_Rd_Chapel_Rd/,51.5109,-0.31884
+Finchley Rd Frognal Ct,26,http://archive.tfljamcams.net/archive/Finchley_Rd_Frognal_Ct/,51.5484,-0.18096
+Old Brompton Rd Finboro Rd,26,http://archive.tfljamcams.net/archive/Old_Brompton_Rd_Finboro_Rd/,51.4886,-0.19275
+A406 NCR Henlys Corner,26,http://archive.tfljamcams.net/archive/A406_NCR_Henlys_Corner/,51.59,-0.20008
+Fore St West Ramp,26,http://archive.tfljamcams.net/archive/Fore_St_West_Ramp/,51.6146,-0.0733
+Lea Valley Cabinet Way,26,http://archive.tfljamcams.net/archive/Lea_Valley_Cabinet_Way/,51.6103,-0.03041
+Old Street e of Vince St,26,http://archive.tfljamcams.net/archive/Old_Street_e_of_Vince_St/,51.5262,-0.08563
+Movers Lane East,26,http://archive.tfljamcams.net/archive/Movers_Lane_East/,51.5314,0.09954
+Northumberland Ave Victoria Emb,26,http://archive.tfljamcams.net/archive/Northumberland_Ave_Victoria_Emb/,51.5064,-0.12224
+New Kings Rd Wanworth Brg Rd,26,http://archive.tfljamcams.net/archive/New_Kings_Rd_Wanworth_Brg_Rd/,51.4765,-0.19286
+Strand Lancaster Place,26,http://archive.tfljamcams.net/archive/Strand_Lancaster_Place/,51.5114,-0.11924
+Barking Rd   W of Bartle Ave,26,http://archive.tfljamcams.net/archive/Barking_Rd___W_of_Bartle_Ave/,51.5325,0.05063
+Rushy Green Rosenthal Rd,26,http://archive.tfljamcams.net/archive/Rushy_Green_Rosenthal_Rd/,51.4488,-0.01722
+Old Kent Rd St James Rd,26,http://archive.tfljamcams.net/archive/Old_Kent_Rd_St_James_Rd/,51.4839,-0.06641
+Millennium Wy Edmund Halley Wy,26,http://archive.tfljamcams.net/archive/Millennium_Wy_Edmund_Halley_Wy/,51.4978,0.00289
+Molesworth St Riversdale shops,26,http://archive.tfljamcams.net/archive/Molesworth_St_Riversdale_shops/,51.4618,-0.01334
+NEWHAM WAY - FORTY ACRE LANE,26,http://archive.tfljamcams.net/archive/NEWHAM_WAY_-_FORTY_ACRE_LANE/,51.5158,0.01067
+Millbank Vauxhall Bridge,26,http://archive.tfljamcams.net/archive/Millbank_Vauxhall_Bridge/,51.4887,-0.12974
+Mile End Rd Harford St,26,http://archive.tfljamcams.net/archive/Mile_End_Rd_Harford_St/,51.5229,-0.04004
+Leatherhead Rd Fairoak Lane,26,http://archive.tfljamcams.net/archive/Leatherhead_Rd_Fairoak_Lane/,51.3419,-0.31786
+Brixton Hill  Lambert Rd,26,http://archive.tfljamcams.net/archive/Brixton_Hill__Lambert_Rd/,51.4553,-0.1194
+A406 A124 Barking,26,http://archive.tfljamcams.net/archive/A406_A124_Barking/,51.538,0.06771
+Tweedy Rd E of Sherman Rd,26,http://archive.tfljamcams.net/archive/Tweedy_Rd_E_of_Sherman_Rd/,51.4079,0.01713
+Lee High Rd Old Rd,26,http://archive.tfljamcams.net/archive/Lee_High_Rd_Old_Rd/,51.4586,0.00287
+Borough High St Grt Dover St,26,http://archive.tfljamcams.net/archive/Borough_High_St_Grt_Dover_St/,51.5011,-0.09317
+Kings X Rd   Swinton St,26,http://archive.tfljamcams.net/archive/Kings_X_Rd___Swinton_St/,51.5294,-0.11572
+Fulham Rd Redcliffe Gardens,26,http://archive.tfljamcams.net/archive/Fulham_Rd_Redcliffe_Gardens/,51.4842,-0.18431
+Romford Rd   Sprowston Rd,26,http://archive.tfljamcams.net/archive/Romford_Rd___Sprowston_Rd/,51.5464,0.0238
+Wandworth Bridge York Rd,26,http://archive.tfljamcams.net/archive/Wandworth_Bridge_York_Rd/,51.4629,-0.18604
+Limehouse Tnl Westferry Rd Entr,26,http://archive.tfljamcams.net/archive/Limehouse_Tnl_Westferry_Rd_Entr/,51.5077,-0.02766
+Denmark Hill Love Walk,26,http://archive.tfljamcams.net/archive/Denmark_Hill_Love_Walk/,51.4712,-0.09306
+Leamouth Road,26,http://archive.tfljamcams.net/archive/Leamouth_Road/,51.5127,-0.00048
+Gates Br Waterworks E,26,http://archive.tfljamcams.net/archive/Gates_Br_Waterworks_E/,51.5964,0.0227
+Gt Eastern St Holywell Ln,26,http://archive.tfljamcams.net/archive/Gt_Eastern_St_Holywell_Ln/,51.5241,-0.07984
+Seven Sisters Rd by Sussex Way,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_by_Sussex_Way/,51.56,-0.11566
+A205 Kew Rd Kew Green,26,http://archive.tfljamcams.net/archive/A205_Kew_Rd_Kew_Green/,51.4853,-0.28752
+A13 East India Dock Cotton St,26,http://archive.tfljamcams.net/archive/A13_East_India_Dock_Cotton_St/,51.5115,-0.00971
+Lodge Avenue,26,http://archive.tfljamcams.net/archive/Lodge_Avenue/,51.533,0.10988
+A4 Great W Rd Syon Ln,26,http://archive.tfljamcams.net/archive/A4_Great_W_Rd_Syon_Ln/,51.4833,-0.32614
+Shaftesbury Ave High Holborn,26,http://archive.tfljamcams.net/archive/Shaftesbury_Ave_High_Holborn/,51.5157,-0.12612
+EIDT West Ramp Gantry,26,http://archive.tfljamcams.net/archive/EIDT_West_Ramp_Gantry/,51.5098,-0.00254
+Lambeth Plc Rd Royal St,26,http://archive.tfljamcams.net/archive/Lambeth_Plc_Rd_Royal_St/,51.4985,-0.11747
+Kingsway High Holborn,26,http://archive.tfljamcams.net/archive/Kingsway_High_Holborn/,51.5177,-0.12056
+A1 Archway Rd Bakers Ln,26,http://archive.tfljamcams.net/archive/A1_Archway_Rd_Bakers_Ln/,51.5818,-0.15645
+Edgware Rd Seymour St,26,http://archive.tfljamcams.net/archive/Edgware_Rd_Seymour_St/,51.5141,-0.16133
+EIDT East Portal Pole,26,http://archive.tfljamcams.net/archive/EIDT_East_Portal_Pole/,51.5134,0.00141
+A501 W of Park Sq East,26,http://archive.tfljamcams.net/archive/A501_W_of_Park_Sq_East/,51.524,-0.14568
+Leman St   Prescot St,26,http://archive.tfljamcams.net/archive/Leman_St___Prescot_St/,51.512,-0.06927
+Old Kent Rd Hendre Rd,26,http://archive.tfljamcams.net/archive/Old_Kent_Rd_Hendre_Rd/,51.4913,-0.08168
+Kingsland Rd Hackney Rd,26,http://archive.tfljamcams.net/archive/Kingsland_Rd_Hackney_Rd/,51.5274,-0.07797
+Whitechapel Rd Court St,26,http://archive.tfljamcams.net/archive/Whitechapel_Rd_Court_St/,51.5187,-0.0611
+Brompton Rd,26,http://archive.tfljamcams.net/archive/Brompton_Rd/,51.5008,-0.16227
+Lordship Ln Dulwich Cmn,26,http://archive.tfljamcams.net/archive/Lordship_Ln_Dulwich_Cmn/,51.4434,-0.06749
+Fulham Palace Rd Lillie Rd,26,http://archive.tfljamcams.net/archive/Fulham_Palace_Rd_Lillie_Rd/,51.4837,-0.21956
+South Lambeth Rd Tradescant Rd,26,http://archive.tfljamcams.net/archive/South_Lambeth_Rd_Tradescant_Rd/,51.4789,-0.12365
+Burdett Rd Ackroyd Drive,26,http://archive.tfljamcams.net/archive/Burdett_Rd_Ackroyd_Drive/,51.5181,-0.03008
+Shaftesbury Ave   Macclesfield St,26,http://archive.tfljamcams.net/archive/Shaftesbury_Ave___Macclesfield_St/,51.5121,-0.13158
+Hobart Place Grosvenor Place,26,http://archive.tfljamcams.net/archive/Hobart_Place_Grosvenor_Place/,51.4982,-0.14695
+Woolwich Rd A102 Flyover,26,http://archive.tfljamcams.net/archive/Woolwich_Rd_A102_Flyover/,51.4863,0.01695
+Castle Green,26,http://archive.tfljamcams.net/archive/Castle_Green/,51.5317,0.12444
+Eastbourne Te Bishops Bridge Rd,26,http://archive.tfljamcams.net/archive/Eastbourne_Te_Bishops_Bridge_Rd/,51.5179,-0.18026
+Whitechapel Rd White Church Ln,26,http://archive.tfljamcams.net/archive/Whitechapel_Rd_White_Church_Ln/,51.5163,-0.06894
+A3 Clapham Rd Handforth Street,26,http://archive.tfljamcams.net/archive/A3_Clapham_Rd_Handforth_Street/,51.4798,-0.11451
+Farringdon Rd opp Ray St,26,http://archive.tfljamcams.net/archive/Farringdon_Rd_opp_Ray_St/,51.5232,-0.10792
+East India Dock Rd Chrisp St,26,http://archive.tfljamcams.net/archive/East_India_Dock_Rd_Chrisp_St/,51.5112,-0.01399
+Limehouse Tunnel Butcher Row,26,http://archive.tfljamcams.net/archive/Limehouse_Tunnel_Butcher_Row/,51.5106,-0.04182
+Finchley Rd Sth of Rosemont Rd,26,http://archive.tfljamcams.net/archive/Finchley_Rd_Sth_of_Rosemont_Rd/,51.5493,-0.18171
+Finchley High Rd A406,26,http://archive.tfljamcams.net/archive/Finchley_High_Rd_A406/,51.6013,-0.17396
+Great Eastern Rd Angel Lane Bridge,26,http://archive.tfljamcams.net/archive/Great_Eastern_Rd_Angel_Lane_Bridge/,51.5443,0.00026
+Fulham Palace Rd Lysia St,26,http://archive.tfljamcams.net/archive/Fulham_Palace_Rd_Lysia_St/,51.4818,-0.21805
+Eastern Ave   Gallows Corner,26,http://archive.tfljamcams.net/archive/Eastern_Ave___Gallows_Corner/,51.5934,0.21576
+Peckham High St Rye Lane,26,http://archive.tfljamcams.net/archive/Peckham_High_St_Rye_Lane/,51.4733,-0.0701
+A12 Eastern Av Beehive Lane,26,http://archive.tfljamcams.net/archive/A12_Eastern_Av_Beehive_Lane/,51.5764,0.06064
+Court Rd Sidcup Rd,26,http://archive.tfljamcams.net/archive/Court_Rd_Sidcup_Rd/,51.4391,0.05007
+London Rd Wharfedale Gardens,26,http://archive.tfljamcams.net/archive/London_Rd_Wharfedale_Gardens/,51.4014,-0.11851
+CHARLIE BROWNS ROUNDABOUT,26,http://archive.tfljamcams.net/archive/CHARLIE_BROWNS_ROUNDABOUT/,51.5931,0.03633
+Evelyn Street   Bestwood St,26,http://archive.tfljamcams.net/archive/Evelyn_Street___Bestwood_St/,51.49,-0.04228
+Cromwell Rd Collingham Rd,26,http://archive.tfljamcams.net/archive/Cromwell_Rd_Collingham_Rd/,51.4946,-0.18878
+Burdett Rd Dod St,26,http://archive.tfljamcams.net/archive/Burdett_Rd_Dod_St/,51.5135,-0.02767
+Catford Hill Dogget Rd,26,http://archive.tfljamcams.net/archive/Catford_Hill_Dogget_Rd/,51.4446,-0.02393
+Uxbridge Rd Park View Rd,26,http://archive.tfljamcams.net/archive/Uxbridge_Rd_Park_View_Rd/,51.511,-0.36935
+Upper Tooting Rd Topsham Rd,26,http://archive.tfljamcams.net/archive/Upper_Tooting_Rd_Topsham_Rd/,51.4346,-0.1615
+City Rd Shepherdess Walk,26,http://archive.tfljamcams.net/archive/City_Rd_Shepherdess_Walk/,51.5285,-0.09239
+Vauxhall Brd Rd Stanford St,26,http://archive.tfljamcams.net/archive/Vauxhall_Brd_Rd_Stanford_St/,51.4916,-0.1359
+Albert Bridge Rd,26,http://archive.tfljamcams.net/archive/Albert_Bridge_Rd/,51.4813,-0.1663
+Woodford Ave   Clayhall Ave,26,http://archive.tfljamcams.net/archive/Woodford_Ave___Clayhall_Ave/,51.5901,0.04919
+Earls Crt Rd Earls Crt Station,26,http://archive.tfljamcams.net/archive/Earls_Crt_Rd_Earls_Crt_Station/,51.4921,-0.19266
+A2 Blackheath Hill Plumbridge St,26,http://archive.tfljamcams.net/archive/A2_Blackheath_Hill_Plumbridge_St/,51.4728,-0.01474
+Uxbridge Rd Askew Rd,26,http://archive.tfljamcams.net/archive/Uxbridge_Rd_Askew_Rd/,51.5067,-0.24443
+Edgware Rd S of Upper Berkeley St,26,http://archive.tfljamcams.net/archive/Edgware_Rd_S_of_Upper_Berkeley_St/,51.5148,-0.16237
+Eltham Rd Sidcup Rd,26,http://archive.tfljamcams.net/archive/Eltham_Rd_Sidcup_Rd/,51.4532,0.02756
+Trafalgar Rd Greenwich Pk St,26,http://archive.tfljamcams.net/archive/Trafalgar_Rd_Greenwich_Pk_St/,51.4837,-0.00014
+Ferry Lane,26,http://archive.tfljamcams.net/archive/Ferry_Lane/,51.5119,0.18383
+Goresbrook East,26,http://archive.tfljamcams.net/archive/Goresbrook_East/,51.5243,0.15119
+Trinity Road - Dorlcote Road,26,http://archive.tfljamcams.net/archive/Trinity_Road_-_Dorlcote_Road/,51.4503,-0.17405
+Purley Way Waddon Road,26,http://archive.tfljamcams.net/archive/Purley_Way_Waddon_Road/,51.3708,-0.11724
+Parkhurst Rd by Holloway Rd,26,http://archive.tfljamcams.net/archive/Parkhurst_Rd_by_Holloway_Rd/,51.5575,-0.12007
+Clockhouse Lane Staines Rd,26,http://archive.tfljamcams.net/archive/Clockhouse_Lane_Staines_Rd/,51.4486,-0.44746
+Old Street Gt Eastern St,26,http://archive.tfljamcams.net/archive/Old_Street_Gt_Eastern_St/,51.5265,-0.08414
+Addiscombe Rd Cherry Orchard Rd,26,http://archive.tfljamcams.net/archive/Addiscombe_Rd_Cherry_Orchard_Rd/,51.3753,-0.09123
+Piccadilly Down St,26,http://archive.tfljamcams.net/archive/Piccadilly_Down_St/,51.5044,-0.1472
+ASPEN WAY - BLACKWALL WAY,26,http://archive.tfljamcams.net/archive/ASPEN_WAY_-_BLACKWALL_WAY/,51.5084,-0.00388
+Rocks Lane,26,http://archive.tfljamcams.net/archive/Rocks_Lane/,51.4653,-0.24389
+Oxford St Davies St,26,http://archive.tfljamcams.net/archive/Oxford_St_Davies_St/,51.5144,-0.1494
+A4200 Woburn Pl Russell Sq,26,http://archive.tfljamcams.net/archive/A4200_Woburn_Pl_Russell_Sq/,51.5229,-0.12584
+Pembroke Rd Cromwell Crescent,26,http://archive.tfljamcams.net/archive/Pembroke_Rd_Cromwell_Crescent/,51.4948,-0.19948
+Tooley St Jamaica Rd,26,http://archive.tfljamcams.net/archive/Tooley_St_Jamaica_Rd/,51.5005,-0.07445
+A406 Staples Corner Approach,26,http://archive.tfljamcams.net/archive/A406_Staples_Corner_Approach/,51.5701,-0.2373
+A4 Colnbrook Stanwell Moor Rd,26,http://archive.tfljamcams.net/archive/A4_Colnbrook_Stanwell_Moor_Rd/,51.4839,-0.49248
+A40 Western Ave Long Lane,26,http://archive.tfljamcams.net/archive/A40_Western_Ave_Long_Lane/,51.5544,-0.44771
+A3 Kingston Bypass South Lane,26,http://archive.tfljamcams.net/archive/A3_Kingston_Bypass_South_Lane/,51.3923,-0.26182
+Twickenham Rd Heathcote Rd,26,http://archive.tfljamcams.net/archive/Twickenham_Rd_Heathcote_Rd/,51.4583,-0.31699
+Tooting Bec Rd   A24,26,http://archive.tfljamcams.net/archive/Tooting_Bec_Rd___A24/,51.4355,-0.15937
+A4 Cromwell Rd Queens Gate,26,http://archive.tfljamcams.net/archive/A4_Cromwell_Rd_Queens_Gate/,51.4954,-0.17937
+Bruce Grove Woodside Gardens,26,http://archive.tfljamcams.net/archive/Bruce_Grove_Woodside_Gardens/,51.5952,-0.071
+Balham High Rd Caistor Rd,26,http://archive.tfljamcams.net/archive/Balham_High_Rd_Caistor_Rd/,51.4468,-0.14943
+Whitton Rd Chertsey Rd,26,http://archive.tfljamcams.net/archive/Whitton_Rd_Chertsey_Rd/,51.454,-0.3371
+A406 Montagu Road,26,http://archive.tfljamcams.net/archive/A406_Montagu_Road/,51.6132,-0.05247
+Lewisham High St Rennell St,26,http://archive.tfljamcams.net/archive/Lewisham_High_St_Rennell_St/,51.4638,-0.01076
+Trafalgar Square,26,http://archive.tfljamcams.net/archive/Trafalgar_Square/,51.5074,-0.12765
+A406 North Circular Rd Telford Rd Bounds Green Rd,26,http://archive.tfljamcams.net/archive/A406_North_Circular_Rd_Telford_Rd_Bounds_Green_Rd/,51.6112,-0.13544
+A406 Telford Rd Bowes Rd,26,http://archive.tfljamcams.net/archive/A406_Telford_Rd_Bowes_Rd/,51.6151,-0.12769
+H.Stead Rd Drummond St,26,http://archive.tfljamcams.net/archive/H.Stead_Rd_Drummond_St/,51.5267,-0.13851
+A12 East Cross Route Benn St,26,http://archive.tfljamcams.net/archive/A12_East_Cross_Route_Benn_St/,51.5458,-0.03353
+Croydon Flyover Fell Rd,26,http://archive.tfljamcams.net/archive/Croydon_Flyover_Fell_Rd/,51.3708,-0.0973
+Woolwich Manor Way,26,http://archive.tfljamcams.net/archive/Woolwich_Manor_Way/,51.5205,0.05882
+H.Stead Rd Mornington Cr,26,http://archive.tfljamcams.net/archive/H.Stead_Rd_Mornington_Cr/,51.5343,-0.13926
+Deptford Broadway Deptford Ch St,26,http://archive.tfljamcams.net/archive/Deptford_Broadway_Deptford_Ch_St/,51.4747,-0.02422
+Stamford Hill Dunsmure Road,26,http://archive.tfljamcams.net/archive/Stamford_Hill_Dunsmure_Road/,51.5702,-0.07297
+Stafford Rd Epsom Rd,26,http://archive.tfljamcams.net/archive/Stafford_Rd_Epsom_Rd/,51.3672,-0.11608
+Woodford Avenue - Beehive Lane,26,http://archive.tfljamcams.net/archive/Woodford_Avenue_-_Beehive_Lane/,51.5814,0.05825
+Green Lanes- St Ann,26,http://archive.tfljamcams.net/archive/Green_Lanes-_St_Ann/,51.5828,-0.09972
+A24 South of Trevelyan Rd,26,http://archive.tfljamcams.net/archive/A24_South_of_Trevelyan_Rd/,51.424,-0.17185
+A2 New Cross Rd Avonley Rd,26,http://archive.tfljamcams.net/archive/A2_New_Cross_Rd_Avonley_Rd/,51.4778,-0.05185
+A23 Streatham H Rd Hopton Rd,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Hopton_Rd/,51.4257,-0.13105
+Theobalds Rd Boswell St,26,http://archive.tfljamcams.net/archive/Theobalds_Rd_Boswell_St/,51.5196,-0.12019
+The Highway Glamis Road,26,http://archive.tfljamcams.net/archive/The_Highway_Glamis_Road/,51.5097,-0.05046
+Sthampton Row Vernon Plc,26,http://archive.tfljamcams.net/archive/Sthampton_Row_Vernon_Plc/,51.5191,-0.12116
+St Georges Rd Hayles St,26,http://archive.tfljamcams.net/archive/St_Georges_Rd_Hayles_St/,51.4958,-0.10358
+London Rd   Staines Av,26,http://archive.tfljamcams.net/archive/London_Rd___Staines_Av/,51.3768,-0.22177
+A23 Purley Way Queensway,26,http://archive.tfljamcams.net/archive/A23_Purley_Way_Queensway/,51.3603,-0.11737
+Talgarth Rd Gliddon Rd,26,http://archive.tfljamcams.net/archive/Talgarth_Rd_Gliddon_Rd/,51.4907,-0.21425
+Stamford St Broadwall,26,http://archive.tfljamcams.net/archive/Stamford_St_Broadwall/,51.5069,-0.10845
+The Causeway   Faggs Rd,26,http://archive.tfljamcams.net/archive/The_Causeway___Faggs_Rd/,51.4631,-0.41537
+Chiswick High Rd Goldhawk Rd,26,http://archive.tfljamcams.net/archive/Chiswick_High_Rd_Goldhawk_Rd/,51.4935,-0.24577
+Buckingham Palace Rd Eaton Lane,26,http://archive.tfljamcams.net/archive/Buckingham_Palace_Rd_Eaton_Lane/,51.4972,-0.14465
+Harrow Rd Westbourne Terrace,26,http://archive.tfljamcams.net/archive/Harrow_Rd_Westbourne_Terrace/,51.5198,-0.18509
+A501 W of Mabledon Place,26,http://archive.tfljamcams.net/archive/A501_W_of_Mabledon_Place/,51.5283,-0.12807
+A40 Marbone Rd Old Marbone Rd,26,http://archive.tfljamcams.net/archive/A40_Marbone_Rd_Old_Marbone_Rd/,51.5207,-0.16483
+Battersea Park Rd Forfar Rd,26,http://archive.tfljamcams.net/archive/Battersea_Park_Rd_Forfar_Rd/,51.4747,-0.15454
+A3 Kingston Bp Burlington Rd,26,http://archive.tfljamcams.net/archive/A3_Kingston_Bp_Burlington_Rd/,51.3996,-0.24355
+Silvertown Way,26,http://archive.tfljamcams.net/archive/Silvertown_Way/,51.5153,0.00814
+Romford Rd   Green St,26,http://archive.tfljamcams.net/archive/Romford_Rd___Green_St/,51.547,0.0318
+Rotherhithe Tunnel Barrier N,26,http://archive.tfljamcams.net/archive/Rotherhithe_Tunnel_Barrier_N/,51.5123,-0.03911
+Shepherd Bush Gr Wood Lane,26,http://archive.tfljamcams.net/archive/Shepherd_Bush_Gr_Wood_Lane/,51.5051,-0.22477
+Seven Sisters Rd Woodberry Grove,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_Woodberry_Grove/,51.5724,-0.09078
+Seven Sisters Rd Amhurst Pk,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_Amhurst_Pk/,51.5736,-0.08793
+Seven Sisters Rd Op Yonge Pk,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_Op_Yonge_Pk/,51.5623,-0.11041
+Stamford Hill Amhurst Pk,26,http://archive.tfljamcams.net/archive/Stamford_Hill_Amhurst_Pk/,51.5732,-0.07268
+Romford Rd  Rabbits Rd,26,http://archive.tfljamcams.net/archive/Romford_Rd__Rabbits_Rd/,51.5528,0.05376
+Regent St Conduit St,26,http://archive.tfljamcams.net/archive/Regent_St_Conduit_St/,51.5132,-0.14091
+Scrubs Lane North Pole Rd,26,http://archive.tfljamcams.net/archive/Scrubs_Lane_North_Pole_Rd/,51.5189,-0.22793
+Seven Sisters Rd by Fonthill Rd,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_by_Fonthill_Rd/,51.5631,-0.10827
+Seven Sisters Rd Wilberforce Rd,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_Wilberforce_Rd/,51.5656,-0.10288
+Eltham Rd Leyland Rd,26,http://archive.tfljamcams.net/archive/Eltham_Rd_Leyland_Rd/,51.4559,0.01302
+Rotherhithe Tunnel Barrier S,26,http://archive.tfljamcams.net/archive/Rotherhithe_Tunnel_Barrier_S/,51.4992,-0.05514
+Tooting High St Garratt Terrace,26,http://archive.tfljamcams.net/archive/Tooting_High_St_Garratt_Terrace/,51.4276,-0.16862
+The Broadway Windsor Rd,26,http://archive.tfljamcams.net/archive/The_Broadway_Windsor_Rd/,51.514,-0.30067
+Southwark St Southwark Bdge Rd,26,http://archive.tfljamcams.net/archive/Southwark_St_Southwark_Bdge_Rd/,51.5048,-0.09535
+H.Stead Rd Cardington St,26,http://archive.tfljamcams.net/archive/H.Stead_Rd_Cardington_St/,51.5294,-0.13854
+M11 A406 N Bnd 109A,26,http://archive.tfljamcams.net/archive/M11_A406_N_Bnd_109A/,51.5845,0.0397
+South Lambeth Rd Parry St,26,http://archive.tfljamcams.net/archive/South_Lambeth_Rd_Parry_St/,51.4843,-0.12288
+Stamford Hill Egerton Rd,26,http://archive.tfljamcams.net/archive/Stamford_Hill_Egerton_Rd/,51.5743,-0.07221
+Piccadilly Circus,26,http://archive.tfljamcams.net/archive/Piccadilly_Circus/,51.5096,-0.13484
+Stockwell Rd Stockwell Ln,26,http://archive.tfljamcams.net/archive/Stockwell_Rd_Stockwell_Ln/,51.4697,-0.12007
+St Giles Circus,26,http://archive.tfljamcams.net/archive/St_Giles_Circus/,51.5164,-0.13022
+South Lambeth Rd Miles St,26,http://archive.tfljamcams.net/archive/South_Lambeth_Rd_Miles_St/,51.4826,-0.12416
+Blackfriars Rd Stamford St,26,http://archive.tfljamcams.net/archive/Blackfriars_Rd_Stamford_St/,51.5072,-0.10443
+Priory Rd Christchurch Rd,26,http://archive.tfljamcams.net/archive/Priory_Rd_Christchurch_Rd/,51.4167,-0.17875
+Piccadilly Whitehorse St,26,http://archive.tfljamcams.net/archive/Piccadilly_Whitehorse_St/,51.5054,-0.14559
+The Broadway St.Georges Av,26,http://archive.tfljamcams.net/archive/The_Broadway_St.Georges_Av/,51.5115,-0.37768
+Seven Sisters Rd Holloway Rd,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_Holloway_Rd/,51.5579,-0.11958
+Roehampton Vale Stag Lane,26,http://archive.tfljamcams.net/archive/Roehampton_Vale_Stag_Lane/,51.4388,-0.24865
+Ruckholt Rd Sherrin Rd,26,http://archive.tfljamcams.net/archive/Ruckholt_Rd_Sherrin_Rd/,51.5547,-0.01696
+Kennington Ln Vauxhall St,26,http://archive.tfljamcams.net/archive/Kennington_Ln_Vauxhall_St/,51.4868,-0.11677
+Grays Inn Rd   Acton St,26,http://archive.tfljamcams.net/archive/Grays_Inn_Rd___Acton_St/,51.5282,-0.11917
+Target Roundabout Church St,26,http://archive.tfljamcams.net/archive/Target_Roundabout_Church_St/,51.5425,-0.37841
+Fulham Palace Rd(Coroners Crt),26,http://archive.tfljamcams.net/archive/Fulham_Palace_Rd(Coroners_Crt)/,51.4901,-0.22326
+Gtreat Cambridge Rd   Church St,26,http://archive.tfljamcams.net/archive/Gtreat_Cambridge_Rd___Church_St/,51.6301,-0.0782
+Romford Rd   Carlton Rd,26,http://archive.tfljamcams.net/archive/Romford_Rd___Carlton_Rd/,51.5497,0.04485
+Ram St Barchard St,26,http://archive.tfljamcams.net/archive/Ram_St_Barchard_St/,51.4583,-0.19202
+Commercial Rd Jubilee St,26,http://archive.tfljamcams.net/archive/Commercial_Rd_Jubilee_St/,51.514,-0.05251
+Brixton Hill   Elm Park,26,http://archive.tfljamcams.net/archive/Brixton_Hill___Elm_Park/,51.4517,-0.12151
+Scotch Corner,26,http://archive.tfljamcams.net/archive/Scotch_Corner/,51.5019,-0.16028
+Stanstead Rd Blythe Hill Lane,26,http://archive.tfljamcams.net/archive/Stanstead_Rd_Blythe_Hill_Lane/,51.4422,-0.03345
+Shepherd Bush Rd Brook Green,26,http://archive.tfljamcams.net/archive/Shepherd_Bush_Rd_Brook_Green/,51.4975,-0.22253
+Haymarket Pall Mall,26,http://archive.tfljamcams.net/archive/Haymarket_Pall_Mall/,51.5078,-0.13134
+Grt Cambridge Rd Bullsmore Ln,26,http://archive.tfljamcams.net/archive/Grt_Cambridge_Rd_Bullsmore_Ln/,51.6799,-0.05135
+Shooters Hill Rd Charlton Pk Ln,26,http://archive.tfljamcams.net/archive/Shooters_Hill_Rd_Charlton_Pk_Ln/,51.4743,0.03774
+Holloway Rd Highbury Corner,26,http://archive.tfljamcams.net/archive/Holloway_Rd_Highbury_Corner/,51.5465,-0.1039
+High Rd Ruckholt Rd,26,http://archive.tfljamcams.net/archive/High_Rd_Ruckholt_Rd/,51.5584,-0.00707
+Holloway Rd S of Hornsey Rd,26,http://archive.tfljamcams.net/archive/Holloway_Rd_S_of_Hornsey_Rd/,51.5524,-0.1119
+Goresbrook West,26,http://archive.tfljamcams.net/archive/Goresbrook_West/,51.5278,0.14206
+Balham Hill Hazelbourne Road,26,http://archive.tfljamcams.net/archive/Balham_Hill_Hazelbourne_Road/,51.452,-0.14787
+Hendon Way Queens Road,26,http://archive.tfljamcams.net/archive/Hendon_Way_Queens_Road/,51.5826,-0.22677
+HOLLYBUSH HILL GMAN RBOUT,26,http://archive.tfljamcams.net/archive/HOLLYBUSH_HILL_GMAN_RBOUT/,51.573,0.01641
+Harrow Rd Grt Western Rd,26,http://archive.tfljamcams.net/archive/Harrow_Rd_Grt_Western_Rd/,51.5243,-0.20166
+Goodmans Yard  Mansell Street,26,http://archive.tfljamcams.net/archive/Goodmans_Yard__Mansell_Street/,51.5112,-0.07301
+John Wilson St New Ferry Approach,26,http://archive.tfljamcams.net/archive/John_Wilson_St_New_Ferry_Approach/,51.4935,0.06171
+Grt Central Way Drury Way,26,http://archive.tfljamcams.net/archive/Grt_Central_Way_Drury_Way/,51.5547,-0.25591
+Finchley Road Hendon Way,26,http://archive.tfljamcams.net/archive/Finchley_Road_Hendon_Way/,51.5593,-0.19686
+East Road Vestry Street,26,http://archive.tfljamcams.net/archive/East_Road_Vestry_Street/,51.5297,-0.08708
+Goldhawk Rd HSmith Grove,26,http://archive.tfljamcams.net/archive/Goldhawk_Rd_HSmith_Grove/,51.5021,-0.22886
+A5 Kilburn High Rd Willesden Ln,26,http://archive.tfljamcams.net/archive/A5_Kilburn_High_Rd_Willesden_Ln/,51.5417,-0.19768
+East Hill Geraldinie Rd,26,http://archive.tfljamcams.net/archive/East_Hill_Geraldinie_Rd/,51.4575,-0.18575
+Lwr Clapton Powerscroft,26,http://archive.tfljamcams.net/archive/Lwr_Clapton_Powerscroft/,51.5526,-0.05272
+A30 Great Sth W Rd The Parkway,26,http://archive.tfljamcams.net/archive/A30_Great_Sth_W_Rd_The_Parkway/,51.4725,-0.40497
+Gunnersbury Ave Gunnersbury Drive,26,http://archive.tfljamcams.net/archive/Gunnersbury_Ave_Gunnersbury_Drive/,51.5033,-0.28891
+Finchley Road Canfield Place,26,http://archive.tfljamcams.net/archive/Finchley_Road_Canfield_Place/,51.5455,-0.17752
+Grand Depot Rd John Wilson St,26,http://archive.tfljamcams.net/archive/Grand_Depot_Rd_John_Wilson_St/,51.4875,0.06352
+Fore St East Ramp,26,http://archive.tfljamcams.net/archive/Fore_St_East_Ramp/,51.6143,-0.06135
+Baker St  Marylebone Rd,26,http://archive.tfljamcams.net/archive/Baker_St__Marylebone_Rd/,51.522,-0.1576
+Finchley Rd Langland Grdns,26,http://archive.tfljamcams.net/archive/Finchley_Rd_Langland_Grdns/,51.5514,-0.1848
+Blackheath Rd Wickes Store,26,http://archive.tfljamcams.net/archive/Blackheath_Rd_Wickes_Store/,51.473,-0.01659
+A406 Great North Way,26,http://archive.tfljamcams.net/archive/A406_Great_North_Way/,51.5886,-0.20659
+Balham High Rd Chestnut Grove,26,http://archive.tfljamcams.net/archive/Balham_High_Rd_Chestnut_Grove/,51.4436,-0.1526
+A205 Tulse Hill  Thurlow Park Rd,26,http://archive.tfljamcams.net/archive/A205_Tulse_Hill__Thurlow_Park_Rd/,51.441,-0.10633
+A205 W of Brockley Rise,26,http://archive.tfljamcams.net/archive/A205_W_of_Brockley_Rise/,51.4423,-0.04327
+A21 Bromley Rd Beckenham Hl Rd,26,http://archive.tfljamcams.net/archive/A21_Bromley_Rd_Beckenham_Hl_Rd/,51.427,-0.01055
+A23 Purley Cross,26,http://archive.tfljamcams.net/archive/A23_Purley_Cross/,51.3381,-0.11724
+A2 New Cross Rd Nettleton Rd,26,http://archive.tfljamcams.net/archive/A2_New_Cross_Rd_Nettleton_Rd/,51.4744,-0.04328
+A21 Rushey Grn Ringstead Rd,26,http://archive.tfljamcams.net/archive/A21_Rushey_Grn_Ringstead_Rd/,51.4469,-0.01896
+A2 Riefld Rochstr,26,http://archive.tfljamcams.net/archive/A2_Riefld_Rochstr/,51.458,0.08007
+A23 Brixton Rd Hillyard St,26,http://archive.tfljamcams.net/archive/A23_Brixton_Rd_Hillyard_St/,51.4741,-0.11272
+A23 Streatham H Barrhill Rd,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Barrhill_Rd/,51.4403,-0.12581
+A205 Upper Rmond Rd Vine Rd,26,http://archive.tfljamcams.net/archive/A205_Upper_Rmond_Rd_Vine_Rd/,51.4651,-0.24949
+Tooley St Bermondsey St,26,http://archive.tfljamcams.net/archive/Tooley_St_Bermondsey_St/,51.5046,-0.08342
+A13 Commercial Road Salmon Lane,26,http://archive.tfljamcams.net/archive/A13_Commercial_Road_Salmon_Lane/,51.5124,-0.032
+A205 Waldram Pk Rd Westbourne Dr,26,http://archive.tfljamcams.net/archive/A205_Waldram_Pk_Rd_Westbourne_Dr/,51.4401,-0.05056
+A23 Purley Way Edgehill Rd,26,http://archive.tfljamcams.net/archive/A23_Purley_Way_Edgehill_Rd/,51.3456,-0.11434
+A3220 West Cross Route,26,http://archive.tfljamcams.net/archive/A3220_West_Cross_Route/,51.5115,-0.21993
+A2 New Cross Rd Florence Rd,26,http://archive.tfljamcams.net/archive/A2_New_Cross_Rd_Florence_Rd/,51.4754,-0.02898
+A205   Catford Hill,26,http://archive.tfljamcams.net/archive/A205___Catford_Hill/,51.4432,-0.02857
+A205 E of Sydenham Hill,26,http://archive.tfljamcams.net/archive/A205_E_of_Sydenham_Hill/,51.4408,-0.06361
+A23 Epsom Road,26,http://archive.tfljamcams.net/archive/A23_Epsom_Road/,51.3668,-0.11831
+A232   Sutton Court Road,26,http://archive.tfljamcams.net/archive/A232___Sutton_Court_Road/,51.3608,-0.18941
+A23 Brixton Hill Effra Rd,26,http://archive.tfljamcams.net/archive/A23_Brixton_Hill_Effra_Rd/,51.4606,-0.11628
+A3 Clapham Rd Stockwell Park Rd,26,http://archive.tfljamcams.net/archive/A3_Clapham_Rd_Stockwell_Park_Rd/,51.4745,-0.12036
+A1 Barnet Wy Barnet Ln,26,http://archive.tfljamcams.net/archive/A1_Barnet_Wy_Barnet_Ln/,51.6433,-0.25442
+A3 Clapham Rd Crewdson Rd,26,http://archive.tfljamcams.net/archive/A3_Clapham_Rd_Crewdson_Rd/,51.4793,-0.11531
+A406 Hale End Rd W,26,http://archive.tfljamcams.net/archive/A406_Hale_End_Rd_W/,51.6005,-0.00395
+A2 Eltham West E B,26,http://archive.tfljamcams.net/archive/A2_Eltham_West_E_B/,51.4553,0.04847
+A12 GGT E Appr 4063A,26,http://archive.tfljamcams.net/archive/A12_GGT_E_Appr_4063A/,51.5765,0.03117
+Goswell Rd Opp Owen St,26,http://archive.tfljamcams.net/archive/Goswell_Rd_Opp_Owen_St/,51.5313,-0.10463
+A232 Grove Rd Sutton Park Rd,26,http://archive.tfljamcams.net/archive/A232_Grove_Rd_Sutton_Park_Rd/,51.36,-0.19394
+Elephant & Castle New Kent Rd,26,http://archive.tfljamcams.net/archive/Elephant_&_Castle_New_Kent_Rd/,51.495,-0.1003
+A1 Watford Way The Broadway,26,http://archive.tfljamcams.net/archive/A1_Watford_Way_The_Broadway/,51.6169,-0.24511
+Brixton Rd Stockwell Pk,26,http://archive.tfljamcams.net/archive/Brixton_Rd_Stockwell_Pk/,51.466,-0.11345
+A13 Branch Road,26,http://archive.tfljamcams.net/archive/A13_Branch_Road/,51.5128,-0.0388
+East India Dock Rd Amoy Pl,26,http://archive.tfljamcams.net/archive/East_India_Dock_Rd_Amoy_Pl/,51.5117,-0.02756
+Colchester Rd Gubbins Ln,26,http://archive.tfljamcams.net/archive/Colchester_Rd_Gubbins_Ln/,51.598,0.23161
+Horseferry Rd Marsham St,26,http://archive.tfljamcams.net/archive/Horseferry_Rd_Marsham_St/,51.4949,-0.12891
+A4 Chiswick Roundabout,26,http://archive.tfljamcams.net/archive/A4_Chiswick_Roundabout/,51.4912,-0.2829
+A41 Hendon Way Cricklewood Lane,26,http://archive.tfljamcams.net/archive/A41_Hendon_Way_Cricklewood_Lane/,51.5613,-0.20345
+Grosvenor Pl Hyde Pk Cnr,26,http://archive.tfljamcams.net/archive/Grosvenor_Pl_Hyde_Pk_Cnr/,51.5018,-0.15163
+City Road   Epworth St,26,http://archive.tfljamcams.net/archive/City_Road___Epworth_St/,51.5236,-0.0873
+Camberwell Ch St Camberwell Grn,26,http://archive.tfljamcams.net/archive/Camberwell_Ch_St_Camberwell_Grn/,51.4742,-0.09223
+A23 Streatham H Rd Heathdene Rd,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Heathdene_Rd/,51.4163,-0.12528
+A205 Poynders Rd Kings Ave,26,http://archive.tfljamcams.net/archive/A205_Poynders_Rd_Kings_Ave/,51.4479,-0.13252
+Camden High St Kentish Town Rd,26,http://archive.tfljamcams.net/archive/Camden_High_St_Kentish_Town_Rd/,51.5391,-0.14265
+Commercial Rd Dean Cross St,26,http://archive.tfljamcams.net/archive/Commercial_Rd_Dean_Cross_St/,51.5143,-0.05451
+DURSLEY ROAD,26,http://archive.tfljamcams.net/archive/DURSLEY_ROAD/,51.4681,0.02913
+HIGH ROAD LEYTONSTONE BUSH ROAD,26,http://archive.tfljamcams.net/archive/HIGH_ROAD_LEYTONSTONE_BUSH_ROAD/,51.571,0.01577
+Finchley Rd Sth of Hillgrove Rd,26,http://archive.tfljamcams.net/archive/Finchley_Rd_Sth_of_Hillgrove_Rd/,51.5414,-0.17552
+Burdett Rd Mile End Rd,26,http://archive.tfljamcams.net/archive/Burdett_Rd_Mile_End_Rd/,51.5246,-0.03482
+Commercial Rd Gowers Walk,26,http://archive.tfljamcams.net/archive/Commercial_Rd_Gowers_Walk/,51.5149,-0.06808
+Upper Tooting Rd Ansell Rd,26,http://archive.tfljamcams.net/archive/Upper_Tooting_Rd_Ansell_Rd/,51.4327,-0.16385
+Uxbridge Road Greenford Road,26,http://archive.tfljamcams.net/archive/Uxbridge_Road_Greenford_Road/,51.5096,-0.35525
+A40 Horn Ln Gypsy Crn,26,http://archive.tfljamcams.net/archive/A40_Horn_Ln_Gypsy_Crn/,51.522,-0.26373
+Kew Rd Mortlake Rd,26,http://archive.tfljamcams.net/archive/Kew_Rd_Mortlake_Rd/,51.4828,-0.28694
+Holland Rd Addison Crescent,26,http://archive.tfljamcams.net/archive/Holland_Rd_Addison_Crescent/,51.4998,-0.21009
+Cromwell Rd Earls Court Rd,26,http://archive.tfljamcams.net/archive/Cromwell_Rd_Earls_Court_Rd/,51.4946,-0.1957
+Old Brompton Rd   Earls Court Rd,26,http://archive.tfljamcams.net/archive/Old_Brompton_Rd___Earls_Court_Rd/,51.4896,-0.19005
+Heath Rd King St Parade,26,http://archive.tfljamcams.net/archive/Heath_Rd_King_St_Parade/,51.4456,-0.33001
+Camden High St Mary Tce,26,http://archive.tfljamcams.net/archive/Camden_High_St_Mary_Tce/,51.5367,-0.14074
+Clapton Common Lewstone Place,26,http://archive.tfljamcams.net/archive/Clapton_Common_Lewstone_Place/,51.5729,-0.07074
+Camberwell New Rd Foxley Rd,26,http://archive.tfljamcams.net/archive/Camberwell_New_Rd_Foxley_Rd/,51.4799,-0.10755
+A312 south of Rosslyn Av,26,http://archive.tfljamcams.net/archive/A312_south_of_Rosslyn_Av/,51.4562,-0.40935
+A205 Upper Rmond Rd East Sheen Ave,26,http://archive.tfljamcams.net/archive/A205_Upper_Rmond_Rd_East_Sheen_Ave/,51.465,-0.26212
+A312   White Hart R.bout,26,http://archive.tfljamcams.net/archive/A312___White_Hart_R.bout/,51.537,-0.38929
+Camden Rd N Of Camden Pk Rd,26,http://archive.tfljamcams.net/archive/Camden_Rd_N_Of_Camden_Pk_Rd/,51.548,-0.1301
+A406   Harrow Rd   Brentfield,26,http://archive.tfljamcams.net/archive/A406___Harrow_Rd___Brentfield/,51.5448,-0.27287
+Clapham Common Northside,26,http://archive.tfljamcams.net/archive/Clapham_Common_Northside/,51.4612,-0.16006
+Tottenham Court Rd Grafton Way,26,http://archive.tfljamcams.net/archive/Tottenham_Court_Rd_Grafton_Way/,51.5238,-0.13724
+Marcilly Rd Elsynge Rd,26,http://archive.tfljamcams.net/archive/Marcilly_Rd_Elsynge_Rd/,51.4588,-0.17952
+Commercial St N of Pomell Way,26,http://archive.tfljamcams.net/archive/Commercial_St_N_of_Pomell_Way/,51.5162,-0.0727
+Commercial St Brushfield,26,http://archive.tfljamcams.net/archive/Commercial_St_Brushfield/,51.5192,-0.07464
+A23 Brixton Rd Stockwell Rd,26,http://archive.tfljamcams.net/archive/A23_Brixton_Rd_Stockwell_Rd/,51.4653,-0.11407
+A20 Lee High Rd Lampmead Rd,26,http://archive.tfljamcams.net/archive/A20_Lee_High_Rd_Lampmead_Rd/,51.4571,0.00907
+Talgarth Rd Butterwick,26,http://archive.tfljamcams.net/archive/Talgarth_Rd_Butterwick/,51.4914,-0.22206
+A20 Sidcup Rd Coyler Close,26,http://archive.tfljamcams.net/archive/A20_Sidcup_Rd_Coyler_Close/,51.4351,0.06308
+A23 Streatham H Rd Mitcham Ln,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Mitcham_Ln/,51.4293,-0.13101
+A21 Bromley Rd Penerley Rd,26,http://archive.tfljamcams.net/archive/A21_Bromley_Rd_Penerley_Rd/,51.4409,-0.02073
+A23 south of Thornton Ave,26,http://archive.tfljamcams.net/archive/A23_south_of_Thornton_Ave/,51.387,-0.12104
+A3 Kingston Bypass College Gds,26,http://archive.tfljamcams.net/archive/A3_Kingston_Bypass_College_Gds/,51.3957,-0.24955
+A23 London Road Norbury Crescent,26,http://archive.tfljamcams.net/archive/A23_London_Road_Norbury_Crescent/,51.4107,-0.12273
+A23 Brixton Rd Ingleton St,26,http://archive.tfljamcams.net/archive/A23_Brixton_Rd_Ingleton_St/,51.4714,-0.11265
+Commercial Rd New Rd,26,http://archive.tfljamcams.net/archive/Commercial_Rd_New_Rd/,51.5148,-0.06229
+A205 Christchurch Rd Norwood Rd,26,http://archive.tfljamcams.net/archive/A205_Christchurch_Rd_Norwood_Rd/,51.4401,-0.10643
+A205 Verdant Lane,26,http://archive.tfljamcams.net/archive/A205_Verdant_Lane/,51.4452,0.00467
+A205 Westhorne Av Sidcup Rd,26,http://archive.tfljamcams.net/archive/A205_Westhorne_Av_Sidcup_Rd/,51.4501,0.02974
+A205 Mortlake Rd Bessant Drive,26,http://archive.tfljamcams.net/archive/A205_Mortlake_Rd_Bessant_Drive/,51.4787,-0.28138
+A40  Argyle Rd,26,http://archive.tfljamcams.net/archive/A40__Argyle_Rd/,51.5339,-0.32963
+A205 Brownhill Rd Plassey Rd,26,http://archive.tfljamcams.net/archive/A205_Brownhill_Rd_Plassey_Rd/,51.4459,-0.01723
+City Road w of Bath St,26,http://archive.tfljamcams.net/archive/City_Road_w_of_Bath_St/,51.5282,-0.09177
+A20 Lee High Rd Marischal Rd,26,http://archive.tfljamcams.net/archive/A20_Lee_High_Rd_Marischal_Rd/,51.4613,-0.0059
+Camberwell N Rd Camberwell Pas,26,http://archive.tfljamcams.net/archive/Camberwell_N_Rd_Camberwell_Pas/,51.4749,-0.09507
+Chelsea Embankment Albert Brdg,26,http://archive.tfljamcams.net/archive/Chelsea_Embankment_Albert_Brdg/,51.4837,-0.16732
+A23 Brixton Rd Vassell Rd,26,http://archive.tfljamcams.net/archive/A23_Brixton_Rd_Vassell_Rd/,51.4765,-0.11232
+A2 New Cross Rd Lewisham Way,26,http://archive.tfljamcams.net/archive/A2_New_Cross_Rd_Lewisham_Way/,51.4757,-0.03625
+A23 Commerce Way,26,http://archive.tfljamcams.net/archive/A23_Commerce_Way/,51.3743,-0.11875
+A21 Bromley Rd Newquay Rd,26,http://archive.tfljamcams.net/archive/A21_Bromley_Rd_Newquay_Rd/,51.4371,-0.0185
+A2 Eltham East E B,26,http://archive.tfljamcams.net/archive/A2_Eltham_East_E_B/,51.4562,0.05905
+A22 Godstone Rd Dale Rd,26,http://archive.tfljamcams.net/archive/A22_Godstone_Rd_Dale_Rd/,51.335,-0.11268
+A21 North of Davenport Rd,26,http://archive.tfljamcams.net/archive/A21_North_of_Davenport_Rd/,51.4498,-0.01692
+A2 Arbuthnot Lane,26,http://archive.tfljamcams.net/archive/A2_Arbuthnot_Lane/,51.4482,0.13535
+A23 Streatham H Rd Mnt Ephrian Rd,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Mnt_Ephrian_Rd/,51.4363,-0.12771
+A1 A504 Finchley Lane,26,http://archive.tfljamcams.net/archive/A1_A504_Finchley_Lane/,51.591,-0.21176
+A20 Lewisham Way Parkfield Rd,26,http://archive.tfljamcams.net/archive/A20_Lewisham_Way_Parkfield_Rd/,51.4745,-0.03458
+A1 Holders Hill,26,http://archive.tfljamcams.net/archive/A1_Holders_Hill/,51.5948,-0.21662
+A21 South of Ladywell Rd,26,http://archive.tfljamcams.net/archive/A21_South_of_Ladywell_Rd/,51.4562,-0.01459
+A205 Woolwich Common Rd Ngale pl,26,http://archive.tfljamcams.net/archive/A205_Woolwich_Common_Rd_Ngale_pl/,51.4823,0.06202
+A12 Temple Mls 3672B,26,http://archive.tfljamcams.net/archive/A12_Temple_Mls_3672B/,51.5549,-0.00785
+A205 Dulwich Common College Rd,26,http://archive.tfljamcams.net/archive/A205_Dulwich_Common_College_Rd/,51.4417,-0.08474
+Elephant & Castle Walworth Road,26,http://archive.tfljamcams.net/archive/Elephant_&_Castle_Walworth_Road/,51.4934,-0.1005
+Edgeware Rd Madia Ave,26,http://archive.tfljamcams.net/archive/Edgeware_Rd_Madia_Ave/,51.5243,-0.17652
+A13 A406 Beckton Rb,26,http://archive.tfljamcams.net/archive/A13_A406_Beckton_Rb/,51.5258,0.07349
+Denmark Hill Champion Pk,26,http://archive.tfljamcams.net/archive/Denmark_Hill_Champion_Pk/,51.4671,-0.09088
+A20 Lee High Rd Belmont Hill,26,http://archive.tfljamcams.net/archive/A20_Lee_High_Rd_Belmont_Hill/,51.4624,-0.0089
+Connaught Bridge Connaught Rd,26,http://archive.tfljamcams.net/archive/Connaught_Bridge_Connaught_Rd/,51.5049,0.03964
+A23 Streatham H Rd Streatham Cmn,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Streatham_Cmn/,51.4198,-0.128
+A205 Upper Rmond Rd Carlton Rd,26,http://archive.tfljamcams.net/archive/A205_Upper_Rmond_Rd_Carlton_Rd/,51.4643,-0.2734
+A2 Eltham West W B,26,http://archive.tfljamcams.net/archive/A2_Eltham_West_W_B/,51.455,0.04955
+A20 Sidcup Bypass Perry St,26,http://archive.tfljamcams.net/archive/A20_Sidcup_Bypass_Perry_St/,51.4183,0.09822
+A2 Riefield Road,26,http://archive.tfljamcams.net/archive/A2_Riefield_Road/,51.4586,0.07559
+Camberwell New Rd Lotian Rd,26,http://archive.tfljamcams.net/archive/Camberwell_New_Rd_Lotian_Rd/,51.4772,-0.10062
+A23 Streatham H Rd Kingscourt Rd,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Kingscourt_Rd/,51.4344,-0.12845
+A40(M) Eastern End,26,http://archive.tfljamcams.net/archive/A40(M)_Eastern_End/,51.5205,-0.17901
+A2 Danson,26,http://archive.tfljamcams.net/archive/A2_Danson/,51.4491,0.11974
+Camberwell New Rd Vassall Rd,26,http://archive.tfljamcams.net/archive/Camberwell_New_Rd_Vassall_Rd/,51.4784,-0.10381
+A2 Black Prince,26,http://archive.tfljamcams.net/archive/A2_Black_Prince/,51.4482,0.15266
+Chiswick Roundabout (Northside),26,http://archive.tfljamcams.net/archive/Chiswick_Roundabout_(Northside)/,51.4918,-0.28207
+Ealing Rd Bridgewater Rd,26,http://archive.tfljamcams.net/archive/Ealing_Rd_Bridgewater_Rd/,51.5396,-0.3004
+A23 Streatham Hill Sternhold Ave,26,http://archive.tfljamcams.net/archive/A23_Streatham_Hill_Sternhold_Ave/,51.4378,-0.12696
+Upper St by Essex Rd,26,http://archive.tfljamcams.net/archive/Upper_St_by_Essex_Rd/,51.5355,-0.10381
+A3 East Of West Hill,26,http://archive.tfljamcams.net/archive/A3_East_Of_West_Hill/,51.4571,-0.19741
+A2 Eltham East W B,26,http://archive.tfljamcams.net/archive/A2_Eltham_East_W_B/,51.4557,0.0572
+A3 Clapham Road B221 Bedford Road,26,http://archive.tfljamcams.net/archive/A3_Clapham_Road_B221_Bedford_Road/,51.4655,-0.12967
+Grt Cambridge Rd A406 NCR Rabout,26,http://archive.tfljamcams.net/archive/Grt_Cambridge_Rd_A406_NCR_Rabout/,51.617,-0.0866
+Bruce Grove,26,http://archive.tfljamcams.net/archive/Bruce_Grove/,51.594,-0.06943
+Clapham High St Venn St,26,http://archive.tfljamcams.net/archive/Clapham_High_St_Venn_St/,51.4623,-0.13729
+Piccadilly St James St,26,http://archive.tfljamcams.net/archive/Piccadilly_St_James_St/,51.5078,-0.14052
+Edgware Rd Harrow Rd,26,http://archive.tfljamcams.net/archive/Edgware_Rd_Harrow_Rd/,51.5198,-0.16961
+Tottenham High Road   Seven Sisters Rd,26,http://archive.tfljamcams.net/archive/Tottenham_High_Road___Seven_Sisters_Rd/,51.5831,-0.07226
+Baring Rd Le May Avenue,26,http://archive.tfljamcams.net/archive/Baring_Rd_Le_May_Avenue/,51.4322,0.02139
+Hendon Way   Ridge Hill,26,http://archive.tfljamcams.net/archive/Hendon_Way___Ridge_Hill/,51.5702,-0.20871
+High Rd Ealing Road,26,http://archive.tfljamcams.net/archive/High_Rd_Ealing_Road/,51.5519,-0.299
+Armoury Wy Wandsworth Plain,26,http://archive.tfljamcams.net/archive/Armoury_Wy_Wandsworth_Plain/,51.4586,-0.19554
+Commercial Rd Albert Gardens,26,http://archive.tfljamcams.net/archive/Commercial_Rd_Albert_Gardens/,51.5133,-0.04692
+Old Kent Rd Albany Rd,26,http://archive.tfljamcams.net/archive/Old_Kent_Rd_Albany_Rd/,51.4881,-0.07669
+A40 Westway Paddington Grn,26,http://archive.tfljamcams.net/archive/A40_Westway_Paddington_Grn/,51.5202,-0.17351
+City Rd by Central St,26,http://archive.tfljamcams.net/archive/City_Rd_by_Central_St/,51.5295,-0.09677
+A3205 BATTERSEA PK RD - SAVONA ST,26,http://archive.tfljamcams.net/archive/A3205_BATTERSEA_PK_RD_-_SAVONA_ST/,51.4793,-0.14235
+Camberwell Ch St Grove Ln,26,http://archive.tfljamcams.net/archive/Camberwell_Ch_St_Grove_Ln/,51.4739,-0.09045
+Barking Rd Green St,26,http://archive.tfljamcams.net/archive/Barking_Rd_Green_St/,51.5303,0.03772
+A406 Neasden Lane,26,http://archive.tfljamcams.net/archive/A406_Neasden_Lane/,51.5597,-0.2538
+Clapham Common Southside,26,http://archive.tfljamcams.net/archive/Clapham_Common_Southside/,51.4541,-0.14608
+A3 Clapham Rd Elias Place,26,http://archive.tfljamcams.net/archive/A3_Clapham_Rd_Elias_Place/,51.4808,-0.11356
+Chelsea Bridge Chelsea Embankment,26,http://archive.tfljamcams.net/archive/Chelsea_Bridge_Chelsea_Embankment/,51.4858,-0.14971
+A4 Bath Rd The Avenue,26,http://archive.tfljamcams.net/archive/A4_Bath_Rd_The_Avenue/,51.48,-0.4118
+Delamare Rd Broadway,26,http://archive.tfljamcams.net/archive/Delamare_Rd_Broadway/,51.5133,-0.3911
+Brixton Rd Island Place,26,http://archive.tfljamcams.net/archive/Brixton_Rd_Island_Place/,51.4783,-0.11223
+A12 Preston Drive,26,http://archive.tfljamcams.net/archive/A12_Preston_Drive/,51.5774,0.03599
+A21 Bromley Rd Bellingham Rd,26,http://archive.tfljamcams.net/archive/A21_Bromley_Rd_Bellingham_Rd/,51.4335,-0.0178
+Euston Rd Grays Inn Rd,26,http://archive.tfljamcams.net/archive/Euston_Rd_Grays_Inn_Rd/,51.5308,-0.12265
+A2 New Cross Rd St James,26,http://archive.tfljamcams.net/archive/A2_New_Cross_Rd_St_James/,51.475,-0.03958
+Hanger Lane,26,http://archive.tfljamcams.net/archive/Hanger_Lane/,51.5317,-0.29256
+A205 London Rd Dartmouth Rd,26,http://archive.tfljamcams.net/archive/A205_London_Rd_Dartmouth_Rd/,51.439,-0.0538
+A20 Lee High Rd Belmont Park,26,http://archive.tfljamcams.net/archive/A20_Lee_High_Rd_Belmont_Park/,51.4598,-0.00401
+Kennington Lane,26,http://archive.tfljamcams.net/archive/Kennington_Lane/,51.4861,-0.12191
+A40   Target Roundabout,26,http://archive.tfljamcams.net/archive/A40___Target_Roundabout/,51.5425,-0.37712
+MONUMENT WAY PARK VIEW ROAD,26,http://archive.tfljamcams.net/archive/MONUMENT_WAY_PARK_VIEW_ROAD/,51.5896,-0.0643
+Hanger Lane Queens Parade,26,http://archive.tfljamcams.net/archive/Hanger_Lane_Queens_Parade/,51.5169,-0.2912
+Camberwell Ch St Vicarage Grve,26,http://archive.tfljamcams.net/archive/Camberwell_Ch_St_Vicarage_Grve/,51.4734,-0.08757
+Marylebone Rd York Gate,26,http://archive.tfljamcams.net/archive/Marylebone_Rd_York_Gate/,51.523,-0.15271
+Holloway Rd Tufnell Pk Rd,26,http://archive.tfljamcams.net/archive/Holloway_Rd_Tufnell_Pk_Rd/,51.5584,-0.12005
+Edgware Way   Broadfields Ave,26,http://archive.tfljamcams.net/archive/Edgware_Way___Broadfields_Ave/,51.6216,-0.27384
+Grt Cambridge Rd Bury St,26,http://archive.tfljamcams.net/archive/Grt_Cambridge_Rd_Bury_St/,51.6341,-0.06968
+East Cross Route Tredeger Rd,26,http://archive.tfljamcams.net/archive/East_Cross_Route_Tredeger_Rd/,51.5336,-0.02256
+Hackney Rd Camb Heath Rd,26,http://archive.tfljamcams.net/archive/Hackney_Rd_Camb_Heath_Rd/,51.5326,-0.05702
+A40 Wales Farm Rd,26,http://archive.tfljamcams.net/archive/A40_Wales_Farm_Rd/,51.5196,-0.26273
+Twickenham Rd St Johns Grove,26,http://archive.tfljamcams.net/archive/Twickenham_Rd_St_Johns_Grove/,51.465,-0.30139
+Tower Bridge App. East Smithfield,26,http://archive.tfljamcams.net/archive/Tower_Bridge_App._East_Smithfield/,51.509,-0.07368
+A40   Near Connell Crescent,26,http://archive.tfljamcams.net/archive/A40___Near_Connell_Crescent/,51.5287,-0.28747
+A406 Bowes Rd Green Lanes,26,http://archive.tfljamcams.net/archive/A406_Bowes_Rd_Green_Lanes/,51.6124,-0.10987
+Gt Eastern St Curtain Rd,26,http://archive.tfljamcams.net/archive/Gt_Eastern_St_Curtain_Rd/,51.5244,-0.08028
+Great Chertsey Rd Hartington Rd,26,http://archive.tfljamcams.net/archive/Great_Chertsey_Rd_Hartington_Rd/,51.4746,-0.26731
+Barking Rd Chargable Lane,26,http://archive.tfljamcams.net/archive/Barking_Rd_Chargable_Lane/,51.5217,0.02102
+Bath Rd Berkeley Avenue,26,http://archive.tfljamcams.net/archive/Bath_Rd_Berkeley_Avenue/,51.4793,-0.40988
+Curtain Rd   Old Street,26,http://archive.tfljamcams.net/archive/Curtain_Rd___Old_Street/,51.527,-0.08051
+Brixton Hill Morrish Rd,26,http://archive.tfljamcams.net/archive/Brixton_Hill_Morrish_Rd/,51.4462,-0.12421
+Euston Rd Conway St,26,http://archive.tfljamcams.net/archive/Euston_Rd_Conway_St/,51.5243,-0.14038
+A5 Edgware Rd Nutford Pl,26,http://archive.tfljamcams.net/archive/A5_Edgware_Rd_Nutford_Pl/,51.5165,-0.16495
+Finchley Rd Goldhurst Terrace,26,http://archive.tfljamcams.net/archive/Finchley_Rd_Goldhurst_Terrace/,51.5463,-0.1792
+A40 Old Oak Road,26,http://archive.tfljamcams.net/archive/A40_Old_Oak_Road/,51.5137,-0.24893
+Grosvenor Chapel St,26,http://archive.tfljamcams.net/archive/Grosvenor_Chapel_St/,51.5005,-0.14971
+East India Dock Rd Upper Nth St,26,http://archive.tfljamcams.net/archive/East_India_Dock_Rd_Upper_Nth_St/,51.5109,-0.02134
+Burdett Rd Pixley St,26,http://archive.tfljamcams.net/archive/Burdett_Rd_Pixley_St/,51.5143,-0.02834
+Caledonian R Copnhagen S,26,http://archive.tfljamcams.net/archive/Caledonian_R_Copnhagen_S/,51.5369,-0.11649
+Edgware Road   Praed Street,26,http://archive.tfljamcams.net/archive/Edgware_Road___Praed_Street/,51.5193,-0.16915
+Euston Rd Tottenham Court Rd,26,http://archive.tfljamcams.net/archive/Euston_Rd_Tottenham_Court_Rd/,51.5249,-0.13841
+Farnborough Common Croydon Rd,26,http://archive.tfljamcams.net/archive/Farnborough_Common_Croydon_Rd/,51.3662,0.05311
+Graham Rd Dalston Lane,26,http://archive.tfljamcams.net/archive/Graham_Rd_Dalston_Lane/,51.5462,-0.06941
+Hammersmith Bridge Rd,26,http://archive.tfljamcams.net/archive/Hammersmith_Bridge_Rd/,51.4913,-0.22749
+Farringdon Rd Cowcross St,26,http://archive.tfljamcams.net/archive/Farringdon_Rd_Cowcross_St/,51.52,-0.10586
+Upper Richmond Rd Oxford Rd,26,http://archive.tfljamcams.net/archive/Upper_Richmond_Rd_Oxford_Rd/,51.4599,-0.21293
+A3 Kingston Rd Roehampton Ln,26,http://archive.tfljamcams.net/archive/A3_Kingston_Rd_Roehampton_Ln/,51.4445,-0.23427
+Victoria Embkmt Temple Place,26,http://archive.tfljamcams.net/archive/Victoria_Embkmt_Temple_Place/,51.5107,-0.11512
+A20 Sidcup Rd County Gate,26,http://archive.tfljamcams.net/archive/A20_Sidcup_Rd_County_Gate/,51.432,0.07636
+A4 Hogarth Roundabout,26,http://archive.tfljamcams.net/archive/A4_Hogarth_Roundabout/,51.4872,-0.25186
+A406 CROOKED BILLET,26,http://archive.tfljamcams.net/archive/A406_CROOKED_BILLET/,51.6007,-0.01663
+A3 Tibett Crn Withycombe Rd,26,http://archive.tfljamcams.net/archive/A3_Tibett_Crn_Withycombe_Rd/,51.4486,-0.22172
+Marsh Way West,26,http://archive.tfljamcams.net/archive/Marsh_Way_West/,51.5199,0.16853
+Mile End Rd Cambridge Heath Rd,26,http://archive.tfljamcams.net/archive/Mile_End_Rd_Cambridge_Heath_Rd/,51.5199,-0.05565
+A3 Clapham Rd Stockwell Rd Landsdowne Way,26,http://archive.tfljamcams.net/archive/A3_Clapham_Rd_Stockwell_Rd_Landsdowne_Way/,51.475,-0.11953
+A406 A10 U Pass East,26,http://archive.tfljamcams.net/archive/A406_A10_U_Pass_East/,51.6159,-0.08272
+Hospital Bridge Rd,26,http://archive.tfljamcams.net/archive/Hospital_Bridge_Rd/,51.4422,-0.3654
+A406 Iveagh Ave,26,http://archive.tfljamcams.net/archive/A406_Iveagh_Ave/,51.5378,-0.28341
+Park Lane Opposite Stanhope Gate,26,http://archive.tfljamcams.net/archive/Park_Lane_Opposite_Stanhope_Gate/,51.5066,-0.15277
+A12 Eastern Ave Heath Drive,26,http://archive.tfljamcams.net/archive/A12_Eastern_Ave_Heath_Drive/,51.5955,0.19637
+Beverley Way Coombe Lane Flyover,26,http://archive.tfljamcams.net/archive/Beverley_Way_Coombe_Lane_Flyover/,51.416,-0.25097
+A217   Rose Hill R.bout,26,http://archive.tfljamcams.net/archive/A217___Rose_Hill_R.bout/,51.3847,-0.18932
+A2 Falconwood,26,http://archive.tfljamcams.net/archive/A2_Falconwood/,51.4556,0.08867
+Nine Elms Ln Ponton Rd,26,http://archive.tfljamcams.net/archive/Nine_Elms_Ln_Ponton_Rd/,51.4832,-0.13308
+A41 Finchley Rd Queen Grove,26,http://archive.tfljamcams.net/archive/A41_Finchley_Rd_Queen_Grove/,51.5369,-0.17615
+Great West Rd   Thornbury Rd,26,http://archive.tfljamcams.net/archive/Great_West_Rd___Thornbury_Rd/,51.482,-0.34634
+A205 Christchurch Rd A23 Brixton H,26,http://archive.tfljamcams.net/archive/A205_Christchurch_Rd_A23_Brixton_H/,51.4452,-0.12418
+A2 New Cross Rd Billington Rd,26,http://archive.tfljamcams.net/archive/A2_New_Cross_Rd_Billington_Rd/,51.4757,-0.04707
+A13 Alfreds Way Movers Ln,26,http://archive.tfljamcams.net/archive/A13_Alfreds_Way_Movers_Ln/,51.5303,0.09318
+Burdett Rd Hamlets Way,26,http://archive.tfljamcams.net/archive/Burdett_Rd_Hamlets_Way/,51.523,-0.03434
+Putney High St Lwr Richmond Rd,26,http://archive.tfljamcams.net/archive/Putney_High_St_Lwr_Richmond_Rd/,51.4659,-0.21409
+Holloway Rd Sth Fieldway Cres,26,http://archive.tfljamcams.net/archive/Holloway_Rd_Sth_Fieldway_Cres/,51.5492,-0.10762
+A406 Golf Range,26,http://archive.tfljamcams.net/archive/A406_Golf_Range/,51.6036,-0.02199
+A40 Hanger Lane Tunnel,26,http://archive.tfljamcams.net/archive/A40_Hanger_Lane_Tunnel/,51.5302,-0.29492
+Albert Emb Lambeth Brdge,26,http://archive.tfljamcams.net/archive/Albert_Emb_Lambeth_Brdge/,51.4937,-0.1214
+Gnor Gdns Buckingham Palace Rd,26,http://archive.tfljamcams.net/archive/Gnor_Gdns_Buckingham_Palace_Rd/,51.497,-0.14555
+Aspen Way Cotton Street,26,http://archive.tfljamcams.net/archive/Aspen_Way_Cotton_Street/,51.5072,-0.01003
+Camberwell New Rd Brixton Rd,26,http://archive.tfljamcams.net/archive/Camberwell_New_Rd_Brixton_Rd/,51.4812,-0.11065
+Kenington Pk Rd Kennington Oval,26,http://archive.tfljamcams.net/archive/Kenington_Pk_Rd_Kennington_Oval/,51.4824,-0.11208
+A4 west of Sipson Road,26,http://archive.tfljamcams.net/archive/A4_west_of_Sipson_Road/,51.4814,-0.451
+Upper Tooting Rd Kellino St,26,http://archive.tfljamcams.net/archive/Upper_Tooting_Rd_Kellino_St/,51.4305,-0.16531
+Marble Arch,26,http://archive.tfljamcams.net/archive/Marble_Arch/,51.5133,-0.16018
+Marylebone Rd Osnaburgh St,26,http://archive.tfljamcams.net/archive/Marylebone_Rd_Osnaburgh_St/,51.5241,-0.14352
+Mile End Rd Cephas Ave,26,http://archive.tfljamcams.net/archive/Mile_End_Rd_Cephas_Ave/,51.5212,-0.04894
+Maida Vale St Johns Wood Rd,26,http://archive.tfljamcams.net/archive/Maida_Vale_St_Johns_Wood_Rd/,51.5258,-0.1783
+A1 Archway Rd Holmesdale Rd,26,http://archive.tfljamcams.net/archive/A1_Archway_Rd_Holmesdale_Rd/,51.5762,-0.14369
+Lr Clapton Rd Thislewaite Rd,26,http://archive.tfljamcams.net/archive/Lr_Clapton_Rd_Thislewaite_Rd/,51.557,-0.05594
+Lower Clapton Rd Rowhill Rd,26,http://archive.tfljamcams.net/archive/Lower_Clapton_Rd_Rowhill_Rd/,51.5541,-0.05403
+Crayford Rd Crayford Way,26,http://archive.tfljamcams.net/archive/Crayford_Rd_Crayford_Way/,51.4516,0.17875
+Blackfriars Rd Dolben St,26,http://archive.tfljamcams.net/archive/Blackfriars_Rd_Dolben_St/,51.5049,-0.10466
+A20 Sidcup Bypass Sevenoaks Way,26,http://archive.tfljamcams.net/archive/A20_Sidcup_Bypass_Sevenoaks_Way/,51.4135,0.11223
+A12 Lstone E 3860A,26,http://archive.tfljamcams.net/archive/A12_Lstone_E_3860A/,51.5685,0.00745
+A205 Upper RMond Rd Sheen Lane,26,http://archive.tfljamcams.net/archive/A205_Upper_RMond_Rd_Sheen_Lane/,51.4647,-0.26725
+Camden High St Symes Mews,26,http://archive.tfljamcams.net/archive/Camden_High_St_Symes_Mews/,51.5352,-0.13897
+A406 Hale End Rd E,26,http://archive.tfljamcams.net/archive/A406_Hale_End_Rd_E/,51.5999,-0.00026
+Hyde Park Corner Park Lane,26,http://archive.tfljamcams.net/archive/Hyde_Park_Corner_Park_Lane/,51.5033,-0.15099
+Uxbridge Road Browells Lane,26,http://archive.tfljamcams.net/archive/Uxbridge_Road_Browells_Lane/,51.4453,-0.39974
+A40 Western Ave West End Rd,26,http://archive.tfljamcams.net/archive/A40_Western_Ave_West_End_Rd/,51.5487,-0.399
+Twr Brdge Rd Grange Rd,26,http://archive.tfljamcams.net/archive/Twr_Brdge_Rd_Grange_Rd/,51.4968,-0.08187
+Upper St by Canonbury Lane,26,http://archive.tfljamcams.net/archive/Upper_St_by_Canonbury_Lane/,51.5435,-0.10316
+Baker St S of Park Rd,26,http://archive.tfljamcams.net/archive/Baker_St_S_of_Park_Rd/,51.5236,-0.15811
+High St Colliers Wd Cavendish Rd,26,http://archive.tfljamcams.net/archive/High_St_Colliers_Wd_Cavendish_Rd/,51.4188,-0.17743
+Brighton Rd A23 Coulsdon Bypass,26,http://archive.tfljamcams.net/archive/Brighton_Rd_A23_Coulsdon_Bypass/,51.3169,-0.13864
+London Road Raymead Avenue,26,http://archive.tfljamcams.net/archive/London_Road_Raymead_Avenue/,51.394,-0.11425
+City Road Old Street,26,http://archive.tfljamcams.net/archive/City_Road_Old_Street/,51.5262,-0.08771
+A4202 Park Lane North Row,26,http://archive.tfljamcams.net/archive/A4202_Park_Lane_North_Row/,51.5127,-0.15787
+Bromley Rd Oakridge Ln,26,http://archive.tfljamcams.net/archive/Bromley_Rd_Oakridge_Ln/,51.425,-0.00454
+Blackwall Nth Portal,26,http://archive.tfljamcams.net/archive/Blackwall_Nth_Portal/,51.5103,-0.00684
+A3 West Hill Up Richmond Rd,26,http://archive.tfljamcams.net/archive/A3_West_Hill_Up_Richmond_Rd/,51.4567,-0.2024
+Limehouse Tnl Aspen Way,26,http://archive.tfljamcams.net/archive/Limehouse_Tnl_Aspen_Way/,51.5082,-0.02122
+Battersea Brdg Rd Ethelburga St,26,http://archive.tfljamcams.net/archive/Battersea_Brdg_Rd_Ethelburga_St/,51.4768,-0.1684
+East Hill East Of Fairfield St,26,http://archive.tfljamcams.net/archive/East_Hill_East_Of_Fairfield_St/,51.4568,-0.18923
+Christchurch Rd Colliers Wood,26,http://archive.tfljamcams.net/archive/Christchurch_Rd_Colliers_Wood/,51.4173,-0.17788
+Commercial Rd Westport St,26,http://archive.tfljamcams.net/archive/Commercial_Rd_Westport_St/,51.5132,-0.04356
+Battersea Bridge Cheyne Wk,26,http://archive.tfljamcams.net/archive/Battersea_Bridge_Cheyne_Wk/,51.4821,-0.17321
+Fulham BWay Wst of Harwood Rd,26,http://archive.tfljamcams.net/archive/Fulham_BWay_Wst_of_Harwood_Rd/,51.4802,-0.19601
+Chalkers Corner,26,http://archive.tfljamcams.net/archive/Chalkers_Corner/,51.469,-0.27703
+Harrow Rd Lord Hills Bridge,26,http://archive.tfljamcams.net/archive/Harrow_Rd_Lord_Hills_Bridge/,51.5196,-0.18874
+Harleyford Rd Vauxhall Grove,26,http://archive.tfljamcams.net/archive/Harleyford_Rd_Vauxhall_Grove/,51.4854,-0.12036
+Holland Park Roundabout,26,http://archive.tfljamcams.net/archive/Holland_Park_Roundabout/,51.5041,-0.21833
+A40 Greenford Flyover,26,http://archive.tfljamcams.net/archive/A40_Greenford_Flyover/,51.5359,-0.34627
+Bowes Rd Brownlow Rd,26,http://archive.tfljamcams.net/archive/Bowes_Rd_Brownlow_Rd/,51.6127,-0.12115
+Lewisham High St Courthill Rd,26,http://archive.tfljamcams.net/archive/Lewisham_High_St_Courthill_Rd/,51.4574,-0.01332
+A4 Bath Rd Henlys Rabout,26,http://archive.tfljamcams.net/archive/A4_Bath_Rd_Henlys_Rabout/,51.4751,-0.39441
+Upper St Theberton St,26,http://archive.tfljamcams.net/archive/Upper_St_Theberton_St/,51.538,-0.10247
+Jamaica Rd W of West Ln,26,http://archive.tfljamcams.net/archive/Jamaica_Rd_W_of_West_Ln/,51.4986,-0.0611
+Battersea Pk Rd Albert Bridge,26,http://archive.tfljamcams.net/archive/Battersea_Pk_Rd_Albert_Bridge/,51.4728,-0.16235
+Upper St Highbury Corner,26,http://archive.tfljamcams.net/archive/Upper_St_Highbury_Corner/,51.5456,-0.1033
+Whitechapel High St Mansell St,26,http://archive.tfljamcams.net/archive/Whitechapel_High_St_Mansell_St/,51.5144,-0.07411
+Whitechapel Rd   Plumbers Row,26,http://archive.tfljamcams.net/archive/Whitechapel_Rd___Plumbers_Row/,51.5173,-0.06668
+Thornton Rd Broughton Rd,26,http://archive.tfljamcams.net/archive/Thornton_Rd_Broughton_Rd/,51.3916,-0.11798
+Sterling Way Slip Victoria St,26,http://archive.tfljamcams.net/archive/Sterling_Way_Slip_Victoria_St/,51.6145,-0.06816
+A4 Cromwell Rd Gloucester Rd,26,http://archive.tfljamcams.net/archive/A4_Cromwell_Rd_Gloucester_Rd/,51.4951,-0.18254
+A3 Roehampton Vale A308 Robin Hood,26,http://archive.tfljamcams.net/archive/A3_Roehampton_Vale_A308_Robin_Hood/,51.4359,-0.25594
+A23 Stafford Road,26,http://archive.tfljamcams.net/archive/A23_Stafford_Road/,51.3648,-0.11848
+Camden Rd Camden St Lyme St,26,http://archive.tfljamcams.net/archive/Camden_Rd_Camden_St_Lyme_St/,51.5406,-0.13953
+A23 Streatham H Rd Greyhound Ln,26,http://archive.tfljamcams.net/archive/A23_Streatham_H_Rd_Greyhound_Ln/,51.422,-0.12926
+Barking Rd Prince Regent Lane,26,http://archive.tfljamcams.net/archive/Barking_Rd_Prince_Regent_Lane/,51.5259,0.02915
+Mare St Graham Rd,26,http://archive.tfljamcams.net/archive/Mare_St_Graham_Rd/,51.5466,-0.055
+Vauxhall Brd Rd Drummond Gt,26,http://archive.tfljamcams.net/archive/Vauxhall_Brd_Rd_Drummond_Gt/,51.4897,-0.13145
+Beckton West,26,http://archive.tfljamcams.net/archive/Beckton_West/,51.5224,0.06462
+Christchurch Rd Streatham Hill,26,http://archive.tfljamcams.net/archive/Christchurch_Rd_Streatham_Hill/,51.4451,-0.1242
+A3 East Of Garratt Lane,26,http://archive.tfljamcams.net/archive/A3_East_Of_Garratt_Lane/,51.4567,-0.19224
+Wood Lane South Africa Road,26,http://archive.tfljamcams.net/archive/Wood_Lane_South_Africa_Road/,51.5129,-0.22523
+Acre Lane Coldharbour Lane,26,http://archive.tfljamcams.net/archive/Acre_Lane_Coldharbour_Lane/,51.4614,-0.11563
+A312 Hampton Rd York Way,26,http://archive.tfljamcams.net/archive/A312_Hampton_Rd_York_Way/,51.4374,-0.38065
+Tooley St Boss St,26,http://archive.tfljamcams.net/archive/Tooley_St_Boss_St/,51.502,-0.07681
+C Browns E B Off-Slip,26,http://archive.tfljamcams.net/archive/C_Browns_E_B_Off-Slip/,51.5966,0.027
+North End Rd Talgarth Rd,26,http://archive.tfljamcams.net/archive/North_End_Rd_Talgarth_Rd/,51.4907,-0.20696
+Lower Rd Rotherhithe Old Rd,26,http://archive.tfljamcams.net/archive/Lower_Rd_Rotherhithe_Old_Rd/,51.4937,-0.04832
+Montfichet Rd Hitchcock Lane Car Park C,26,http://archive.tfljamcams.net/archive/Montfichet_Rd_Hitchcock_Lane_Car_Park_C/,51.5446,-0.00354
+Holloway Rd Nth Tollington Rd,26,http://archive.tfljamcams.net/archive/Holloway_Rd_Nth_Tollington_Rd/,51.5562,-0.11695
+High St Colliers Wd Marlborough Rd,26,http://archive.tfljamcams.net/archive/High_St_Colliers_Wd_Marlborough_Rd/,51.4205,-0.17578
+Stratford Broadway Gt Eastern Rd,26,http://archive.tfljamcams.net/archive/Stratford_Broadway_Gt_Eastern_Rd/,51.5393,-0.00055
+Lewisham Way Florence Road,26,http://archive.tfljamcams.net/archive/Lewisham_Way_Florence_Road/,51.4722,-0.03114
+A4088 Forty Av Bridge Rd,26,http://archive.tfljamcams.net/archive/A4088_Forty_Av_Bridge_Rd/,51.5655,-0.2773
+Vauxhall B Rd N Rampayne St,26,http://archive.tfljamcams.net/archive/Vauxhall_B_Rd_N_Rampayne_St/,51.4903,-0.13315
+Homerton High St Digby Road,26,http://archive.tfljamcams.net/archive/Homerton_High_St_Digby_Road/,51.5482,-0.04448
+Balham High Rd Ramsden Rd,26,http://archive.tfljamcams.net/archive/Balham_High_Rd_Ramsden_Rd/,51.4448,-0.15179
+Kennington Pk Rd Penton Pl,26,http://archive.tfljamcams.net/archive/Kennington_Pk_Rd_Penton_Pl/,51.4902,-0.10411
+A41 Sth of Fortune Grn Rd,26,http://archive.tfljamcams.net/archive/A41_Sth_of_Fortune_Grn_Rd/,51.5571,-0.19561
+A406 A118 Mill House,26,http://archive.tfljamcams.net/archive/A406_A118_Mill_House/,51.5571,0.06588
+Warwick Rd Earls Crt Station,26,http://archive.tfljamcams.net/archive/Warwick_Rd_Earls_Crt_Station/,51.4904,-0.19621
+Old Kent Rd Peckham Pk R,26,http://archive.tfljamcams.net/archive/Old_Kent_Rd_Peckham_Pk_R/,51.483,-0.06423
+London Rd Arragon Rd,26,http://archive.tfljamcams.net/archive/London_Rd_Arragon_Rd/,51.4496,-0.33026
+Holloway Rd Sth Hargrave Rd,26,http://archive.tfljamcams.net/archive/Holloway_Rd_Sth_Hargrave_Rd/,51.5646,-0.13214
+C Browns M11 Split,26,http://archive.tfljamcams.net/archive/C_Browns_M11_Split/,51.5961,0.03004
+A501 West of Judd Street,26,http://archive.tfljamcams.net/archive/A501_West_of_Judd_Street/,51.5291,-0.12666
+High St Sherwood Way W Wickham,26,http://archive.tfljamcams.net/archive/High_St_Sherwood_Way_W_Wickham/,51.3762,-0.01769
+A406 Pinkham Way Colney Hatch Ln,26,http://archive.tfljamcams.net/archive/A406_Pinkham_Way_Colney_Hatch_Ln/,51.6062,-0.15106
+A41 Finchley Rd 115 Swiss Cottage,26,http://archive.tfljamcams.net/archive/A41_Finchley_Rd_115_Swiss_Cottage/,51.5428,-0.17519
+Marylebone Rd Great Portland Street,26,http://archive.tfljamcams.net/archive/Marylebone_Rd_Great_Portland_Street/,51.5239,-0.1445
+Harrow Rd Kilburn Lane,26,http://archive.tfljamcams.net/archive/Harrow_Rd_Kilburn_Lane/,51.5279,-0.2158
+A406 Holiday Inn,26,http://archive.tfljamcams.net/archive/A406_Holiday_Inn/,51.573,-0.22271
+Bethnal Gr Rd Satchwell Rd,26,http://archive.tfljamcams.net/archive/Bethnal_Gr_Rd_Satchwell_Rd/,51.5259,-0.06906
+Poplar Walk Wellesley Rd,26,http://archive.tfljamcams.net/archive/Poplar_Walk_Wellesley_Rd/,51.3785,-0.10001
+East India Dock Rd Leamouth Rd,26,http://archive.tfljamcams.net/archive/East_India_Dock_Rd_Leamouth_Rd/,51.5128,-0.00081
+A406 Gunnersbury Ave Gunnersbury Ln,26,http://archive.tfljamcams.net/archive/A406_Gunnersbury_Ave_Gunnersbury_Ln/,51.5006,-0.2843
+Baylis Rd Westminster Bridge Rd,26,http://archive.tfljamcams.net/archive/Baylis_Rd_Westminster_Bridge_Rd/,51.4987,-0.11242
+A406 Staples Corner,26,http://archive.tfljamcams.net/archive/A406_Staples_Corner/,51.5713,-0.23189
+A406 Brentfield Rd,26,http://archive.tfljamcams.net/archive/A406_Brentfield_Rd/,51.5519,-0.26117
+A4 Great West Rd Sutton Crt Rd,26,http://archive.tfljamcams.net/archive/A4_Great_West_Rd_Sutton_Crt_Rd/,51.4875,-0.26709
+High St Station way The Cheam,26,http://archive.tfljamcams.net/archive/High_St_Station_way_The_Cheam/,51.3577,-0.21576
+Albert Emb Tinworth St,26,http://archive.tfljamcams.net/archive/Albert_Emb_Tinworth_St/,51.4902,-0.12259
+Battersea Rise Bolingbrooke Gr,26,http://archive.tfljamcams.net/archive/Battersea_Rise_Bolingbrooke_Gr/,51.4598,-0.17159
+Charing Cross Rd   Cambridge Circus,26,http://archive.tfljamcams.net/archive/Charing_Cross_Rd___Cambridge_Circus/,51.5131,-0.12914
+Falloden Way Northway Hill Rise,26,http://archive.tfljamcams.net/archive/Falloden_Way_Northway_Hill_Rise/,51.5858,-0.18285
+High St Grosvenor Rd W Wickham,26,http://archive.tfljamcams.net/archive/High_St_Grosvenor_Rd_W_Wickham/,51.3769,-0.02043
+Pear Island OHV,26,http://archive.tfljamcams.net/archive/Pear_Island_OHV/,51.4959,0.00319
+Commercial Rd Belgrave St,26,http://archive.tfljamcams.net/archive/Commercial_Rd_Belgrave_St/,51.513,-0.04164
+A40(M) Paddington Slip,26,http://archive.tfljamcams.net/archive/A40(M)_Paddington_Slip/,51.5204,-0.19227
+London Rd Craignish Av,26,http://archive.tfljamcams.net/archive/London_Rd_Craignish_Av/,51.4085,-0.12186
+Mortimer St Gt Portland St,26,http://archive.tfljamcams.net/archive/Mortimer_St_Gt_Portland_St/,51.5176,-0.14152
+A5 Edgware Rd Cuthbert St,26,http://archive.tfljamcams.net/archive/A5_Edgware_Rd_Cuthbert_St/,51.5231,-0.17438
+Hanger Lane Uxbridge Rd,26,http://archive.tfljamcams.net/archive/Hanger_Lane_Uxbridge_Rd/,51.5117,-0.29219
+Vauxhall Cross,26,http://archive.tfljamcams.net/archive/Vauxhall_Cross/,51.4864,-0.12372
+Archway Gyr Holloway Rd Jnc Rd,26,http://archive.tfljamcams.net/archive/Archway_Gyr_Holloway_Rd_Jnc_Rd/,51.5656,-0.1345
+A2 Kidbrooke Junction,26,http://archive.tfljamcams.net/archive/A2_Kidbrooke_Junction/,51.4642,0.0307
+London Rd Thomas Doyle St,26,http://archive.tfljamcams.net/archive/London_Rd_Thomas_Doyle_St/,51.498,-0.10376
+Finchley Rd Alvanley Grdns,26,http://archive.tfljamcams.net/archive/Finchley_Rd_Alvanley_Grdns/,51.5525,-0.18751
+Battersea Rise Northcote Rd,26,http://archive.tfljamcams.net/archive/Battersea_Rise_Northcote_Rd/,51.4607,-0.16652
+Finchley Road   West End Lane,26,http://archive.tfljamcams.net/archive/Finchley_Road___West_End_Lane/,51.5528,-0.18881
+High Rd Wood Grn-Ewart Grove,26,http://archive.tfljamcams.net/archive/High_Rd_Wood_Grn-Ewart_Grove/,51.5997,-0.11118
+Craven Rd Eastborne Terrace,26,http://archive.tfljamcams.net/archive/Craven_Rd_Eastborne_Terrace/,51.5152,-0.17638
+Tadema Rd Sth Kings Rd,26,http://archive.tfljamcams.net/archive/Tadema_Rd_Sth_Kings_Rd/,51.4811,-0.18307
+Upper St St Albans Place,26,http://archive.tfljamcams.net/archive/Upper_St_St_Albans_Place/,51.5364,-0.10364
+Tottenham Broad Lane The Hale,26,http://archive.tfljamcams.net/archive/Tottenham_Broad_Lane_The_Hale/,51.5883,-0.06344
+A41 Finchley Rd Boundary Rd W,26,http://archive.tfljamcams.net/archive/A41_Finchley_Rd_Boundary_Rd_W/,51.5397,-0.17592
+Hyde Park Corner,26,http://archive.tfljamcams.net/archive/Hyde_Park_Corner/,51.5021,-0.15238
+Battersea Brdg Rd Westbridge Rd,26,http://archive.tfljamcams.net/archive/Battersea_Brdg_Rd_Westbridge_Rd/,51.478,-0.1697
+A406 A1 Falloden Way,26,http://archive.tfljamcams.net/archive/A406_A1_Falloden_Way/,51.5896,-0.19648
+A406 A10 U Pass West,26,http://archive.tfljamcams.net/archive/A406_A10_U_Pass_West/,51.6165,-0.09136
+THE PARKWAY   UXBRIDGE ROAD,26,http://archive.tfljamcams.net/archive/THE_PARKWAY___UXBRIDGE_ROAD/,51.5168,-0.40116
+Kennington Pk Rd Braganza St,26,http://archive.tfljamcams.net/archive/Kennington_Pk_Rd_Braganza_St/,51.4868,-0.10738
+Kew Rd Twickemham Rd,26,http://archive.tfljamcams.net/archive/Kew_Rd_Twickemham_Rd/,51.4647,-0.30039
+A406 Golders Grn Rd,26,http://archive.tfljamcams.net/archive/A406_Golders_Grn_Rd/,51.5808,-0.21202
+Limehouse Tnl East Portal E B,26,http://archive.tfljamcams.net/archive/Limehouse_Tnl_East_Portal_E_B/,51.5085,-0.0223
+Old Kent Rd Glengall Rd,26,http://archive.tfljamcams.net/archive/Old_Kent_Rd_Glengall_Rd/,51.4861,-0.07211
+Hammersmith Bway Shepherds Bush Rd,26,http://archive.tfljamcams.net/archive/Hammersmith_Bway_Shepherds_Bush_Rd/,51.493,-0.22387
+Catford One Way Rushey Green,26,http://archive.tfljamcams.net/archive/Catford_One_Way_Rushey_Green/,51.4449,-0.02012
+Balham High Rd Balham Pk Rd,26,http://archive.tfljamcams.net/archive/Balham_High_Rd_Balham_Pk_Rd/,51.4422,-0.15409
+Manor Rd New Plaistow Rd,26,http://archive.tfljamcams.net/archive/Manor_Rd_New_Plaistow_Rd/,51.5352,0.00881
+Balham High Rd Drakefield Rd,26,http://archive.tfljamcams.net/archive/Balham_High_Rd_Drakefield_Rd/,51.4372,-0.15762
+Wandsworth Common North,26,http://archive.tfljamcams.net/archive/Wandsworth_Common_North/,51.458,-0.18139
+Tamworth Rd North End Rd,26,http://archive.tfljamcams.net/archive/Tamworth_Rd_North_End_Rd/,51.3779,-0.10251
+Chelsea Embankment Royal Hosp Rd,26,http://archive.tfljamcams.net/archive/Chelsea_Embankment_Royal_Hosp_Rd/,51.4838,-0.16356
+The Highway Wapping Lane,26,http://archive.tfljamcams.net/archive/The_Highway_Wapping_Lane/,51.5097,-0.05876
+Rainham Marshes,26,http://archive.tfljamcams.net/archive/Rainham_Marshes/,51.5102,0.19714
+Commercial Rd Cannon St Rd,26,http://archive.tfljamcams.net/archive/Commercial_Rd_Cannon_St_Rd/,51.5147,-0.06163
+St Georges Sq Lupus St,26,http://archive.tfljamcams.net/archive/St_Georges_Sq_Lupus_St/,51.4887,-0.13477
+EIDT East Ramp,26,http://archive.tfljamcams.net/archive/EIDT_East_Ramp/,51.5141,0.00238
+Lea Bridge Rd Markhouse Rd,26,http://archive.tfljamcams.net/archive/Lea_Bridge_Rd_Markhouse_Rd/,51.5702,-0.02527
+Upper Rmond Rd Clifford Ave,26,http://archive.tfljamcams.net/archive/Upper_Rmond_Rd_Clifford_Ave/,51.4642,-0.27609
+Stonecot Hill Hill Top,26,http://archive.tfljamcams.net/archive/Stonecot_Hill_Hill_Top/,51.3846,-0.21282
+Camberwell Rd Albany Rd,26,http://archive.tfljamcams.net/archive/Camberwell_Rd_Albany_Rd/,51.4824,-0.0946
+Kenworthy Rd Brookfield Rd Wick Rd,26,http://archive.tfljamcams.net/archive/Kenworthy_Rd_Brookfield_Rd_Wick_Rd/,51.5452,-0.03557
+A3 Clapham Rd A203 Sth Lambeth Rd,26,http://archive.tfljamcams.net/archive/A3_Clapham_Rd_A203_Sth_Lambeth_Rd/,51.4719,-0.12318
+Jamaica Rd W of Lower Rd,26,http://archive.tfljamcams.net/archive/Jamaica_Rd_W_of_Lower_Rd/,51.4991,-0.05633
+Movers Lane West,26,http://archive.tfljamcams.net/archive/Movers_Lane_West/,51.5292,0.08953
+Stockwell Rd By Clapham Rd,26,http://archive.tfljamcams.net/archive/Stockwell_Rd_By_Clapham_Rd/,51.472,-0.12219
+Holloway Rd Nth Rupert Rd,26,http://archive.tfljamcams.net/archive/Holloway_Rd_Nth_Rupert_Rd/,51.5628,-0.12724
+Kingston-Tolworth Roundabout,26,http://archive.tfljamcams.net/archive/Kingston-Tolworth_Roundabout/,51.3794,-0.28063
+University St Gower St,26,http://archive.tfljamcams.net/archive/University_St_Gower_St/,51.5239,-0.1341
+Wennington Viaduct W,26,http://archive.tfljamcams.net/archive/Wennington_Viaduct_W/,51.5033,0.21103
+A30 Hatton Cross,26,http://archive.tfljamcams.net/archive/A30_Hatton_Cross/,51.4666,-0.42189
+ASPEN WAY - UPPER BANK STREET,26,http://archive.tfljamcams.net/archive/ASPEN_WAY_-_UPPER_BANK_STREET/,51.5071,-0.0162
+A40 Western Ave Gibbon Rd,26,http://archive.tfljamcams.net/archive/A40_Western_Ave_Gibbon_Rd/,51.5149,-0.25655
+Kennington Oval,26,http://archive.tfljamcams.net/archive/Kennington_Oval/,51.483,-0.11601
+Kew Bridge Northside,26,http://archive.tfljamcams.net/archive/Kew_Bridge_Northside/,51.4891,-0.28766
+Mile End Rd Cleveland Way,26,http://archive.tfljamcams.net/archive/Mile_End_Rd_Cleveland_Way/,51.5205,-0.05217
+Loampit Vale Thurston Rd,26,http://archive.tfljamcams.net/archive/Loampit_Vale_Thurston_Rd/,51.4645,-0.01522
+Leyton Rd Montfichet Rd Penny Brookes St,26,http://archive.tfljamcams.net/archive/Leyton_Rd_Montfichet_Rd_Penny_Brookes_St/,51.5466,-0.00091
+Kennington Rd Kennington Grn,26,http://archive.tfljamcams.net/archive/Kennington_Rd_Kennington_Grn/,51.4855,-0.11139
+Major Rd Crownfield Rd,26,http://archive.tfljamcams.net/archive/Major_Rd_Crownfield_Rd/,51.551,-0.00402
+Neasden Ln North A406,26,http://archive.tfljamcams.net/archive/Neasden_Ln_North_A406/,51.5606,-0.25377
+Old Kent Rd Preston Cls,26,http://archive.tfljamcams.net/archive/Old_Kent_Rd_Preston_Cls/,51.4925,-0.08365
+Oxford St Orchard St,26,http://archive.tfljamcams.net/archive/Oxford_St_Orchard_St/,51.514,-0.15409
+PARK MEAD,26,http://archive.tfljamcams.net/archive/PARK_MEAD/,51.451,0.10833
+Old Kent Rd Humphrey St,26,http://archive.tfljamcams.net/archive/Old_Kent_Rd_Humphrey_St/,51.4883,-0.07645
+Tooting High St Selkirk Rd,26,http://archive.tfljamcams.net/archive/Tooting_High_St_Selkirk_Rd/,51.4291,-0.16703
+Western Ave Alperton Lane,26,http://archive.tfljamcams.net/archive/Western_Ave_Alperton_Lane/,51.5322,-0.31016
+Prince Regents Lane W,26,http://archive.tfljamcams.net/archive/Prince_Regents_Lane_W/,51.5169,0.02795
+Tooley St Abbots Lane,26,http://archive.tfljamcams.net/archive/Tooley_St_Abbots_Lane/,51.5039,-0.08136
+Tower Bridge Rd Rothsay St,26,http://archive.tfljamcams.net/archive/Tower_Bridge_Rd_Rothsay_St/,51.4961,-0.08297
+Prince Regents Lane Jn,26,http://archive.tfljamcams.net/archive/Prince_Regents_Lane_Jn/,51.5175,0.03219
+Stockwell Rd Chantrey Rd,26,http://archive.tfljamcams.net/archive/Stockwell_Rd_Chantrey_Rd/,51.4658,-0.11663
+Trinity Rd Bellevue Rd,26,http://archive.tfljamcams.net/archive/Trinity_Rd_Bellevue_Rd/,51.4441,-0.16815
+Waterloo Bridge south,26,http://archive.tfljamcams.net/archive/Waterloo_Bridge_south/,51.5053,-0.11402
+Victoria St Bressenden Place,26,http://archive.tfljamcams.net/archive/Victoria_St_Bressenden_Place/,51.4966,-0.14156
+Wellington Rd St Johns Wd Rd,26,http://archive.tfljamcams.net/archive/Wellington_Rd_St_Johns_Wd_Rd/,51.53,-0.16889
+Victoria St   Buckingham Palace Rd,26,http://archive.tfljamcams.net/archive/Victoria_St___Buckingham_Palace_Rd/,51.4967,-0.14379
+Upper Woburn Place - Woburn Walk,26,http://archive.tfljamcams.net/archive/Upper_Woburn_Place_-_Woburn_Walk/,51.5264,-0.12967
+Upper Clapton Rd Rossington St,26,http://archive.tfljamcams.net/archive/Upper_Clapton_Rd_Rossington_St/,51.564,-0.05929
+Wood Lane A40 Westway,26,http://archive.tfljamcams.net/archive/Wood_Lane_A40_Westway/,51.5149,-0.2263
+Watford Way   Aerodrome Rd,26,http://archive.tfljamcams.net/archive/Watford_Way___Aerodrome_Rd/,51.5925,-0.23451
+Waterworks R B,26,http://archive.tfljamcams.net/archive/Waterworks_R_B/,51.5955,0.01088
+York Road opp Mepham St,26,http://archive.tfljamcams.net/archive/York_Road_opp_Mepham_St/,51.5043,-0.11464
+Waterworks E B On-Slip,26,http://archive.tfljamcams.net/archive/Waterworks_E_B_On-Slip/,51.5956,0.01903
+West Hill Portinscale Rd,26,http://archive.tfljamcams.net/archive/West_Hill_Portinscale_Rd/,51.4549,-0.20828
+Sevn Sistrs Rd Blackstock Rd,26,http://archive.tfljamcams.net/archive/Sevn_Sistrs_Rd_Blackstock_Rd/,51.5646,-0.10464
+The Highway Vaughan Way,26,http://archive.tfljamcams.net/archive/The_Highway_Vaughan_Way/,51.509,-0.06754
+Upper Richmond Rd Colinette Rd,26,http://archive.tfljamcams.net/archive/Upper_Richmond_Rd_Colinette_Rd/,51.4634,-0.22988
+Shoreditch High St Batemans Row,26,http://archive.tfljamcams.net/archive/Shoreditch_High_St_Batemans_Row/,51.5252,-0.07732
+Shepherds Bush Rd Westwick Gdns,26,http://archive.tfljamcams.net/archive/Shepherds_Bush_Rd_Westwick_Gdns/,51.5015,-0.22202
+Upper Richmond Rd Putney Hill,26,http://archive.tfljamcams.net/archive/Upper_Richmond_Rd_Putney_Hill/,51.4606,-0.21706
+Shooters Hill Rd Charlton Way,26,http://archive.tfljamcams.net/archive/Shooters_Hill_Rd_Charlton_Way/,51.4719,0.00024
+Sterling Way Slip A1010 Fore St,26,http://archive.tfljamcams.net/archive/Sterling_Way_Slip_A1010_Fore_St/,51.6148,-0.06419
+Seven Sisters Rd Manor House,26,http://archive.tfljamcams.net/archive/Seven_Sisters_Rd_Manor_House/,51.5706,-0.09615
+Staples Corner - Rbt Southside,26,http://archive.tfljamcams.net/archive/Staples_Corner_-_Rbt_Southside/,51.5718,-0.22795
+Sheen Lane Larches Av,26,http://archive.tfljamcams.net/archive/Sheen_Lane_Larches_Av/,51.4644,-0.26661
+Wickham Rd Monks Orchard Rd,26,http://archive.tfljamcams.net/archive/Wickham_Rd_Monks_Orchard_Rd/,51.3773,-0.02857
+Walworth Rd Heygate St,26,http://archive.tfljamcams.net/archive/Walworth_Rd_Heygate_St/,51.4918,-0.09814
+York Road Falcon Road,26,http://archive.tfljamcams.net/archive/York_Road_Falcon_Road/,51.47,-0.17175
+Westminster Bridge Rd Waterloo Rd,26,http://archive.tfljamcams.net/archive/Westminster_Bridge_Rd_Waterloo_Rd/,51.4986,-0.10545
+Wilton Road   Bridge Place,26,http://archive.tfljamcams.net/archive/Wilton_Road___Bridge_Place/,51.4944,-0.14217
+York Road Leake Street,26,http://archive.tfljamcams.net/archive/York_Road_Leake_Street/,51.5024,-0.11633
+Watling St Gravel Hill,26,http://archive.tfljamcams.net/archive/Watling_St_Gravel_Hill/,51.4551,0.153
+Westhorn Av E of Burnt Ash Hill,26,http://archive.tfljamcams.net/archive/Westhorn_Av_E_of_Burnt_Ash_Hill/,51.4463,0.01508
+White Lion St   Upper St,26,http://archive.tfljamcams.net/archive/White_Lion_St___Upper_St/,51.5328,-0.107
+West Parkside John Harrison Wy,26,http://archive.tfljamcams.net/archive/West_Parkside_John_Harrison_Wy/,51.4949,0.01184
+Wennington Viaduct E,26,http://archive.tfljamcams.net/archive/Wennington_Viaduct_E/,51.5005,0.22112
+Westfield Ave International Way Car Park A,26,http://archive.tfljamcams.net/archive/Westfield_Ave_International_Way_Car_Park_A/,51.5435,-0.01109
+Waterworks W B Off-Slip,26,http://archive.tfljamcams.net/archive/Waterworks_W_B_Off-Slip/,51.595,0.01478
+Woolwich Rd Hatcliffe st,26,http://archive.tfljamcams.net/archive/Woolwich_Rd_Hatcliffe_st/,51.4862,0.00843
+Westminster Bridge York Rd,26,http://archive.tfljamcams.net/archive/Westminster_Bridge_York_Rd/,51.5009,-0.11762
+Westminster Bridge   South,26,http://archive.tfljamcams.net/archive/Westminster_Bridge___South/,51.5012,-0.11583
+Woolwich Rd Warspite Rd,26,http://archive.tfljamcams.net/archive/Woolwich_Rd_Warspite_Rd/,51.4925,0.0454
