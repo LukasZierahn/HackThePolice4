@@ -13,7 +13,7 @@
 
 import { Component, OnInit, ViewChild, ElementRef, Input, Output, EventEmitter } from '@angular/core';
 import { loadModules } from 'esri-loader';
-import * as esri from 'arcgis-js-api';
+import esri = __esri;
 
 @Component({
   selector: 'app-esri-map',
@@ -76,9 +76,10 @@ export class EsriMapComponent implements OnInit {
     try {
 
       // Load the modules for the ArcGIS API for JavaScript
-      const [EsriMap, EsriMapView] = await loadModules([
+      const [EsriMap, EsriMapView, WebMap] = await loadModules([
         'esri/Map',
-        'esri/views/MapView'
+        'esri/views/MapView',
+        'esri/WebMap'
       ]);
 
       // Configure the Map
@@ -86,7 +87,13 @@ export class EsriMapComponent implements OnInit {
         basemap: this._basemap
       };
 
-      const map: esri.Map = new EsriMap(mapProperties);
+      // const map: esri.Map = new EsriMap(mapProperties);
+      const map = new WebMap({
+        portalItem: {
+          id: "ab221e479b264d1aa5cbda9e109d2af6"
+        }
+      });
+      
 
       // Initialize the MapView
       const mapViewProperties: esri.MapViewProperties = {
