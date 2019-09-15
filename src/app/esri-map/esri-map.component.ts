@@ -41,6 +41,8 @@ export class EsriMapComponent implements OnInit {
   private _basemap = 'streets';
   private _loaded = false;
 
+  public crimeLocation: esri.Point;
+
   public map: esri.WebMap = null;
 
   public selectedTime$: Date;
@@ -83,10 +85,15 @@ export class EsriMapComponent implements OnInit {
         console.log(`updated time to ${JSON.stringify(x)}`);
         this.selectedTime$ = x.date;
         if (this.map && this.map.loaded && this.selectedTime$) {
-          const featureLayer = this.map.findLayerById("csv_8625") as esri.FeatureLayer;
+          const featureLayer = this.map.findLayerById("csv_7704") as esri.FeatureLayer;
           const timeAgoCrime = (new Date().getTime() - this.selectedTime$.getTime()) / (1000 * 3600 * 24);
           console.log(timeAgoCrime);
-          featureLayer.definitionExpression = `Cycle_Time_in_days <= ${timeAgoCrime}`;
+          console.log(this.map.allLayers);
+          console.log(featureLayer.fields);
+          featureLayer.definitionExpression = `Cycle_Time_in_Days >= ${timeAgoCrime}`;
+        } else if (this.map && this.map.loaded) {
+          const featureLayer = this.map.findLayerById("csv_7704") as esri.FeatureLayer;
+          featureLayer.definitionExpression = "";
         }
       }
     });
@@ -155,7 +162,7 @@ export class EsriMapComponent implements OnInit {
     let legend = new Legend({
       view: mapView,
       layerInfos: [{
-        layer: this.map.findLayerById("csv_8625"),
+        layer: this.map.findLayerById("csv_7704"),
         title: "Legend"
       }]
     });
@@ -169,30 +176,33 @@ export class EsriMapComponent implements OnInit {
     mapView.ui.add(search, 'top-right');
 
     mapView.on('double-click', (evt) => {
-      search.clear();
-      mapView.popup.clear();
-      if (search.activeSource) {
-        const geocoder = search.activeSource.locator; // World geocode service
-        const params = {
-          location: evt.mapPoint
-        };
-        geocoder.locationToAddress(params)
-          .then((response) => { // Show the address found
-            const address = response.address;
-            showPopup(address, evt.mapPoint);
-          }, (err) => { // Show no address found
-            showPopup('No address found.', evt.mapPoint);
-          });
-      }
-    });
+      this.crimeLocation = evt.mapPoint;
 
-    function showPopup(address, pt) {
-      mapView.popup.open({
-        title: + Math.round(pt.longitude * 100000) / 100000 + ',' + Math.round(pt.latitude * 100000) / 100000,
-        content: address,
-        location: pt
+      mapView.graphics.removeAll();
+
+      let point = {
+        type: "point", // autocasts as /Point
+        x: evt.mapPoint.x,
+        y: evt.mapPoint.y,
+        spatialReference: mapView.spatialReference
+      };
+    
+      let graphic = new Graphic({
+        geometry: point,
+        symbol: {
+          type: "simple-marker", // autocasts as SimpleMarkerSymbol
+          style: "square",
+          color: "red",
+          size: "16px",
+          outline: { // autocasts as SimpleLineSymbol
+            color: [255, 255, 0],
+            width: 3
+          }
+        }
       });
-    }
+      mapView.graphics.add(graphic);
+    
+    });
 
     mapView.on('click', (event) => {
       console.log('click');
