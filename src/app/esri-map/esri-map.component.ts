@@ -92,13 +92,14 @@ export class EsriMapComponent implements OnInit {
         this.selectedTime$ = x.date;
 
         if (this.map && this.map.loaded && this.selectedTime$) {
-          const featureLayer = this.map.findLayerById('csv_7704') as esri.FeatureLayer;
           const timeAgoCrime = (new Date().getTime() - this.selectedTime$.getTime()) / (1000 * 3600 * 24);
-          featureLayer.definitionExpression = `Cycle_Time_in_Days >= ${timeAgoCrime}`;
+          
+          (this.map.layers.getItemAt(6) as esri.FeatureLayer).definitionExpression = `Cycle_Time_in_Days >= ${timeAgoCrime}`;
+          (this.map.layers.getItemAt(4) as esri.FeatureLayer).definitionExpression = `Cycle_Time_in_Days >= ${timeAgoCrime}`;
 
         } else if (this.map && this.map.loaded) {
-          const featureLayer = this.map.findLayerById('csv_7704') as esri.FeatureLayer;
-          featureLayer.definitionExpression = '';
+          (this.map.layers.getItemAt(6) as esri.FeatureLayer).definitionExpression = "";
+          (this.map.layers.getItemAt(4) as esri.FeatureLayer).definitionExpression = "";
         }
       }
     });
