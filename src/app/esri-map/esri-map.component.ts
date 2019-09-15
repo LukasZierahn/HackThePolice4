@@ -46,6 +46,8 @@ export class EsriMapComponent implements OnInit {
   public crimeLocation: esri.Point;
   public closeByLocations: esri.Graphic[] = [];
 
+  public visible: boolean[] = [];
+
   public map: esri.WebMap = null;
   public mapView: esri.MapView = null;
 
@@ -163,7 +165,7 @@ export class EsriMapComponent implements OnInit {
       });
     }
 
-    let legend = new Legend({
+    let legend: esri.Legend = new Legend({
       view: this.mapView,
       layerInfos: [{
         layer: this.map.findLayerById("csv_7704"),
@@ -172,6 +174,37 @@ export class EsriMapComponent implements OnInit {
     });
 
     this.mapView.ui.add(legend, "bottom-right");
+
+    for (let i = 0; i < this.map.layers.length; i++) {
+      this.visible.push(true);
+    }
+    this.map.layers.getItemAt(0).listMode = "hide";
+
+    this.mapView.on("key-up", (event) => {
+      if (event.native.keyCode >= 48 && event.native.keyCode <= 57) {
+        const number = event.native.keyCode - 48;
+        if (!event.native.shiftKey) {
+          this.visible[number] = !this.visible[number];
+        }
+
+        if (number < this.map.layers.length) {
+          if (!event.native.shiftKey) {
+            this.map.layers.getItemAt(number).visible = this.visible[number];
+          }
+
+          this.mapView.ui.remove(legend);
+          legend = new Legend({
+            view: this.mapView,
+            layerInfos: [{
+              layer: this.map.layers.getItemAt(number),
+              title: "Legend"
+            }]
+          });
+          this.mapView.ui.add(legend, "bottom-right");
+
+        }
+      }
+    });
 
     const search = new Search({
       view: this.mapView
@@ -256,6 +289,10 @@ export class EsriMapComponent implements OnInit {
       this._loaded = mapView.ready;
       this.mapLoadedEvent.emit(true);
     });
+  }
+
+  onKey(event) {
+    console.log(event);
   }
 
   ngOnInit() {
