@@ -91,13 +91,13 @@ export class EsriMapComponent implements OnInit {
         this.selectedTime$ = x.date;
 
         if (this.map && this.map.loaded && this.selectedTime$) {
-          const featureLayer = this.map.findLayerById("csv_7704") as esri.FeatureLayer;
+          const featureLayer = this.map.findLayerById('csv_7704') as esri.FeatureLayer;
           const timeAgoCrime = (new Date().getTime() - this.selectedTime$.getTime()) / (1000 * 3600 * 24);
           featureLayer.definitionExpression = `Cycle_Time_in_Days >= ${timeAgoCrime}`;
 
         } else if (this.map && this.map.loaded) {
-          const featureLayer = this.map.findLayerById("csv_7704") as esri.FeatureLayer;
-          featureLayer.definitionExpression = "";
+          const featureLayer = this.map.findLayerById('csv_7704') as esri.FeatureLayer;
+          featureLayer.definitionExpression = '';
         }
       }
     });
@@ -105,7 +105,19 @@ export class EsriMapComponent implements OnInit {
 
   async initializeMap() {
     // Load the modules for the ArcGIS API for JavaScript
-    [EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, LayerList, RouteTask, FeatureSet, RouteParameters] = await loadModules([
+    [
+      EsriMapView,
+      GraphicsLayer,
+      WebMap,
+      Graphic,
+      Track,
+      Search,
+      Legend,
+      LayerList,
+      RouteTask,
+      FeatureSet,
+      RouteParameters
+    ] = await loadModules([
       'esri/views/MapView',
       'esri/layers/GraphicsLayer',
       'esri/WebMap',
@@ -114,9 +126,9 @@ export class EsriMapComponent implements OnInit {
       'esri/widgets/Search',
       'esri/widgets/Legend',
       'esri/widgets/LayerList',
-      "esri/tasks/RouteTask",
-      "esri/tasks/support/FeatureSet",
-      "esri/tasks/support/RouteParameters",
+      'esri/tasks/RouteTask',
+      'esri/tasks/support/FeatureSet',
+      'esri/tasks/support/RouteParameters',
     ]);
 
 
@@ -168,12 +180,12 @@ export class EsriMapComponent implements OnInit {
     let legend: esri.Legend = new Legend({
       view: this.mapView,
       layerInfos: [{
-        layer: this.map.findLayerById("csv_7704"),
-        title: "Legend"
+        layer: this.map.findLayerById('csv_7704'),
+        title: 'Legend'
       }]
     });
 
-    this.mapView.ui.add(legend, "bottom-right");
+    this.mapView.ui.add(legend, 'bottom-right');
 
     for (let i = 0; i < this.map.layers.length; i++) {
       this.visible.push(true);
@@ -219,66 +231,116 @@ export class EsriMapComponent implements OnInit {
     this.mapView.ui.add(layerList, 'bottom-left');
 
     this.mapView.on('double-click', (evt) => {
-      this.crimeLocation = evt.mapPoint;
       this.mapView.graphics.removeAll();
-      this.findNearbyCrimes();
+      this.crimeLocation = evt.mapPoint;
 
-      let point = {
-        type: "point", // autocasts as /Point
+      const point = {
+        type: 'point', // autocasts as /Point
         x: evt.mapPoint.x,
         y: evt.mapPoint.y,
         spatialReference: this.mapView.spatialReference
       };
 
-      let graphic = new Graphic({
+      const crimeGraphic: esri.Graphic = new Graphic({
         geometry: point,
         symbol: {
-          type: "simple-marker", // autocasts as SimpleMarkerSymbol
-          style: "square",
-          color: "red",
-          size: "16px",
+          type: 'simple-marker', // autocasts as SimpleMarkerSymbol
+          style: 'square',
+          color: 'red',
+          size: '16px',
           outline: { // autocasts as SimpleLineSymbol
             color: [255, 255, 0],
             width: 3
           }
         }
       });
-      this.mapView.graphics.add(graphic);
+      this.mapView.graphics.add(crimeGraphic);
+
+      this.findNearbyCrimes().then((nearbyPointsGraphics: esri.Graphic[]) => {
+        nearbyPointsGraphics.forEach((pointGraphic: esri.Graphic) => {
+          console.log(pointGraphic.geometry);
+  
+          const POIGraphic: esri.Graphic = new Graphic({
+            geometry: pointGraphic.geometry,
+            symbol: {
+              type: 'simple-marker', // autocasts as SimpleMarkerSymbol
+              color: 'purple',
+              size: '16px',
+              outline: { // autocasts as SimpleLineSymbol
+                color: [255, 255, 0],
+                width: 3
+              }
+            }
+          });
+          this.mapView.graphics.add(POIGraphic);
+        })
+
+      });
+
+      //   this.closeByLocations.forEach((pnt) => {
+      //     console.log('hihihi');
+      //     console.log(pnt);
+      //     // this.crimeLocation = evt.mapPoint;
+      //     const POIPoint = {
+      //       type: 'point', // autocasts as /Point
+      //       // x: pnt.geometry.x,
+      //       // y: pnt.geometry.y,
+      //       x: 525765,
+      //       y: 181629,
+      //       spatialReference: this.mapView.spatialReference
+      //     };
+
+      //     const POIGraphic = new Graphic({
+      //       geometry: POIPoint,
+      //       symbol: {
+      //         type: 'simple-marker', // autocasts as SimpleMarkerSymbol
+      //         style: 'square',
+      //         color: 'red',
+      //         size: '16px',
+      //         outline: { // autocasts as SimpleLineSymbol
+      //           color: [255, 255, 0],
+      //           width: 3
+      //         }
+      //       }
+      //     });
+      //     this.mapView.graphics.add(POIGraphic);
+      // });
     });
 
-    this.mapView.on('click', (event) => {
-      console.log('click');
-    });
+    // this.mapView.on('click', (event) => {
+    //   console.log('click');
+    // });
 
     return this.mapView;
   }
 
-  async findNearbyCrimes() {
+  async findNearbyCrimes(): Promise<esri.Graphic[]> {
     this.closeByLocations = [];
-
-    const layer: esri.FeatureLayer = this.map.findLayerById("CCTV_Bus_TFL_8804") as esri.FeatureLayer;
+    const layer: esri.FeatureLayer = this.map.findLayerById('CCTV_Bus_TFL_8804') as esri.FeatureLayer;
 
     const query = layer.createQuery();
     query.geometry = this.crimeLocation;
-    query.distance = 200;
-    query.units = "meters";
+    query.distance = 500;
+    query.units = 'meters';
 
-    layer.queryFeatures(query)
-      .then((response: esri.FeatureSet) => {
-        this.closeByLocations = response.features;
-      });
+    return new Promise((resolve, reject) => {
+      layer.queryFeatures(query)
+        .then((response: esri.FeatureSet) => {
+          this.closeByLocations = response.features;
+          resolve(this.closeByLocations);
+        });
+
+    });
   }
-
 
   showRoute(data) {
     const routeSymbol = {
-      type: "simple-line", // autocasts as SimpleLineSymbol()
+      type: 'simple-line', // autocasts as SimpleLineSymbol()
       color: [0, 0, 255, 0.5],
       width: 2
     };
 
-
-    let routeResult = data.routeResults[0].route;
+    const routeResult = data.routeResults[0].route;
     routeResult.symbol = routeSymbol;
   }
 
