@@ -191,9 +191,9 @@ export class EsriMapComponent implements OnInit {
     for (let i = 0; i < this.map.layers.length; i++) {
       this.visible.push(true);
     }
-    this.map.layers.getItemAt(0).listMode = "hide";
+    this.map.layers.getItemAt(0).listMode = 'hide';
 
-    this.mapView.on("key-up", (event) => {
+    this.mapView.on('key-up', (event) => {
       if (event.native.keyCode >= 48 && event.native.keyCode <= 57) {
         const number = event.native.keyCode - 48;
 
@@ -219,7 +219,7 @@ export class EsriMapComponent implements OnInit {
               title: this.map.layers.getItemAt(number).title
             }]
           });
-          this.mapView.ui.add(legend, "bottom-right");
+          this.mapView.ui.add(legend, 'bottom-right');
 
         }
       }
@@ -280,43 +280,9 @@ export class EsriMapComponent implements OnInit {
           if (this.map.layers.getItemAt(this.markingIndex).visible) {
             this.mapView.graphics.add(POIGraphic);
           }
-        })
-
+        });
       });
-
-      //   this.closeByLocations.forEach((pnt) => {
-      //     console.log('hihihi');
-      //     console.log(pnt);
-      //     // this.crimeLocation = evt.mapPoint;
-      //     const POIPoint = {
-      //       type: 'point', // autocasts as /Point
-      //       // x: pnt.geometry.x,
-      //       // y: pnt.geometry.y,
-      //       x: 525765,
-      //       y: 181629,
-      //       spatialReference: this.mapView.spatialReference
-      //     };
-
-      //     const POIGraphic = new Graphic({
-      //       geometry: POIPoint,
-      //       symbol: {
-      //         type: 'simple-marker', // autocasts as SimpleMarkerSymbol
-      //         style: 'square',
-      //         color: 'red',
-      //         size: '16px',
-      //         outline: { // autocasts as SimpleLineSymbol
-      //           color: [255, 255, 0],
-      //           width: 3
-      //         }
-      //       }
-      //     });
-      //     this.mapView.graphics.add(POIGraphic);
-      // });
     });
-
-    // this.mapView.on('click', (event) => {
-    //   console.log('click');
-    // });
 
     return this.mapView;
   }
