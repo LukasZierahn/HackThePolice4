@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { HostListener } from "@angular/core";
+import MessageService from './service/message';
 
 @Component({
   selector: 'app-root',
@@ -14,10 +15,13 @@ export class AppComponent {
   mapZoomLevel = 12;
 
   public currentDate = new Date();
-  public selectedMoment = null;
 
-  @HostListener("click") onClick(){
-    console.log(this.selectedMoment);
+  @Input() public selectedMoment = null;
+
+  constructor(private messageService: MessageService) { }
+
+  onChange(changes) {
+    this.messageService.sendMessage(this.selectedMoment);
   }
 
   // See app.component.html

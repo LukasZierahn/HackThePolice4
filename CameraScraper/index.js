@@ -44,5 +44,5 @@ async function main() {
     });
 }
 
-output.push("Name,Cycle Time in days,Link,lat,lon\n");
+output.push("Name,Cycle_Time_in_Days,Link,lat,lon\n");
 main()

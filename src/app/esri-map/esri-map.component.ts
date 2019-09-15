@@ -15,6 +15,9 @@ import { Component, OnInit, ViewChild, ElementRef, Input, Output, EventEmitter }
 import { loadModules } from 'esri-loader';
 import esri = __esri; // Esri TypeScript Types
 
+import MessageService from '../service/message';
+import { Subscription } from 'rxjs';
+
 @Component({
   selector: 'app-esri-map',
   templateUrl: './esri-map.component.html',
@@ -38,6 +41,10 @@ export class EsriMapComponent implements OnInit {
   private _basemap = 'streets';
   private _loaded = false;
 
+  public map: esri.WebMap = null;
+
+  public selectedTime$: Date;
+  private subscriptionTime: Subscription;
 
   get mapLoaded(): boolean {
     return this._loaded;
@@ -70,180 +77,128 @@ export class EsriMapComponent implements OnInit {
     return this._basemap;
   }
 
-  constructor() { }
+  constructor(private messageService: MessageService) {
+    this.subscriptionTime = this.messageService.getMessage().subscribe({
+      next: (x) => {
+        console.log(`updated time to ${JSON.stringify(x)}`);
+        this.selectedTime$ = x.date;
+        if (this.map && this.map.loaded && this.selectedTime$) {
+          const featureLayer = this.map.findLayerById("csv_8625") as esri.FeatureLayer;
+          const timeAgoCrime = (new Date().getTime() - this.selectedTime$.getTime()) / (1000 * 3600 * 24);
+          console.log(timeAgoCrime);
+          featureLayer.definitionExpression = `Cycle_Time_in_days <= ${timeAgoCrime}`;
+        }
+      }
+    });
+  }
 
   async initializeMap() {
-    try {
+    // Load the modules for the ArcGIS API for JavaScript
+    const [EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, FeatureLayer] = await loadModules([
+      'esri/views/MapView',
+      'esri/layers/GraphicsLayer',
+      'esri/WebMap',
+      'esri/Graphic',
+      'esri/widgets/Track',
+      'esri/widgets/Search',
+      'esri/widgets/Legend',
+      'esri/layers/FeatureLayer',
+    ]);
 
-      // Load the modules for the ArcGIS API for JavaScript
-      const [EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, FeatureLayer] = await loadModules([
-        'esri/views/MapView',
-        'esri/layers/GraphicsLayer',
-        'esri/WebMap',
-        'esri/Graphic',
-        'esri/widgets/Track',
-        'esri/widgets/Search',
-        'esri/widgets/Legend',
-        'esri/layers/FeatureLayer',
-      ]);
+    const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
 
-      const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
+    // Configure the Map
+    this.map = new WebMap({
+      // layers: [graphicsLayer],
+      basemap: 'streets-navigation-vector',
+      portalItem: {
+        id: 'ab221e479b264d1aa5cbda9e109d2af6'
+      }
+    });
 
-      // Configure the Map
-      const map: esri.WebMap = new WebMap({
-        // layers: [graphicsLayer],
-        basemap: 'streets-navigation-vector',
-        portalItem: {
-          id: 'ab221e479b264d1aa5cbda9e109d2af6'
-        }
-      });
+    this.map.add(graphicsLayer);
 
-      map.add(graphicsLayer);
+    // Initialize the MapView
+    const mapViewProperties: esri.MapViewProperties = {
+      container: this.mapViewEl.nativeElement,
+      center: this._center,
+      zoom: this._zoom,
+      map: this.map
+    };
 
-      // Initialize the MapView
-      const mapViewProperties: esri.MapViewProperties = {
-        container: this.mapViewEl.nativeElement,
-        center: this._center,
-        zoom: this._zoom,
-        map
-      };
+    const mapView: esri.MapView = new EsriMapView(mapViewProperties);
 
-      const mapView: esri.MapView = new EsriMapView(mapViewProperties);
-
-      const track = new Track({
-        view: mapView,
-        graphic: new Graphic({
-          symbol: {
-            type: 'simple-marker',
-            size: '12px',
-            color: 'green',
-            outline: {
-              color: '#efefef',
-              width: '1.5px'
-            }
+    const track = new Track({
+      view: mapView,
+      graphic: new Graphic({
+        symbol: {
+          type: 'simple-marker',
+          size: '12px',
+          color: 'green',
+          outline: {
+            color: '#efefef',
+            width: '1.5px'
           }
-        }),
-        useHeadingEnabled: false  // Don't change orientation of the map
-      });
-
-      mapView.ui.add(track, 'top-left');
-
-      let legend = new Legend({
-        view: mapView,
-        layerInfos: [{
-          layer: map.findLayerById("68cfa46b1d904d79b0d77bf6fa74507f"),
-          title: "Legend"
-        }]
-      });
-      
-      mapView.ui.add(legend, "bottom-right");   
-
-      const search = new Search({
-        view: mapView
-      });
-
-      mapView.ui.add(search, 'top-right');
-
-      mapView.on('double-click', (evt) => {
-        search.clear();
-        mapView.popup.clear();
-        if (search.activeSource) {
-          const geocoder = search.activeSource.locator; // World geocode service
-          const params = {
-            location: evt.mapPoint
-          };
-          geocoder.locationToAddress(params)
-            .then((response) => { // Show the address found
-              const address = response.address;
-              showPopup(address, evt.mapPoint);
-            }, (err) => { // Show no address found
-              showPopup('No address found.', evt.mapPoint);
-            });
         }
+      }),
+      useHeadingEnabled: false  // Don't change orientation of the map
+    });
+
+    mapView.ui.add(track, 'top-left');
+
+    while (!this.map.loaded) {
+      await new Promise((resolve, reject) => {
+        setTimeout(resolve, 50);
       });
-
-      function showPopup(address, pt) {
-        mapView.popup.open({
-          title: + Math.round(pt.longitude * 100000) / 100000 + ',' + Math.round(pt.latitude * 100000) / 100000,
-          content: address,
-          location: pt
-        });
-      }
-
-      const featureLayer = new FeatureLayer({
-        url: 'https://services.arcgis.com/Qo2anKIAMzIEkIJB/arcgis/rest/services/TflCycleHireLocations/FeatureServer'
-      });
-
-      function addGraphics(result) {
-        graphicsLayer.removeAll();
-        result.features.forEach((feature) => {
-          const g = new Graphic({
-            geometry: feature.geometry,
-            attributes: feature.attributes,
-            symbol: {
-              type: 'text',
-              color: [0, 0, 0],
-              // outline: {
-              //   width: 10,
-              //   color: [0, 255, 255],
-              // },
-              size: '20px'
-            }
-            // popupTemplate: {
-            //   title: '{TRL_NAME}',
-            //   content: 'This a {PARK_NAME} trail located in {CITY_JUR}.'
-            // }
-          });
-          console.log(g);
-          graphicsLayer.add(g);
-          this.featureLayer.applyEdits({
-            addFeatures: [g]
-      });
-        });
-      }
-
-      function queryFeatureLayer(point, distance, spatialRelationship) {
-        // Set up the query
-        const query = {
-          geometry: point,
-          distance,
-          spatialRelationship,
-          outFields: ['*'],
-          returnGeometry: true
-          // where: sqlExpression
-        };
-
-        // Wait for the layerview to be ready and then query features
-        if (featureLayer.updating) {
-          const handle = featureLayer.watch('updating', (isUpdating) => {
-            if (!isUpdating) {
-              // Execute the query
-              featureLayer.queryFeatures(query).then((result) => {
-                addGraphics(result);
-                console.log(addGraphics);
-              });
-              handle.remove();
-            }
-          });
-        } else {
-          // Execute the query
-          featureLayer.queryFeatures(query).then((result) => {
-            addGraphics(result);
-          });
-        }
-      }
-
-      mapView.on('click', (event) => {
-        console.log('click');
-        queryFeatureLayer(event.mapPoint, 500, 'intersects');
-      });
-
-      return mapView;
-
-    } catch (error) {
-      console.log('EsriLoader: ', error);
     }
 
+    let legend = new Legend({
+      view: mapView,
+      layerInfos: [{
+        layer: this.map.findLayerById("csv_8625"),
+        title: "Legend"
+      }]
+    });
+
+    mapView.ui.add(legend, "bottom-right");
+
+    const search = new Search({
+      view: mapView
+    });
+
+    mapView.ui.add(search, 'top-right');
+
+    mapView.on('double-click', (evt) => {
+      search.clear();
+      mapView.popup.clear();
+      if (search.activeSource) {
+        const geocoder = search.activeSource.locator; // World geocode service
+        const params = {
+          location: evt.mapPoint
+        };
+        geocoder.locationToAddress(params)
+          .then((response) => { // Show the address found
+            const address = response.address;
+            showPopup(address, evt.mapPoint);
+          }, (err) => { // Show no address found
+            showPopup('No address found.', evt.mapPoint);
+          });
+      }
+    });
+
+    function showPopup(address, pt) {
+      mapView.popup.open({
+        title: + Math.round(pt.longitude * 100000) / 100000 + ',' + Math.round(pt.latitude * 100000) / 100000,
+        content: address,
+        location: pt
+      });
+    }
+
+    mapView.on('click', (event) => {
+      console.log('click');
+    });
+
+    return mapView;
   }
 
   // Finalize a few things once the MapView has been loaded
@@ -262,4 +217,8 @@ export class EsriMapComponent implements OnInit {
     });
   }
 
+  ngOnDestroy() {
+    // unsubscribe to ensure no memory leaks
+    this.subscriptionTime.unsubscribe();
+  }
 }
