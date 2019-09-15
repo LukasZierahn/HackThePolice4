@@ -82,15 +82,13 @@ export class EsriMapComponent implements OnInit {
   constructor(private messageService: MessageService) {
     this.subscriptionTime = this.messageService.getMessage().subscribe({
       next: (x) => {
-        console.log(`updated time to ${JSON.stringify(x)}`);
         this.selectedTime$ = x.date;
+
         if (this.map && this.map.loaded && this.selectedTime$) {
           const featureLayer = this.map.findLayerById("csv_7704") as esri.FeatureLayer;
           const timeAgoCrime = (new Date().getTime() - this.selectedTime$.getTime()) / (1000 * 3600 * 24);
-          console.log(timeAgoCrime);
-          console.log(this.map.allLayers);
-          console.log(featureLayer.fields);
           featureLayer.definitionExpression = `Cycle_Time_in_Days >= ${timeAgoCrime}`;
+
         } else if (this.map && this.map.loaded) {
           const featureLayer = this.map.findLayerById("csv_7704") as esri.FeatureLayer;
           featureLayer.definitionExpression = "";
@@ -101,7 +99,7 @@ export class EsriMapComponent implements OnInit {
 
   async initializeMap() {
     // Load the modules for the ArcGIS API for JavaScript
-    const [EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, FeatureLayer] = await loadModules([
+    const [EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, LayerList] = await loadModules([
       'esri/views/MapView',
       'esri/layers/GraphicsLayer',
       'esri/WebMap',
@@ -109,7 +107,7 @@ export class EsriMapComponent implements OnInit {
       'esri/widgets/Track',
       'esri/widgets/Search',
       'esri/widgets/Legend',
-      'esri/layers/FeatureLayer',
+      'esri/widgets/LayerList',
     ]);
 
     const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
@@ -174,6 +172,12 @@ export class EsriMapComponent implements OnInit {
     });
 
     mapView.ui.add(search, 'top-right');
+
+    const layerList = new LayerList({
+      view: mapView
+    });
+
+    mapView.ui.add(layerList, 'bottom-left');
 
     mapView.on('double-click', (evt) => {
       this.crimeLocation = evt.mapPoint;
