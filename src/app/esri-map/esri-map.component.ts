@@ -18,6 +18,8 @@ import esri = __esri; // Esri TypeScript Types
 import MessageService from '../service/message';
 import { Subscription } from 'rxjs';
 
+let EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, LayerList, RouteTask, FeatureSet, RouteParameters;
+
 @Component({
   selector: 'app-esri-map',
   templateUrl: './esri-map.component.html',
@@ -42,8 +44,10 @@ export class EsriMapComponent implements OnInit {
   private _loaded = false;
 
   public crimeLocation: esri.Point;
+  public closeByLocations: esri.Graphic[] = [];
 
   public map: esri.WebMap = null;
+  public mapView: esri.MapView = null;
 
   public selectedTime$: Date;
   private subscriptionTime: Subscription;
@@ -99,7 +103,7 @@ export class EsriMapComponent implements OnInit {
 
   async initializeMap() {
     // Load the modules for the ArcGIS API for JavaScript
-    const [EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, LayerList] = await loadModules([
+    [EsriMapView, GraphicsLayer, WebMap, Graphic, Track, Search, Legend, LayerList, RouteTask, FeatureSet, RouteParameters] = await loadModules([
       'esri/views/MapView',
       'esri/layers/GraphicsLayer',
       'esri/WebMap',
@@ -108,19 +112,21 @@ export class EsriMapComponent implements OnInit {
       'esri/widgets/Search',
       'esri/widgets/Legend',
       'esri/widgets/LayerList',
+      "esri/tasks/RouteTask",
+      "esri/tasks/support/FeatureSet",
+      "esri/tasks/support/RouteParameters",
     ]);
 
-    const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
 
     // Configure the Map
     this.map = new WebMap({
-      // layers: [graphicsLayer],
       basemap: 'streets-navigation-vector',
       portalItem: {
         id: 'ab221e479b264d1aa5cbda9e109d2af6'
       }
     });
 
+    const graphicsLayer: esri.GraphicsLayer = new GraphicsLayer();
     this.map.add(graphicsLayer);
 
     // Initialize the MapView
@@ -131,10 +137,10 @@ export class EsriMapComponent implements OnInit {
       map: this.map
     };
 
-    const mapView: esri.MapView = new EsriMapView(mapViewProperties);
+    this.mapView = new EsriMapView(mapViewProperties);
 
     const track = new Track({
-      view: mapView,
+      view: this.mapView,
       graphic: new Graphic({
         symbol: {
           type: 'simple-marker',
@@ -149,7 +155,7 @@ export class EsriMapComponent implements OnInit {
       useHeadingEnabled: false  // Don't change orientation of the map
     });
 
-    mapView.ui.add(track, 'top-left');
+    this.mapView.ui.add(track, 'top-left');
 
     while (!this.map.loaded) {
       await new Promise((resolve, reject) => {
@@ -158,39 +164,39 @@ export class EsriMapComponent implements OnInit {
     }
 
     let legend = new Legend({
-      view: mapView,
+      view: this.mapView,
       layerInfos: [{
         layer: this.map.findLayerById("csv_7704"),
         title: "Legend"
       }]
     });
 
-    mapView.ui.add(legend, "bottom-right");
+    this.mapView.ui.add(legend, "bottom-right");
 
     const search = new Search({
-      view: mapView
+      view: this.mapView
     });
 
-    mapView.ui.add(search, 'top-right');
+    this.mapView.ui.add(search, 'top-right');
 
     const layerList = new LayerList({
-      view: mapView
+      view: this.mapView
     });
 
-    mapView.ui.add(layerList, 'bottom-left');
+    this.mapView.ui.add(layerList, 'bottom-left');
 
-    mapView.on('double-click', (evt) => {
+    this.mapView.on('double-click', (evt) => {
       this.crimeLocation = evt.mapPoint;
-
-      mapView.graphics.removeAll();
+      this.mapView.graphics.removeAll();
+      this.findNearbyCrimes();
 
       let point = {
         type: "point", // autocasts as /Point
         x: evt.mapPoint.x,
         y: evt.mapPoint.y,
-        spatialReference: mapView.spatialReference
+        spatialReference: this.mapView.spatialReference
       };
-    
+
       let graphic = new Graphic({
         geometry: point,
         symbol: {
@@ -204,15 +210,43 @@ export class EsriMapComponent implements OnInit {
           }
         }
       });
-      mapView.graphics.add(graphic);
-    
+      this.mapView.graphics.add(graphic);
     });
 
-    mapView.on('click', (event) => {
+    this.mapView.on('click', (event) => {
       console.log('click');
     });
 
-    return mapView;
+    return this.mapView;
+  }
+
+  async findNearbyCrimes() {
+    this.closeByLocations = [];
+
+    const layer: esri.FeatureLayer = this.map.findLayerById("CCTV_Bus_TFL_8804") as esri.FeatureLayer;
+
+    const query = layer.createQuery();
+    query.geometry = this.crimeLocation;
+    query.distance = 200;
+    query.units = "meters";
+
+    layer.queryFeatures(query)
+      .then((response: esri.FeatureSet) => {
+        this.closeByLocations = response.features;
+      });
+  }
+
+
+  showRoute(data) {
+    const routeSymbol = {
+      type: "simple-line", // autocasts as SimpleLineSymbol()
+      color: [0, 0, 255, 0.5],
+      width: 2
+    };
+
+
+    let routeResult = data.routeResults[0].route;
+    routeResult.symbol = routeSymbol;
   }
 
   // Finalize a few things once the MapView has been loaded

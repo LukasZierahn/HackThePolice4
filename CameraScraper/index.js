@@ -21,7 +21,7 @@ async function main() {
             try {
                 const cameraLocationPage = (await axios.get("http://archive.tfljamcams.net/" + link, {timeout: 15000})).data;
                 const location = cameraLocationPage.match(/query=(.*)';/)[1].split(",");
-                output.push(`${cameraName.replace(/_/gi, " ")},${(Math.random() * 31).toFixed(2)},${"http://archive.tfljamcams.net/" + link},${location[0]},${location[1]}`);
+                output.push(`${cameraName.replace(/_/gi, " ")},${(26).toFixed(2)},${"http://archive.tfljamcams.net/" + link},${location[0]},${location[1]}`);
 
                 process.stdout.clearLine();
                 process.stdout.cursorTo(0);
