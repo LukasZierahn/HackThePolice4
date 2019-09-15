@@ -47,6 +47,7 @@ export class EsriMapComponent implements OnInit {
   public closeByLocations: esri.Graphic[] = [];
 
   public visible: boolean[] = [];
+  public markingIndex = 2;
 
   public map: esri.WebMap = null;
   public mapView: esri.MapView = null;
@@ -180,7 +181,7 @@ export class EsriMapComponent implements OnInit {
     let legend: esri.Legend = new Legend({
       view: this.mapView,
       layerInfos: [{
-        layer: this.map.findLayerById('csv_7704'),
+        layer: this.map.layers.getItemAt(0),
         title: 'Legend'
       }]
     });
@@ -195,6 +196,7 @@ export class EsriMapComponent implements OnInit {
     this.mapView.on("key-up", (event) => {
       if (event.native.keyCode >= 48 && event.native.keyCode <= 57) {
         const number = event.native.keyCode - 48;
+
         if (!event.native.shiftKey) {
           this.visible[number] = !this.visible[number];
         }
@@ -204,12 +206,17 @@ export class EsriMapComponent implements OnInit {
             this.map.layers.getItemAt(number).visible = this.visible[number];
           }
 
+          if (this.visible[number]) {
+            this.markingIndex = number;
+            this.findNearbyCrimes();
+          }
+
           this.mapView.ui.remove(legend);
           legend = new Legend({
             view: this.mapView,
             layerInfos: [{
               layer: this.map.layers.getItemAt(number),
-              title: "Legend"
+              title: this.map.layers.getItemAt(number).title
             }]
           });
           this.mapView.ui.add(legend, "bottom-right");
@@ -257,9 +264,7 @@ export class EsriMapComponent implements OnInit {
       this.mapView.graphics.add(crimeGraphic);
 
       this.findNearbyCrimes().then((nearbyPointsGraphics: esri.Graphic[]) => {
-        nearbyPointsGraphics.forEach((pointGraphic: esri.Graphic) => {
-          console.log(pointGraphic.geometry);
-  
+        nearbyPointsGraphics.forEach((pointGraphic: esri.Graphic) => {  
           const POIGraphic: esri.Graphic = new Graphic({
             geometry: pointGraphic.geometry,
             symbol: {
@@ -272,7 +277,9 @@ export class EsriMapComponent implements OnInit {
               }
             }
           });
-          this.mapView.graphics.add(POIGraphic);
+          if (this.map.layers.getItemAt(this.markingIndex).visible) {
+            this.mapView.graphics.add(POIGraphic);
+          }
         })
 
       });
@@ -316,7 +323,7 @@ export class EsriMapComponent implements OnInit {
 
   async findNearbyCrimes(): Promise<esri.Graphic[]> {
     this.closeByLocations = [];
-    const layer: esri.FeatureLayer = this.map.findLayerById('CCTV_Bus_TFL_8804') as esri.FeatureLayer;
+    const layer: esri.FeatureLayer = this.map.layers.getItemAt(this.markingIndex) as esri.FeatureLayer;
 
     const query = layer.createQuery();
     query.geometry = this.crimeLocation;
@@ -331,17 +338,6 @@ export class EsriMapComponent implements OnInit {
         });
 
     });
-  }
-
-  showRoute(data) {
-    const routeSymbol = {
-      type: 'simple-line', // autocasts as SimpleLineSymbol()
-      color: [0, 0, 255, 0.5],
-      width: 2
-    };
-
-    const routeResult = data.routeResults[0].route;
-    routeResult.symbol = routeSymbol;
   }
 
   // Finalize a few things once the MapView has been loaded
